@@ -1,37 +1,28 @@
 ---
 baseURL: "/get-started/"
 languageCode: "en-us"
-title: "Getting started with Camunda 7"
+title: "Getting started with CadenzaFlow"
 theme: "camunda"
 
 blackfriday:
   plainIDAnchors: true
 
 params:
-  canonicalBasePath: "https://docs.camunda.org"
+  canonicalBasePath: "https://docs.cadenzaflow.org"
   sections:
     - id: "get-started"
       name: "Get Started"
       url: "/get-started"
     - id: "manual"
-      name: "Camunda 7"
+      name: "CadenzaFlow"
       url: "/manual"
-    - id: "optimize"
-      name: "Optimize"
-      url: "/optimize"
-    - id: 'cawemo'
-      name: 'Cawemo'
-      url: '/cawemo'
-    - id: "enterprise"
-      name: "Enterprise"
-      url: "/enterprise"
     - id: "security"
       name: "Security"
       url: "/security"
   section:
     id: "get-started"
   github:
-    repositoryName: "camunda/camunda-docs-static"
+    repositoryName: "cadenzaflow/cadenzaflow-docs-static"
     branch: "master/get-started"
 
 outputs:
