@@ -38,7 +38,7 @@ Go back to Eclipse and add a file named `preparepizza.xhtml` to the `src/main/we
          request parameters and cached in the CDI conversation scope.
     -->
 
-    <f:event type="preRenderView" listener="#{camundaTaskForm.startTaskForm()}" />
+    <f:event type="preRenderView" listener="#{cadenzaflowTaskForm.startTaskForm()}" />
   </f:metadata>
   <h:head>
     <title>Prepare Pizza</title>
@@ -46,7 +46,7 @@ Go back to Eclipse and add a file named `preparepizza.xhtml` to the `src/main/we
   <h:body>
     <h1>Please prepare pizza</h1>
     <h:form id="submitForm">
-      <h:commandButton id="submit_button" value="Done" action="#{camundaTaskForm.completeTask()}" />
+      <h:commandButton id="submit_button" value="Done" action="#{cadenzaflowTaskForm.completeTask()}" />
     </h:form>
   </h:body>
 </f:view>
@@ -57,11 +57,11 @@ A new conversation is started again before the view is rendered and the task is 
 
 {{< img src="../img/pizza-order-process-prepare-pizza.png" >}}
 
-Open the process with Camunda Modeler. Click on the prepare pizza user task. In the properties view, set the `Form Key` property to `app:preparepizza.jsf`.
+Open the process with Cadenzaflow Modeler. Click on the prepare pizza user task. In the properties view, set the `Form Key` property to `app:preparepizza.jsf`.
 
 When you are done, save all resources, [perform a Maven build](../deploy/#build-the-process-application), and [redeploy](../deploy/#deploy-to-wildfly) the process application.
 
-{{< get-tag repo="camunda-get-started-javaee" tag="Step-7" >}}
+{{< get-tag repo="cadenzaflow-get-started-javaee" tag="Step-7" >}}
 
 ## Add Send Rejection Email Service Task
 
@@ -100,13 +100,13 @@ public class OrderBusinessLogic {
 
 {{< img src="../img/pizza-order-process-send-rejection-email.png" >}}
 
-Open the process with Camunda Modeler. Click on the reject email service task. In the properties view, set the `Expression` property to `${orderBusinessLogic.rejectOrder(execution)}`.
+Open the process with Cadenzaflow Modeler. Click on the reject email service task. In the properties view, set the `Expression` property to `${orderBusinessLogic.rejectOrder(execution)}`.
 
-When you are done, save all resources, [perform a Maven build](../deploy/#build-the-process-application) and [redeploy](../deploy/#deploy-to-wildfly) the process application. You can now approve and reject an order in [Tasklist](http://localhost:8080/camunda/app/tasklist). The output of the `Send Rejection Email` task can be checked by looking into the logfile of the WildFly server. It should state that a rejection email has been sent:
+When you are done, save all resources, [perform a Maven build](../deploy/#build-the-process-application) and [redeploy](../deploy/#deploy-to-wildfly) the process application. You can now approve and reject an order in [Tasklist](http://localhost:8080/cadenzaflow/app/tasklist). The output of the `Send Rejection Email` task can be checked by looking into the logfile of the WildFly server. It should state that a rejection email has been sent:
 
 <pre class="console">
   Sending Email:
   Dear asdf, your order 2 of a Margarita pizza has been rejected.
 </pre>
 
-{{< get-tag repo="camunda-get-started-javaee" tag="Step-8" >}}
+{{< get-tag repo="cadenzaflow-get-started-javaee" tag="Step-8" >}}

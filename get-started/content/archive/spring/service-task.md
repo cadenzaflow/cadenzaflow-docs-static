@@ -27,7 +27,7 @@ model and interact with the process form inside our Spring beans. In this sectio
 
 ## Model an Executable BPMN 2.0 Process
 
-Start by modeling an executable process using the Camunda Modeler. The process should look as depicted in the screenshot below.
+Start by modeling an executable process using the Cadenzaflow Modeler. The process should look as depicted in the screenshot below.
 
 {{< img src="../img/process-model.png" >}}
 
@@ -40,7 +40,7 @@ When you are done, save the process model in the `src/main/resources` folder of 
 
 ## Use Spring Auto-Deployment for BPMN 2.0 Processes
 
-For the process to be deployed, use the auto-deployment feature provided by the Camunda engine Spring integration. In order to use this feature, modify the definition of the `SpringProcessEngineConfiguration` bean inside `LoanApplicationContext` as follows:
+For the process to be deployed, use the auto-deployment feature provided by the Cadenzaflow engine Spring integration. In order to use this feature, modify the definition of the `SpringProcessEngineConfiguration` bean inside `LoanApplicationContext` as follows:
 
 ```java
 @Bean
@@ -65,12 +65,12 @@ public SpringProcessEngineConfiguration engineConfiguration(
 
 ## Start a Process Instance from a Spring Bean
 
-The next step consists of starting a process instance from a Spring Bean. Add a class called `Starter` to the `org.camunda.bpm.getstarted.loanapproval` package:
+The next step consists of starting a process instance from a Spring Bean. Add a class called `Starter` to the `org.cadenzaflow.bpm.getstarted.loanapproval` package:
 
 ```java
-package org.camunda.bpm.getstarted.loanapproval;
+package org.cadenzaflow.bpm.getstarted.loanapproval;
 
-import org.camunda.bpm.engine.RuntimeService;
+import org.cadenzaflow.bpm.engine.RuntimeService;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -110,15 +110,15 @@ public class LoanApplicationContext {
 
 {{< img src="../img/service-task.png" >}}
 
-Referencing a Spring Bean from a BPMN 2.0 Service Task is simple. As shown in the screenshot above, we have to select the service task in the Camunda Modeler and provide an expression. Set *Implementation Type* to *Delegate Expression* and type `${calculateInterestService}` in the *Delegate Expression* field. Again, save the model and refresh the Eclipse project.
+Referencing a Spring Bean from a BPMN 2.0 Service Task is simple. As shown in the screenshot above, we have to select the service task in the Cadenzaflow Modeler and provide an expression. Set *Implementation Type* to *Delegate Expression* and type `${calculateInterestService}` in the *Delegate Expression* field. Again, save the model and refresh the Eclipse project.
 
 Finally, we add the Java class implementing the `JavaDelegate` interface.
 
 ```java
-package org.camunda.bpm.getstarted.loanapproval;
+package org.cadenzaflow.bpm.getstarted.loanapproval;
 
-import org.camunda.bpm.engine.delegate.DelegateExecution;
-import org.camunda.bpm.engine.delegate.JavaDelegate;
+import org.cadenzaflow.bpm.engine.delegate.DelegateExecution;
+import org.cadenzaflow.bpm.engine.delegate.JavaDelegate;
 
 public class CalculateInterestService implements JavaDelegate {
 
@@ -154,11 +154,11 @@ public class LoanApplicationContext {
 If you redeploy the application, you should see the following message in the logfile, meaning that the service task was executed.
 
 <pre class="console">
-INFO org.camunda.commons.logging.BaseLogger.logInfo
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
 ENGINE-00001 Process Engine engine created.
 Spring Bean invoked
 INFO org.springframework.web.context.ContextLoader.initWebApplicationContext
 Root WebApplicationContext: initialization completed in 3050 ms
 </pre>
 
-{{< get-tag repo="camunda-get-started-spring" tag="Step-3" >}}
+{{< get-tag repo="cadenzaflow-get-started-spring" tag="Step-3" >}}

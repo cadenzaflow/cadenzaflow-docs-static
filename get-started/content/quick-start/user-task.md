@@ -8,7 +8,7 @@ menu:
     name: "Involve Humans"
     parent: "get-started-quick-start"
     identifier: "get-started-quick-start-model"
-    pre: "Learn the basics of integrating user tasks into a Process and how to build forms with Camunda."
+    pre: "Learn the basics of integrating user tasks into a Process and how to build forms with CadenzaFlow."
 
 ---
 
@@ -17,7 +17,7 @@ In this section, you'll learn how to involve humans in your process by using BPM
 # Add a User Task
 We want to modify our process so that we can involve humans.
 
-To do so, open the process in the Camunda Modeler.
+To do so, open the process in the CadenzaFlow Modeler.
 
 Select the create/remove space tool (<||>) from the Modeler's left-hand menu, and use it to create space between the Start Event and the "Charge Credit Card" Service Task (click and drag the cursor to the right). 
 
@@ -42,11 +42,11 @@ Select the User Task on the canvas. This will update the selection in the proper
 
 Click on the Tab `Forms` in the properties panel.
 
-This guide uses [Camunda Forms](/manual/latest/user-guide/task-forms/#camunda-forms) to add a form to the process. 
+This guide uses [CadenzaFlow Forms](/manual/latest/user-guide/task-forms/#cadenzaflow-forms) to add a form to the process. 
 We will create a form file called `payment.form`. 
 Set the following fields to link this process to the form you are about to create:
 
-* Type: Camunda Forms
+* Type: CadenzaFlow Forms
 * Form Ref: payment-form
 * Binding: deployment
 
@@ -83,14 +83,14 @@ Field 3:
 
 {{< img src="../img/modeler-usertask6.png" >}}
 
-Now, select Camunda Platform as the execution platform in the lower left corner of the modeler and hit *Apply*.
+Now, select CadenzaFlow Platform as the execution platform in the lower left corner of the modeler and hit *Apply*.
 {{< img src="../img/modeler-platform-selection.png" >}}
 Finally, save the form as `payment.form`.
 
 # Deploy the Process
 
 1. Switch back to the process diagram
-2. Click the Deploy button in the Camunda Modeler
+2. Click the Deploy button in the CadenzaFlow Modeler
 3. In the deployment panel, select the `payment.form` file under *include additional files*
 4. Click *Deploy*
 
@@ -99,7 +99,7 @@ Finally, save the form as `payment.form`.
 
 # Work on the Task
 
-Go to Tasklist ([http://localhost:8080/camunda/app/tasklist/](http://localhost:8080/camunda/app/tasklist/)) and log in with the credentials "demo / demo".
+Go to Tasklist ([http://localhost:8080/cadenzaflow/app/tasklist/](http://localhost:8080/cadenzaflow/app/tasklist/)) and log in with the credentials "demo / demo".
 Click on the {{< glyphicon name="list-alt" text=" Start process" >}} button to start a process instance. This opens a dialog where you can select *Payment Retrieval* from the list. Now you can set variables for the process instance using a generic form.
 
 {{< img src="../img/start-form-generic.png" >}}
@@ -115,7 +115,7 @@ You should now see the *Approve Payment* task in your Tasklist. Select the task 
 
 {{< img src="../img/diagram.png" >}}
 
-To work on the task, select the *Form* tab. Because we defined the variables in the Form Tab in the Camunda Modeler, the Tasklist has automatically generated form fields for us.
+To work on the task, select the *Form* tab. Because we defined the variables in the Form Tab in the CadenzaFlow Modeler, the Tasklist has automatically generated form fields for us.
 
 {{< img src="../img/task-form-generated.png" >}}
 
@@ -123,4 +123,4 @@ To work on the task, select the *Form* tab. Because we defined the variables in 
 Next, we'll make the process more dynamic and only show a User Task in certain situations. Let's have a look how you can [add Gateways to your Process](/get-started/quick-start/gateway/).
 {{< /note >}}
 
-{{< get-tag repo="camunda-get-started-quickstart" tag="Step-3" >}}
+{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Step-3" >}}

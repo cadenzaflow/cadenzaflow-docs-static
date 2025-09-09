@@ -20,18 +20,18 @@ Now that you have set up the project with the correct Maven dependencies, we can
 Add the following Spring beans to the `LoanApplication` class as follows:
 
 ```java
-package org.camunda.bpm.getstarted.loanapproval;
+package org.cadenzaflow.bpm.getstarted.loanapproval;
 
 import javax.sql.DataSource;
 
-import org.camunda.bpm.engine.HistoryService;
-import org.camunda.bpm.engine.ManagementService;
-import org.camunda.bpm.engine.ProcessEngine;
-import org.camunda.bpm.engine.RepositoryService;
-import org.camunda.bpm.engine.RuntimeService;
-import org.camunda.bpm.engine.TaskService;
-import org.camunda.bpm.engine.spring.ProcessEngineFactoryBean;
-import org.camunda.bpm.engine.spring.SpringProcessEngineConfiguration;
+import org.cadenzaflow.bpm.engine.HistoryService;
+import org.cadenzaflow.bpm.engine.ManagementService;
+import org.cadenzaflow.bpm.engine.ProcessEngine;
+import org.cadenzaflow.bpm.engine.RepositoryService;
+import org.cadenzaflow.bpm.engine.RuntimeService;
+import org.cadenzaflow.bpm.engine.TaskService;
+import org.cadenzaflow.bpm.engine.spring.ProcessEngineFactoryBean;
+import org.cadenzaflow.bpm.engine.spring.SpringProcessEngineConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
@@ -113,26 +113,26 @@ This bootstraps a process engine with an in-memory H2 database and makes the eng
 After you added the beans to the application context, perform a full Maven build and redeploy the application. In the logfile of the Apache Tomcat server you should be able to see the initialization of the process-engine:
 
 <pre class="console">
-INFO org.camunda.commons.logging.BaseLogger.logInfo
-ENGINE-03016 Performing database operation 'create' on component 'engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.engine.sql'
-INFO org.camunda.commons.logging.BaseLogger.logInfo
-ENGINE-03016 Performing database operation 'create' on component 'history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.history.sql'
-INFO org.camunda.commons.logging.BaseLogger.logInfo
-ENGINE-03016 Performing database operation 'create' on component 'identity' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.identity.sql'
-INFO org.camunda.commons.logging.BaseLogger.logInfo
-ENGINE-03016 Performing database operation 'create' on component 'case.engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.case.engine.sql'
-INFO org.camunda.commons.logging.BaseLogger.logInfo
-ENGINE-03016 Performing database operation 'create' on component 'case.history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.case.history.sql'
-INFO org.camunda.commons.logging.BaseLogger.logInfo
-ENGINE-03016 Performing database operation 'create' on component 'decision.engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.decision.engine.sql'
-INFO org.camunda.commons.logging.BaseLogger.logInfo
-ENGINE-03016 Performing database operation 'create' on component 'decision.history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.decision.history.sql'
-INFO org.camunda.commons.logging.BaseLogger.logInfo
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
+ENGINE-03016 Performing database operation 'create' on component 'engine' with resource 'org/cadenzaflow/bpm/engine/db/create/activiti.h2.create.engine.sql'
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
+ENGINE-03016 Performing database operation 'create' on component 'history' with resource 'org/cadenzaflow/bpm/engine/db/create/activiti.h2.create.history.sql'
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
+ENGINE-03016 Performing database operation 'create' on component 'identity' with resource 'org/cadenzaflow/bpm/engine/db/create/activiti.h2.create.identity.sql'
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
+ENGINE-03016 Performing database operation 'create' on component 'case.engine' with resource 'org/cadenzaflow/bpm/engine/db/create/activiti.h2.create.case.engine.sql'
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
+ENGINE-03016 Performing database operation 'create' on component 'case.history' with resource 'org/cadenzaflow/bpm/engine/db/create/activiti.h2.create.case.history.sql'
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
+ENGINE-03016 Performing database operation 'create' on component 'decision.engine' with resource 'org/cadenzaflow/bpm/engine/db/create/activiti.h2.create.decision.engine.sql'
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
+ENGINE-03016 Performing database operation 'create' on component 'decision.history' with resource 'org/cadenzaflow/bpm/engine/db/create/activiti.h2.create.decision.history.sql'
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
 ENGINE-03067 No history level property found in database
-INFO org.camunda.commons.logging.BaseLogger.logInfo
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
 ENGINE-03065 Creating historyLevel property in database for level: HistoryLevelAudit(name=audit, id=2)
-INFO org.camunda.commons.logging.BaseLogger.logInfo
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
 ENGINE-00001 Process Engine engine created.
 </pre>
 
-{{< get-tag repo="camunda-get-started-spring" tag="Step-2" >}}
+{{< get-tag repo="cadenzaflow-get-started-spring" tag="Step-2" >}}

@@ -22,10 +22,10 @@ with the requirements already.
 In order to succeed with this getting started guide, we expect that you already know
 
 * How to create and trigger robots with your RPA vendor (UiPath or AutomationAnywhere)
-* How to model and execute BPMN process diagrams with the Camunda stack
+* How to model and execute BPMN process diagrams with the Cadenzaflow stack
 * How to work with process variables as part of JUEL expressions
 
-If you never executed a process model with the Camunda engine, we recommend starting with the [Quick Start Guide](../../quick-start) first.
+If you never executed a process model with the Cadenzaflow engine, we recommend starting with the [Quick Start Guide](../../quick-start) first.
 
 # Hardware Requirements
 

@@ -7,7 +7,7 @@ plugins {
 
 ext {
   project_jdk = '1.8'
-  nexusUrl = System.getProperty('nexus.url', 'https://artifacts.camunda.com/artifactory')
+  nexusUrl = System.getProperty('nexus.url', 'https://artifacts.cadenzaflow.com/artifactory')
   mavenSettingsFile = System.getProperty('maven.settings.file', System.getProperty('user.home') + "/.m2/settings.xml")
 }
 
@@ -17,8 +17,8 @@ mavenSettings  {
 
 repositories {
   maven {
-    name 'camunda-nexus'
-    url 'https://artifacts.camunda.com/artifactory/internal/'
+    name 'cadenzaflow-nexus'
+    url 'https://artifacts.cadenzaflow.com/artifactory/internal/'
   }
   mavenLocal()
 }

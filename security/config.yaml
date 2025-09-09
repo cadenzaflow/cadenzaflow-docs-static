@@ -8,7 +8,7 @@ blackfriday:
   plainIDAnchors: true
 
 params:
-  canonicalBasePath: "https://docs.camunda.org"
+  canonicalBasePath: "https://docs.cadenzaflow.com"
   sections:
     - id: "get-started"
       name: "Get Started"

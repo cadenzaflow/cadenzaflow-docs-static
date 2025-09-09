@@ -28,7 +28,7 @@ To deploy the process application, copy and paste the `pizza-order.war` from you
 Check the log file of the WildFly server. If you see a log message like the following one, the deployment was successful:
 
 <pre class="console">
-INFO  [org.camunda.bpm.container.impl.jboss.service.ProcessApplicationDeploymentService]
+INFO  [org.cadenzaflow.bpm.container.impl.jboss.service.ProcessApplicationDeploymentService]
 Deployment summary for process archive 'pizza-order' of process application 'pizza-order':
 
         pizza-order.bpmn

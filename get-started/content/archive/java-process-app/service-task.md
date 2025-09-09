@@ -18,7 +18,7 @@ In the last section of this tutorial we learn how to invoke a Java class from a 
 
 # Add a Service Task to the Process
 
-Use the Camunda Modeler to add a service task after the user task. To do so, select the activity shape (rectangle) and drag it onto a sequence flow (see screenshot). Name it *Process Request*. Change the activity type to *Service Task* by clicking on it and using the wrench button.
+Use the Cadenzaflow Modeler to add a service task after the user task. To do so, select the activity shape (rectangle) and drag it onto a sequence flow (see screenshot). Name it *Process Request*. Change the activity type to *Service Task* by clicking on it and using the wrench button.
 
 
 {{< img src="../img/modeler-service-task1.png" >}}
@@ -27,14 +27,14 @@ Use the Camunda Modeler to add a service task after the user task. To do so, sel
 
 # Add a JavaDelegate Implementation
 
-Now we need to add the actual service task implementation. In the Eclipse project, add a class into the package `org.camunda.bpm.getstarted.loanapproval` named `ProcessRequestDelegate` implementing the `JavaDelegate` interface:
+Now we need to add the actual service task implementation. In the Eclipse project, add a class into the package `org.cadenzaflow.bpm.getstarted.loanapproval` named `ProcessRequestDelegate` implementing the `JavaDelegate` interface:
 
 ```java
-package org.camunda.bpm.getstarted.loanapproval;
+package org.cadenzaflow.bpm.getstarted.loanapproval;
 
 import java.util.logging.Logger;
-import org.camunda.bpm.engine.delegate.DelegateExecution;
-import org.camunda.bpm.engine.delegate.JavaDelegate;
+import org.cadenzaflow.bpm.engine.delegate.DelegateExecution;
+import org.cadenzaflow.bpm.engine.delegate.JavaDelegate;
 
 public class ProcessRequestDelegate implements JavaDelegate {
 
@@ -50,14 +50,14 @@ public class ProcessRequestDelegate implements JavaDelegate {
 
 # Configure the Class in the Process
 
-Use the properties view to reference the service task in the process (see screenshot). You need to provide the fully qualified classname of your class in the *Java Class* property field. In our case this is `org.camunda.bpm.getstarted.loanapproval.ProcessRequestDelegate`.
+Use the properties view to reference the service task in the process (see screenshot). You need to provide the fully qualified classname of your class in the *Java Class* property field. In our case this is `org.cadenzaflow.bpm.getstarted.loanapproval.ProcessRequestDelegate`.
 
 {{< img src="../img/modeler-service-task3.png" >}}
 
 Save the process model and update it in Eclipse. [Build](../deploy/#build-the-web-application-with-maven), [deploy](../deploy/#deploy-to-apache-tomcat) and [execute](../forms/#re-build-and-deploy) the process application. After completing the *Approve Loan* step, check the logfile of the Apache Tomcat server:
 
 <pre class="console">
-INFO org.camunda.bpm.getstarted.loanapproval.ProcessRequestDelegate.execute
+INFO org.cadenzaflow.bpm.getstarted.loanapproval.ProcessRequestDelegate.execute
 Processing request by 'GFPE-23232323'...
 </pre>
 
@@ -70,4 +70,4 @@ The process engine resolves the ProcessRequestDelegate class from the applicatio
 
 {{< /note >}}
 
-{{< get-tag repo="camunda-get-started-java" tag="Step-5" >}}
+{{< get-tag repo="cadenzaflow-get-started-java" tag="Step-5" >}}

@@ -15,7 +15,7 @@ menu:
 In this section, you'll learn how to add decision automation to your process by using [BPMN 2.0 *Business Rule Tasks*](/manual/latest/reference/bpmn20/tasks/business-rule-task/) and [DMN 1.3 Decision Tables](/manual/latest/reference/dmn11/).
 
 # Add a Business Rule Task to the Process
-Use the Camunda Modeler to open the Payment Retrieval process then click on the Approve Payment Task. Change the activity type to *Business Rule Task* in the wrench button menu.
+Use the CadenzaFlow Modeler to open the Payment Retrieval process then click on the Approve Payment Task. Change the activity type to *Business Rule Task* in the wrench button menu.
 
 {{< img src="../img/modeler-businessrule-task1.png" >}}
 
@@ -23,9 +23,9 @@ Next, link the Business Rule Task to a DMN table by changing `Implementation` to
 
 {{< img src="../img/modeler-businessrule-task2.png" >}}
 
-Save your changes and deploy the updated process using the `Deploy` Button in the Camunda Modeler.
+Save your changes and deploy the updated process using the `Deploy` Button in the CadenzaFlow Modeler.
 
-# Create a DMN table using the Camunda Modeler
+# Create a DMN table using the CadenzaFlow Modeler
 First, create a new DMN diagram by clicking *File > New File > DMN Diagram*.
 {{< img src="../img/modeler-new-dmn-diagram.png" >}}
 
@@ -51,18 +51,18 @@ After setup, your DMN table should look like this:
 {{< img src="../img/modeler-dmn5.png" >}}
 
 # Deploy the DMN table
-To deploy the Decision Table, click on the Deploy button in the Camunda Modeler, give it Deployment Name "Payment Retrieval Decision", then hit the Deploy button.
+To deploy the Decision Table, click on the Deploy button in the CadenzaFlow Modeler, give it Deployment Name "Payment Retrieval Decision", then hit the Deploy button.
 {{< img src="../img/modeler-dmn6.png" >}}
 
 # Verify the Deployment with Cockpit
-Now, use Cockpit to see if the decision table was successfully deployed. Go to [http://localhost:8080/camunda/app/cockpit/](http://localhost:8080/camunda/app/cockpit/). Log in with the credentials *demo / demo*. Navigate to the "Decisions" section. Your decision table *Approve Payment* should be listed as deployed decision definition.
+Now, use Cockpit to see if the decision table was successfully deployed. Go to [http://localhost:8080/cadenzaflow/app/cockpit/](http://localhost:8080/cadenzaflow/app/cockpit/). Log in with the credentials *demo / demo*. Navigate to the "Decisions" section. Your decision table *Approve Payment* should be listed as deployed decision definition.
 
 {{< img src="../img/cockpit-approve-payment.png" >}}
 
 # Inspect using Cockpit and Tasklist
 
 Next, use Tasklist to start two new Process Instances and verify that depending on your input, the Process Instance will be routed differently.
-To do so, go to [http://localhost:8080/camunda/app/tasklist/](http://localhost:8080/camunda/app/tasklist/). Log in with *demo / demo*.
+To do so, go to [http://localhost:8080/cadenzaflow/app/tasklist/](http://localhost:8080/cadenzaflow/app/tasklist/). Log in with *demo / demo*.
 
 Click on the {{< glyphicon name="list-alt" text=" Start process" >}} button to start a process instance and choose the `Payment` process.
 Use the generic form to add the variables as follows:
@@ -75,14 +75,14 @@ Use the generic form to add the variables as follows:
 {{< img src="../img/tasklist-dmn2.png" >}}
 
 You'll see that depending on the input, the worker will either charge or not charge the credit card.
-You can also verify that the DMN tables were evaluated by using Camunda Cockpit. Go to [http://localhost:8080/camunda/app/cockpit/](http://localhost:8080/camunda/app/cockpit/). Log in with the credentials *demo / demo*. Navigate to the "Decisions" section and click on Approve Payment. Check the different Decision Instances that were evaluated by clicking on the ID in the table.
+You can also verify that the DMN tables were evaluated by using CadenzaFlow Cockpit. Go to [http://localhost:8080/cadenzaflow/app/cockpit/](http://localhost:8080/cadenzaflow/app/cockpit/). Log in with the credentials *demo / demo*. Navigate to the "Decisions" section and click on Approve Payment. Check the different Decision Instances that were evaluated by clicking on the ID in the table.
 
-A single DMN table that was executed could look like this in Camunda Cockpit:
+A single DMN table that was executed could look like this in CadenzaFlow Cockpit:
 {{< img src="../img/cockpit-dmn-table.png" >}}
 
 {{< note title="Success!" class="info" >}}
-Congratulations! You've successfully completed the Camunda Platform Quick Start. Ready to continue? We recommend the [Camunda Platform documentation](https://docs.camunda.org/manual/latest/).
+Congratulations! You've successfully completed the CadenzaFlow Platform Quick Start. Ready to continue? We recommend the [CadenzaFlow Platform documentation](https://docs.cadenzaflow.org/manual/latest/).
 {{< /note >}}
 
 
-{{< get-tag repo="camunda-get-started-quickstart" tag="Step-5" >}}
+{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Step-5" >}}

@@ -12,7 +12,7 @@ menu:
 
 ---
 
-Now we add a task form and configure it in the BPMN 2.0 process, then, re-deploy the application and go to the Camunda Tasklist to see the JSF form.
+Now we add a task form and configure it in the BPMN 2.0 process, then, re-deploy the application and go to the Cadenzaflow Tasklist to see the JSF form.
 
 {{< img src="../img/approve-order.png" >}}
 
@@ -23,10 +23,10 @@ After the order has been persisted, a user can approve the order. For that, a ta
 To update the persisted entity we use a named CDI Bean `ApproveOrderController`. To gather the persisted order entity, we get the order id from the process variables of the `businessProcess`. With the id we can load the order entity through the order business logic. After the order has been updated, the detached entity state is merged by the order business logic.
 
 ```java
-package org.camunda.bpm.getstarted.pizza;
+package org.cadenzaflow.bpm.getstarted.pizza;
 
-import org.camunda.bpm.engine.cdi.BusinessProcess;
-import org.camunda.bpm.engine.cdi.jsf.TaskForm;
+import org.cadenzaflow.bpm.engine.cdi.BusinessProcess;
+import org.cadenzaflow.bpm.engine.cdi.jsf.TaskForm;
 
 import javax.enterprise.context.ConversationScoped;
 import javax.inject.Inject;
@@ -74,7 +74,7 @@ public class ApproveOrderController implements Serializable {
 
 # Extend Order Business Logic
 
-The order business logic is extended to provide a method to load an order entity from the database by order id, to merge a detached order entity and to complete the task form. For that, the task form is injected, which is provided by the Camunda CDI artifact.
+The order business logic is extended to provide a method to load an order entity from the database by order id, to merge a detached order entity and to complete the task form. For that, the task form is injected, which is provided by the Cadenzaflow CDI artifact.
 
 Please note that the merging of the detached order entity and the completion of the task form are intentionally placed in one method. This ensures that both operations are executed in a single transaction. An error during that transaction will rollback both changes.
 
@@ -85,7 +85,7 @@ public class OrderBusinessLogic {
 
   // ...
 
-  // Inject task form available through the Camunda cdi artifact
+  // Inject task form available through the Cadenzaflow cdi artifact
   @Inject
   private TaskForm taskForm;
 
@@ -134,7 +134,7 @@ Add a file named `approveorder.xhtml` to the `src/main/webapp` folder. Add the f
        request parameters and cached in the CDI conversation scope.
       -->
 
-    <f:event type="preRenderView" listener="#{camundaTaskForm.startTaskForm()}" />
+    <f:event type="preRenderView" listener="#{cadenzaflowTaskForm.startTaskForm()}" />
   </f:metadata>
   <h:head>
     <title>Approve Order</title>
@@ -154,7 +154,7 @@ Add a file named `approveorder.xhtml` to the `src/main/webapp` folder. Add the f
 </html>
 ```
 
-The JSF view displays the order properties and provides a checkbox to approve the order on submit. Additionally, an event listener is configured which is triggered before the view is rendered. It will call the `camundaTaskForm.startTaskForm()` method which extracts the task id from the URL and starts a conversation for the task form.
+The JSF view displays the order properties and provides a checkbox to approve the order on submit. Additionally, an event listener is configured which is triggered before the view is rendered. It will call the `cadenzaflowTaskForm.startTaskForm()` method which extracts the task id from the URL and starts a conversation for the task form.
 
 When the user approves or disapproves the order, it is directly set on the cached order entity.
 
@@ -174,6 +174,6 @@ Open the process with the modeler. Click on the *Approve Order* user task. In th
 
 Open the process with the modeler. In the properties view, set the `Condition` property of the conditional sequence flows after the exclusive gateway to `${orderBusinessLogic.getOrder(orderId).approved}` respectively `${not orderBusinessLogic.getOrder(orderId).approved}`.
 
-When you are done, save all resources, [perform a Maven build](../deploy/#build-the-process-application), and [redeploy](../deploy/#deploy-to-wildfly) the process application. Start the process `Order Pizza` in [Tasklist](http://localhost:8080/camunda/app/tasklist). Fill out the emerging form. Select the `All Tasks` element on the left side of Tasklist. An `Approve Order` task should then be listed in the tasklist. Go to the task and press on {{< glyphicon name="user" text=" Claim" >}}. Now you can approve the pizza order.
+When you are done, save all resources, [perform a Maven build](../deploy/#build-the-process-application), and [redeploy](../deploy/#deploy-to-wildfly) the process application. Start the process `Order Pizza` in [Tasklist](http://localhost:8080/cadenzaflow/app/tasklist). Fill out the emerging form. Select the `All Tasks` element on the left side of Tasklist. An `Approve Order` task should then be listed in the tasklist. Go to the task and press on {{< glyphicon name="user" text=" Claim" >}}. Now you can approve the pizza order.
 
-{{< get-tag repo="camunda-get-started-javaee" tag="Step-6" >}}
+{{< get-tag repo="cadenzaflow-get-started-javaee" tag="Step-6" >}}

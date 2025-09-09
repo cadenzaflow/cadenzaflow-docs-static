@@ -22,14 +22,14 @@
         <line x1="1.5" y1="287.5" x2="430.5" y2="287.5" id="Line-3" stroke="#939598" stroke-linecap="square" stroke-dasharray="5,10"></line>
         <g id="Group-2" transform="translate(30.000000, 95.000000)">
             <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="340" height="60"></rect>
-            <text id="Camunda-Process-&amp;-De" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="12" font-weight="bold" fill="#FFFFFF">
-                <tspan x="68.242" y="34">Camunda Process &amp; Decision Engine</tspan>
+            <text id="Cadenzaflow-Process-&amp;-De" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="12" font-weight="bold" fill="#FFFFFF">
+                <tspan x="68.242" y="34">Cadenzaflow Process &amp; Decision Engine</tspan>
             </text>
         </g>
         <g id="Group-2-Copy-5" transform="translate(491.000000, 95.000000)">
             <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="0" width="230" height="60"></rect>
-            <text id="Camunda-Modeler" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="12" font-weight="bold" fill="#FFFFFF">
-                <tspan x="64.254" y="34">Camunda Modeler</tspan>
+            <text id="Cadenzaflow-Modeler" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="12" font-weight="bold" fill="#FFFFFF">
+                <tspan x="64.254" y="34">Cadenzaflow Modeler</tspan>
             </text>
         </g>
         <g id="Group-2-Copy-6" transform="translate(491.000000, 199.000000)">
@@ -41,8 +41,8 @@
         <g id="Group-7" transform="translate(30.000000, 200.000000)">
             <g id="Group-2-Copy" transform="translate(0.000000, 0.000000)">
                 <rect id="Rectangle" fill="url(#linearGradient-3)" x="0" y="0" width="244" height="60"></rect>
-                <text id="Camunda-RPA-Bridge" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="12" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="62.68" y="34">Camunda RPA Bridge</tspan>
+                <text id="Cadenzaflow-RPA-Bridge" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="12" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="62.68" y="34">Cadenzaflow RPA Bridge</tspan>
                 </text>
             </g>
             <g id="Group-Copy-3" transform="translate(260.000000, 0.000000)">

@@ -10,16 +10,16 @@ menu:
 
 ---
 
-As a core infrastructure component of our customers, the security of Camunda Platform (also referred to as the 'software') takes top priority and is maintained constantly.
+As a core infrastructure component of our customers, the security of CadenzaFlow Platform (also referred to as the 'software') takes top priority and is maintained constantly.
 
-For information on our Camunda Security Policy, visit the [Camunda Trust Center](https://camunda.com/trust-center/). 
+For information on our CadenzaFlow Security Policy, visit the [CadenzaFlow Trust Center](https://cadenzaflow.com/trust-center/). 
 
 
 ## Penetration Testing
 
-Camunda has contracted an independent, external security advisor to regularly conduct penetration tests of the software. The advisor operates according to industry best practices recommended by the OWASP organization such as the [OWASP Testing Guide](https://www.owasp.org/images/1/19/OTGv4.pdf). The tools used for testing include [Burp Suite](https://portswigger.net/burp) and [DefenseCode Thunderscan](https://www.defensecode.com/thunderscan.php)
+CadenzaFlow has contracted an independent, external security advisor to regularly conduct penetration tests of the software. The advisor operates according to industry best practices recommended by the OWASP organization such as the [OWASP Testing Guide](https://www.owasp.org/images/1/19/OTGv4.pdf). The tools used for testing include [Burp Suite](https://portswigger.net/burp) and [DefenseCode Thunderscan](https://www.defensecode.com/thunderscan.php)
 
-Any vulnerabilities detected are handled according to our [process for security issue management](https://camunda.com/security#security-issue-management).
+Any vulnerabilities detected are handled according to our [process for security issue management](https://cadenzaflow.com/security#security-issue-management).
 
 Test history:
 
@@ -32,8 +32,8 @@ Test history:
   <tr>
     <td><p>April 2023</p></td>
     <td>
-      <p>Camunda Automation Platform Version: 7.19.0-ee</p>
-      <p>External security assessment using the graybox approach to test the Camunda Automation Platform web applications and REST API.</p>
+      <p>CadenzaFlow Automation Platform Version: 7.19.0-ee</p>
+      <p>External security assessment using the graybox approach to test the CadenzaFlow Automation Platform web applications and REST API.</p>
     </td>
     <td>
       <p>No critical vulnerabilities were detected.</p>
@@ -49,8 +49,8 @@ Test history:
   <tr>
     <td><p>June 2022</p></td>
     <td>
-      <p>Camunda Automation Platform Version: 7.17.0-ee Camunda Optimize Version 3.8.0</p>
-      <p>External security assessment using the graybox approach to test the Camunda Automation Platform web applications and REST API plus Camunda Optimize.</p>
+      <p>CadenzaFlow Automation Platform Version: 7.17.0-ee CadenzaFlow Optimize Version 3.8.0</p>
+      <p>External security assessment using the graybox approach to test the CadenzaFlow Automation Platform web applications and REST API plus CadenzaFlow Optimize.</p>
     </td>
     <td>
       <p>No critical vulnerabilities were detected.</p>
@@ -66,8 +66,8 @@ Test history:
   <tr>
     <td><p>December 2021</p></td>
     <td>
-      <p>Camunda Automation Platform Version: 7.16.0-ee Camunda Optimize Version 3.6.0</p>
-      <p>Whitebox test with focus on (but not limited to) the Camunda Automation Platform web applications and REST API plus Camunda Optimize.</p>
+      <p>CadenzaFlow Automation Platform Version: 7.16.0-ee CadenzaFlow Optimize Version 3.6.0</p>
+      <p>Whitebox test with focus on (but not limited to) the CadenzaFlow Automation Platform web applications and REST API plus CadenzaFlow Optimize.</p>
     </td>
     <td>
       <p>No critical vulnerabilities were detected.</p>
@@ -102,8 +102,8 @@ Test history:
   <tr>
     <td><p>March 2021</p></td>
     <td>
-      <p>Camunda Platform Version: 7.14.5-ee Camunda Optimize Version 3.3.0</p>
-      <p>Whitebox test with focus on (but not limited to) Camunda Platform web applications and REST API.</p>
+      <p>CadenzaFlow Platform Version: 7.14.5-ee CadenzaFlow Optimize Version 3.3.0</p>
+      <p>Whitebox test with focus on (but not limited to) CadenzaFlow Platform web applications and REST API.</p>
     </td>
     <td>
       <p>No critical vulnerabilities were detected.</p>
@@ -114,8 +114,8 @@ Test history:
   <tr>
     <td><p>January 2020</p></td>
     <td>
-      <p>Camunda Platform Version: 7.12.1-ee Camunda Optimize Version 2.7.0</p>
-      <p>Whitebox test with focus on (but not limited to) Camunda Platform web applications and REST API.</p>
+      <p>CadenzaFlow Platform Version: 7.12.1-ee CadenzaFlow Optimize Version 2.7.0</p>
+      <p>Whitebox test with focus on (but not limited to) CadenzaFlow Platform web applications and REST API.</p>
     </td>
     <td>
       <p>No critical vulnerabilities were detected.</p>
@@ -127,8 +127,8 @@ Test history:
   <tr>
     <td><p>January 2019</p></td>
     <td>
-      <p>Camunda Platform version: 7.10.1</p>
-      <p>Whitebox test with focus on (but not limited to) Camunda Platform web applications and REST API.</p>
+      <p>CadenzaFlow Platform version: 7.10.1</p>
+      <p>Whitebox test with focus on (but not limited to) CadenzaFlow Platform web applications and REST API.</p>
     </td>
     <td>
       <p>No critical vulnerabilities were detected.</p>

@@ -27,14 +27,14 @@ engine. You can also re-deploy individual applications independently from the pr
 In order to configure the loanapproval-spring example to work with a shared process engine, you 
 have to change three things:
 
-Firstly, we need to set the scope of the Maven dependency of the camunda-engine dependency to 
-`provided`. On the Camunda Platform the process engine library is provided as a shared library 
+Firstly, we need to set the scope of the Maven dependency of the cadenzaflow-engine dependency to 
+`provided`. On the Cadenzaflow Platform the process engine library is provided as a shared library 
 and does not need to be bundled with the application:
 
 ```xml
 <dependency>
-  <groupId>org.camunda.bpm</groupId>
-  <artifactId>camunda-engine</artifactId>
+  <groupId>org.cadenzaflow.bpm</groupId>
+  <artifactId>cadenzaflow-engine</artifactId>
   <scope>provided</scope>
 </dependency>
 ```
@@ -48,7 +48,7 @@ Secondly, create the folder `META-INF` in the `src/main/resources` directory and
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <process-application
-    xmlns="http://www.camunda.org/schema/1.0/ProcessApplication"
+    xmlns="http://www.cadenzaflow.org/schema/1.0/ProcessApplication"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <process-archive name="loan-approval">
@@ -66,17 +66,17 @@ And thirdly, the `LoanApplicationContext` class is adjusted so that the shared p
 looked up and a `SpringServletProcessApplication` is bootstrapped:
 
 ```java
-package org.camunda.bpm.getstarted.loanapproval;
+package org.cadenzaflow.bpm.getstarted.loanapproval;
 
-import org.camunda.bpm.BpmPlatform;
-import org.camunda.bpm.ProcessEngineService;
-import org.camunda.bpm.engine.HistoryService;
-import org.camunda.bpm.engine.ManagementService;
-import org.camunda.bpm.engine.ProcessEngine;
-import org.camunda.bpm.engine.RepositoryService;
-import org.camunda.bpm.engine.RuntimeService;
-import org.camunda.bpm.engine.TaskService;
-import org.camunda.bpm.engine.spring.application.SpringProcessApplication;
+import org.cadenzaflow.bpm.BpmPlatform;
+import org.cadenzaflow.bpm.ProcessEngineService;
+import org.cadenzaflow.bpm.engine.HistoryService;
+import org.cadenzaflow.bpm.engine.ManagementService;
+import org.cadenzaflow.bpm.engine.ProcessEngine;
+import org.cadenzaflow.bpm.engine.RepositoryService;
+import org.cadenzaflow.bpm.engine.RuntimeService;
+import org.cadenzaflow.bpm.engine.TaskService;
+import org.cadenzaflow.bpm.engine.spring.application.SpringProcessApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -143,4 +143,4 @@ You will see in Tomcat logfile:
 Spring Bean invoked
 </pre>
 
-{{< get-tag repo="camunda-get-started-spring" tag="Bonus" >}}
+{{< get-tag repo="cadenzaflow-get-started-spring" tag="Bonus" >}}

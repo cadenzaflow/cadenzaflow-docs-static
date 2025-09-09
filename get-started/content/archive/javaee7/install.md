@@ -7,11 +7,11 @@ menu:
   main:
     parent: "get-started-java-ee"
     identifier: "get-started-java-ee-install"
-    pre: "Install Camunda Platform and Camunda Modeler on your machine."
+    pre: "Install CadenzaFlow Platform and CadenzaFlow Modeler on your machine."
 
 ---
 
-First you need to set up your development environment and install the Camunda Platform and the Camunda Modeler.
+First you need to set up your development environment and install the CadenzaFlow Platform and the CadenzaFlow Modeler.
 
 
 # Prerequisites
@@ -23,25 +23,25 @@ Make sure you have the following set of tools installed:
 * A modern web browser (recent Firefox, Chrome or Microsoft Edge will work fine)
 * Eclipse integrated development environment (IDE)
 
-# Install Camunda Platform
+# Install CadenzaFlow Platform
 
-First, download a distribution of the Camunda Platform. You can choose from different application servers. In this tutorial, we will use a WildFly-based distribution. Download it from [the download page](https://downloads.camunda.cloud/release/camunda-bpm/wildfly/).
+First, download a distribution of the CadenzaFlow Platform. You can choose from different application servers. In this tutorial, we will use a WildFly-based distribution. Download it from [the download page](https://downloads.cadenzaflow.cloud/release/cadenzaflow-bpm/wildfly/).
 
 After having downloaded the distribution, unpack it inside a directory of your choice. We will call that directory
-`$CAMUNDA_HOME`.
+`$CADENZAFLOW_HOME`.
 
-After you have successfully unpacked your distribution of the Camunda Platform, execute the script named
-`start-camunda.bat` for Windows users, respectively `start-camunda.sh` for Unix users.
+After you have successfully unpacked your distribution of the CadenzaFlow Platform, execute the script named
+`start-cadenzaflow.bat` for Windows users, respectively `start-cadenzaflow.sh` for Unix users.
 
 This script will start the application server and open a welcome screen in your Web browser.
-If the page does not open, go to http://localhost:8080/camunda-welcome/index.html.
+If the page does not open, go to http://localhost:8080/cadenzaflow-welcome/index.html.
 
 {{< note title="Getting Help" class="info" >}}
-If you have trouble setting up the Camunda Platform, you can ask for assistance in the [Forum](https://forum.camunda.org/).
+If you have trouble setting up the CadenzaFlow Platform, you can ask for assistance in the [Forum](https://forum.cadenzaflow.org/).
 {{< /note >}}
 
-# Install Camunda Modeler
+# Install CadenzaFlow Modeler
 
-Follow the instructions in the [Camunda Modeler](/manual/latest/installation/camunda-modeler) section.
+Follow the instructions in the [CadenzaFlow Modeler](/manual/latest/installation/cadenzaflow-modeler) section.
 
-{{< get-code repo="camunda-get-started-javaee" >}}
+{{< get-code repo="cadenzaflow-get-started-javaee" >}}

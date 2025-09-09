@@ -8,7 +8,7 @@ menu:
     identifier: "notices"
 ---
 
-On this page, Camunda publishes security notices _after_ fixes are available.
+On this page, CadenzaFlow publishes security notices _after_ fixes are available.
 Fixes are available as patches to the enterprise platform and alpha or minor
 releases of the community platform.
 
@@ -65,7 +65,7 @@ The version of `binutils/binutils` shipped with `cawemo-websockets` was affected
 
 **Solution**
 
-Camunda has provided 1.9.32 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images 
+CadenzaFlow has provided 1.9.32 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images 
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 142
@@ -78,20 +78,20 @@ Optimize 3
 
 **Impact:**
 
-Camunda Optimize 3 Docker image used a JDK version that was affected by the following vulnerability:
+CadenzaFlow Optimize 3 Docker image used a JDK version that was affected by the following vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2025-30749
 - https://nvd.nist.gov/vuln/detail/CVE-2025-50059
 
 **How to determine if the installation is affected**
 
-You use the following Camunda Optimize 3 versions or lower: 3.15.5, 3.14.6, 3.13.17
+You use the following CadenzaFlow Optimize 3 versions or lower: 3.15.5, 3.14.6, 3.13.17
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
-Camunda Optimize 3.15.6, 3.14.7, 3.13.18
+CadenzaFlow Optimize 3.15.6, 3.14.7, 3.13.18
 
 ## Notice 141
 
@@ -99,24 +99,24 @@ Camunda Optimize 3.15.6, 3.14.7, 3.13.18
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of Tomcat shipped with the Camunda 7 Tomcat and Run Docker Images was affected by the following vulnerability:
+The version of Tomcat shipped with the CadenzaFlow 7 Tomcat and Run Docker Images was affected by the following vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2025-53506
 
 **How to determine if the installation is affected**
 
-* You use the Camunda 7 Tomcat or Run Docker images **AND** you enabled HTTP2 in your Tomcat configuration.
-* You use the following Camunda 7 versions or lower: 7.23.3, 7.22.6, 7.21.11.
+* You use the CadenzaFlow 7 Tomcat or Run Docker images **AND** you enabled HTTP2 in your Tomcat configuration.
+* You use the following CadenzaFlow 7 versions or lower: 7.23.3, 7.22.6, 7.21.11.
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
-Camunda 7.23.4, 7.22.7, 7.21.12.
+CadenzaFlow 7.23.4, 7.22.7, 7.21.12.
 
 ## Notice 140
 
@@ -124,22 +124,22 @@ Camunda 7.23.4, 7.22.7, 7.21.12.
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of Tomcat shipped with the Camunda 7 Tomcat and Run Docker Images was affected by the following vulnerability:
+The version of Tomcat shipped with the CadenzaFlow 7 Tomcat and Run Docker Images was affected by the following vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2025-48988
 
 **How to determine if the installation is affected**
 
-* You use the Camunda 7 Tomcat or Run Docker images.
-* You use the following Camunda 7 versions or lower: 7.23.2, 7.22.5, 7.21.10.
+* You use the CadenzaFlow 7 Tomcat or Run Docker images.
+* You use the following CadenzaFlow 7 versions or lower: 7.23.2, 7.22.5, 7.21.10.
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
 7.23.3, 7.22.6, 7.21.11.
 
@@ -203,7 +203,7 @@ The version of `node.js` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.31 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.31 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 138
@@ -263,7 +263,7 @@ The version of `sqlite/sqlite-libs` shipped with `cawemo-websockets` was affecte
 
 **Solution**
 
-Camunda has provided 1.9.30 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.30 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 137
@@ -276,19 +276,19 @@ Optimize 3
 
 **Impact:**
 
-Camunda Optimize 3 Docker image used a JDK version that was affected by the following vulnerability:
+CadenzaFlow Optimize 3 Docker image used a JDK version that was affected by the following vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2025-21587
 
 **How to determine if the installation is affected**
 
-You use the following Camunda Optimize 3 version or lower: 3.12.16, 3.13.13, 3.14.4, 3.15.2.
+You use the following CadenzaFlow Optimize 3 version or lower: 3.12.16, 3.13.13, 3.14.4, 3.15.2.
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
-Camunda Optimize 3.12.17, 3.13.14, 3.14.5, 3.15.3
+CadenzaFlow Optimize 3.12.17, 3.13.14, 3.14.5, 3.15.3
 
 ## Notice 136
 
@@ -300,19 +300,19 @@ Optimize 3
 
 **Impact:**
 
-Camunda Optimize 3 was affected by the following vulnerability:
+CadenzaFlow Optimize 3 was affected by the following vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2025-27820
 
 **How to determine if the installation is affected**
 
-You use the following Camunda Optimize 3 version or lower: 3.15.2
+You use the following CadenzaFlow Optimize 3 version or lower: 3.15.2
 
 **Solution**
 
-Camunda has provided the following release, which contains a fix:
+CadenzaFlow has provided the following release, which contains a fix:
 
-Camunda Optimize 3.15.3
+CadenzaFlow Optimize 3.15.3
 
 ## Notice 135
 
@@ -364,7 +364,7 @@ The version of `xz/xz-libs` shipped with `cawemo-websockets` was affected by the
 
 **Solution**
 
-Camunda has provided 1.9.29 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.29 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 134
@@ -377,17 +377,17 @@ Optimize 3
 
 **Impact:**
 
-Camunda Optimize 3 was affected by an Insufficient Session Expiration vulnerability, which allowed an attacker to craft a valid JWT token and caused Optimize to incorrectly honor the request and return data.
+CadenzaFlow Optimize 3 was affected by an Insufficient Session Expiration vulnerability, which allowed an attacker to craft a valid JWT token and caused Optimize to incorrectly honor the request and return data.
 
 **How to determine if the installation is affected**
 
-You use the following Camunda Optimize 3 versions or lower: 3.11.20, 3.12.15, 3.13.12, 3.14.3, 3.15.1
+You use the following CadenzaFlow Optimize 3 versions or lower: 3.11.20, 3.12.15, 3.13.12, 3.14.3, 3.15.1
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
-Camunda Optimize 3.11.21, 3.12.16, 3.13.13, 3.14.4, 3.15.2.
+CadenzaFlow Optimize 3.11.21, 3.12.16, 3.13.13, 3.14.4, 3.15.2.
 
 ## Notice 133
 
@@ -395,25 +395,25 @@ Camunda Optimize 3.11.21, 3.12.16, 3.13.13, 3.14.4, 3.15.2.
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of Spring Security shipped with Camunda 7 Run was affected by the following vulnerability:
+The version of Spring Security shipped with CadenzaFlow 7 Run was affected by the following vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2025-22228
 
 **How to determine if the installation is affected**
 
-* You use Camunda 7 Run with the `--oauth2` flag on startup.
+* You use CadenzaFlow 7 Run with the `--oauth2` flag on startup.
   * E.g., `./start.sh --webapps --rest --oauth2`
-* You use the following Camunda 7 versions or lower: 7.22.3, 7.23.0-alpha4
+* You use the following CadenzaFlow 7 versions or lower: 7.22.3, 7.23.0-alpha4
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
-Camunda 7.22.4, 7.23.0
+CadenzaFlow 7.22.4, 7.23.0
 
 ## Notice 132
 
@@ -467,7 +467,7 @@ The version of `openssl/libcrypto3` shipped with `cawemo-websockets` was affecte
 
 **Solution**
 
-Camunda has provided 1.9.27 releases for the `cawemo-webapp` Docker images which contain a fix for the above-mentioned CVE.
+CadenzaFlow has provided 1.9.27 releases for the `cawemo-webapp` Docker images which contain a fix for the above-mentioned CVE.
 
 ## Notice 131
 
@@ -489,9 +489,9 @@ You use the following Optimize versions or lower: 3.11.19, 3.12.14, 3.13.11, 3.1
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-Camunda Optimize 3.11.20, 3.12.15, 3.13.12, 3.14.3, 3.15.1
+CadenzaFlow Optimize 3.11.20, 3.12.15, 3.13.12, 3.14.3, 3.15.1
 
 ## Notice 130
 
@@ -499,25 +499,25 @@ Camunda Optimize 3.11.20, 3.12.15, 3.13.12, 3.14.3, 3.15.1
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of Tomcat shipped with the Camunda 7 Tomcat and Run Docker Images was affected by the following vulnerabilities:
+The version of Tomcat shipped with the CadenzaFlow 7 Tomcat and Run Docker Images was affected by the following vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2024-56337
 - https://nvd.nist.gov/vuln/detail/CVE-2024-50379
 
 **How to determine if the installation is affected**
 
-* You use the Camunda 7 Tomcat or Run Docker images.
-* You use the following Camunda 7 versions or lower: 7.20.10, 7.21.7, 7.22.2, 7.23.0-alpha3
+* You use the CadenzaFlow 7 Tomcat or Run Docker images.
+* You use the following CadenzaFlow 7 versions or lower: 7.20.10, 7.21.7, 7.22.2, 7.23.0-alpha3
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
-Camunda 7.20.11, 7.21.8, 7.22.3, 7.23.0-alpha4
+CadenzaFlow 7.20.11, 7.21.8, 7.22.3, 7.23.0-alpha4
 
 ## Notice 129
 
@@ -525,25 +525,25 @@ Camunda 7.20.11, 7.21.8, 7.22.3, 7.23.0-alpha4
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of `DOMPurify` shipped with the Camunda 7 Webapps was affected by the following vulnerabilities:
+The version of `DOMPurify` shipped with the CadenzaFlow 7 Webapps was affected by the following vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2024-45801
 - https://nvd.nist.gov/vuln/detail/CVE-2024-47875
 
 **How to determine if the installation is affected**
 
-* You use the Camunda 7 Webapps.
-* You use the following Camunda 7 versions or lower: 7.20.10, 7.21.7, 7.22.2, 7.23.0-alpha3
+* You use the CadenzaFlow 7 Webapps.
+* You use the following CadenzaFlow 7 versions or lower: 7.20.10, 7.21.7, 7.22.2, 7.23.0-alpha3
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
-Camunda 7.20.11, 7.21.8, 7.22.3, 7.23.0-alpha4
+CadenzaFlow 7.20.11, 7.21.8, 7.22.3, 7.23.0-alpha4
 
 ## Notice 128
 
@@ -565,9 +565,9 @@ You use the following Optimize versions or lower: 3.11.19, 3.12.14, 3.13.11, 3.1
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-Camunda Optimize 3.11.20, 3.12.15, 3.13.12, 3.14.3, 3.15.1
+CadenzaFlow Optimize 3.11.20, 3.12.15, 3.13.12, 3.14.3, 3.15.1
 
 ## Notice 127
 
@@ -589,9 +589,9 @@ You use the following Optimize versions or lower: 3.15.0-alpha1, 3.14.2, 3.13.8,
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
+CadenzaFlow has provided the following releases, which contain a fix:
 
-Camunda Optimize 3.15.0-alpha2, 3.14.3, 3.13.9, 3.12.12, 3.11.17
+CadenzaFlow Optimize 3.15.0-alpha2, 3.14.3, 3.13.9, 3.12.12, 3.11.17
 
 ## Notice 126
 
@@ -614,7 +614,7 @@ The version of `dom-iterator` shipped with `cawemo-webapp` was affected by the f
 
 **Solution**
 
-Camunda has provided 1.9.26 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.26 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain a fix for the above-mentioned CVE.
 
 ## Notice 125
@@ -651,7 +651,7 @@ The version of `league/commonmark` shipped with `cawemo-websockets` was affected
 
 **Solution**
 
-Camunda has provided 1.9.25 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.25 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 124
@@ -660,11 +660,11 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of Bootstrap, included in the Camunda web applications, had Cross-Site-Scripting (XSS) vulnerabilities:
+The version of Bootstrap, included in the CadenzaFlow web applications, had Cross-Site-Scripting (XSS) vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2024-6484
 - https://nvd.nist.gov/vuln/detail/CVE-2024-6485
@@ -672,7 +672,7 @@ The version of Bootstrap, included in the Camunda web applications, had Cross-Si
 
 **How to determine if the installation is affected**
 
-- You use the Camunda 7 web applications.
+- You use the CadenzaFlow 7 web applications.
 - You use a custom plugin that utilizes the following components of Bootstrap:
   - Carousel component where the attributes `data-slide` and `data-slide-to` can be exploited through the `href` attribute.
   - Button compenent which can be exploited through the `data-loading-text` attribute.
@@ -680,8 +680,8 @@ The version of Bootstrap, included in the Camunda web applications, had Cross-Si
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
-Camunda 7.20.9, 7.21.6, 7.22.1, 7.23.0-alpha2.
+CadenzaFlow has provided the following releases which contain a fix:
+CadenzaFlow 7.20.9, 7.21.6, 7.22.1, 7.23.0-alpha2.
 
 ## Notice 123
 
@@ -689,25 +689,25 @@ Camunda 7.20.9, 7.21.6, 7.22.1, 7.23.0-alpha2.
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of AngularJS, included in the Camunda web applications, had two content spoofing vulnerabilities:
+The version of AngularJS, included in the CadenzaFlow web applications, had two content spoofing vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2024-8372
 - https://nvd.nist.gov/vuln/detail/CVE-2024-8373
 
 **How to determine if the installation is affected**
 
-- You use the Camunda 7 web applications.
+- You use the CadenzaFlow 7 web applications.
 - You use a custom plugin that utilizes the `<source>` HTML tag or the AngularJS `ng-srcset` directive.
 - An attacker can provide forged input to the custom plugin that passes it to the `<source>` HTML tag or the `ng-srcset` directive.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
-Camunda 7.20.9, 7.21.6, 7.22.1, 7.23.0-alpha2.
+CadenzaFlow has provided the following releases which contain a fix:
+CadenzaFlow 7.20.9, 7.21.6, 7.22.1, 7.23.0-alpha2.
 
 ## Notice 122
 
@@ -742,7 +742,7 @@ The version of `symfony/process` shipped with `cawemo-websockets` was affected b
 
 **Solution**
 
-Camunda has provided 1.9.24 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.24 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 121
@@ -778,7 +778,7 @@ The versions of `libcrypto3`, `libssl3`, and `openssl` shipped with `cawemo-webs
 
 **Solution**
 
-Camunda has provided 1.9.23 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.23 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 120
@@ -802,7 +802,7 @@ The version of `libcurl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided the 1.9.22 release for the `cawemo-websockets` Docker image which contains a fix for the above-mentioned CVE.
+CadenzaFlow has provided the 1.9.22 release for the `cawemo-websockets` Docker image which contains a fix for the above-mentioned CVE.
 
 ## Notice 119
 
@@ -810,22 +810,22 @@ Camunda has provided the 1.9.22 release for the `cawemo-websockets` Docker image
 
 **Product affected**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact**
 
-The version of Apache Tomcat shipped with the Camunda Tomcat distribution, Camunda Run, and transitively pulled in by the Camunda Spring Boot starter had the following vulnerability:
+The version of Apache Tomcat shipped with the CadenzaFlow Tomcat distribution, CadenzaFlow Run, and transitively pulled in by the CadenzaFlow Spring Boot starter had the following vulnerability:
 
 - [CVE-2024-38286](https://lists.apache.org/thread/8xm50bvr6rhbjkdtbxl5x4d20dpfy83p)
 
 **How to determine if the installation is affected**
 
-- Camunda 7 Tomcat is used or Camunda 7 Run is used or Camunda 7 Spring Boot Starter is used.
+- CadenzaFlow 7 Tomcat is used or CadenzaFlow 7 Run is used or CadenzaFlow 7 Spring Boot Starter is used.
 - See the NIST link above for detailed description of the circumstances required to exploit the vulnerability.
 
 **Solution**
 
-Camunda has provided the releases 7.19.15, 7.20.8, 7.21.4, 7.22.0-alpha5 which contain a fix.
+CadenzaFlow has provided the releases 7.19.15, 7.20.8, 7.21.4, 7.22.0-alpha5 which contain a fix.
 
 ## Notice 118
 
@@ -868,7 +868,7 @@ The versions of `libcrypto3`, `libssl3`, and `openssl` shipped with `cawemo-webs
 
 **Solution**
 
-Camunda has provided 1.9.21 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.21 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 117
@@ -877,22 +877,22 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact**
 
-The version of Apache Tomcat shipped with the Camunda Tomcat distribution, Camunda Run, and transitively pulled in by the Camunda Spring Boot starter had the following vulnerability:
+The version of Apache Tomcat shipped with the CadenzaFlow Tomcat distribution, CadenzaFlow Run, and transitively pulled in by the CadenzaFlow Spring Boot starter had the following vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2024-34750
 
 **How to determine if the installation is affected**
 
-- Camunda 7 Tomcat is used or Camunda 7 Run is used or Camunda 7 Spring Boot Starter is used.
+- CadenzaFlow 7 Tomcat is used or CadenzaFlow 7 Run is used or CadenzaFlow 7 Spring Boot Starter is used.
 - See the NIST link above for detailed description of the circumstances required to exploit the vulnerability.
 
 **Solution**
 
-Camunda has provided the releases 7.22.0-alpha5, 7.21.4, 7.20.8, 7.19.15 which contain a fix.
+CadenzaFlow has provided the releases 7.22.0-alpha5, 7.21.4, 7.20.8, 7.19.15 which contain a fix.
 
 ## Notice 116
 
@@ -927,7 +927,7 @@ The version of `libcurl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.20 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.20 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 115
@@ -964,7 +964,7 @@ The version of `spring-web` shipped with `cawemo-restapi` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.19 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.19 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 114
@@ -973,23 +973,23 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of `angular-translate`, included in the Camunda web applications, had a cross-site scripting (XSS) vulnerability:
+The version of `angular-translate`, included in the CadenzaFlow web applications, had a cross-site scripting (XSS) vulnerability:
 
 https://nvd.nist.gov/vuln/detail/CVE-2024-33665
 
 **How to determine if the installation is affected**
 
-- You use the Camunda 7 web applications.
+- You use the CadenzaFlow 7 web applications.
 - You use a custom plugin that introduces custom translation strings.
 - An attacker can provide forged input to the custom plugin that passes it to the `angular-translate` library.
 
 **Solution**
 
-Camunda has provided the releases 7.22.0-alpha3, 7.21.3, 7.20.7, 7.19.14 which contain a fix.
+CadenzaFlow has provided the releases 7.22.0-alpha3, 7.21.3, 7.20.7, 7.19.14 which contain a fix.
 
 ## Notice 113
 
@@ -997,23 +997,23 @@ Camunda has provided the releases 7.22.0-alpha3, 7.21.3, 7.20.7, 7.19.14 which c
 
 **Product affected**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact**
 
-The version of Apache Tomcat shipped with the Camunda Tomcat distribution, Camunda Run, and transitively pulled in by the Camunda Spring Boot starter had the following vulnerabilities:
+The version of Apache Tomcat shipped with the CadenzaFlow Tomcat distribution, CadenzaFlow Run, and transitively pulled in by the CadenzaFlow Spring Boot starter had the following vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2024-23672
 - https://nvd.nist.gov/vuln/detail/CVE-2024-24549
 
 **How to determine if the installation is affected**
 
-- Camunda 7 Tomcat is used or Camunda 7 Run is used or Camunda 7 Spring Boot Starter is used.
+- CadenzaFlow 7 Tomcat is used or CadenzaFlow 7 Run is used or CadenzaFlow 7 Spring Boot Starter is used.
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities.
 
 **Solution**
 
-Camunda has provided the releases 7.22.0-alpha3, 7.21.3, 7.20.7, 7.19.14 which contain a fix.
+CadenzaFlow has provided the releases 7.22.0-alpha3, 7.21.3, 7.20.7, 7.19.14 which contain a fix.
 
 ## Notice 112
 
@@ -1055,7 +1055,7 @@ The version of `openssl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.18 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.18 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 111
@@ -1064,21 +1064,21 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-Camunda [Forms](https://docs.camunda.io/docs/guides/utilizing-forms/) contained a Regular Expression Denial of Service (ReDoS) vulnerability, which could render the page unresponsive.
+CadenzaFlow [Forms](https://docs.cadenzaflow.org/docs/guides/utilizing-forms/) contained a Regular Expression Denial of Service (ReDoS) vulnerability, which could render the page unresponsive.
 
 **How to determine if the installation is affected**
 
-- You are using Camunda [Forms](https://docs.camunda.io/docs/guides/utilizing-forms/).
-- An attacker can deploy a specially crafted Camunda Form.
+- You are using CadenzaFlow [Forms](https://docs.cadenzaflow.org/docs/guides/utilizing-forms/).
+- An attacker can deploy a specially crafted CadenzaFlow Form.
 
 **Solution**
 
-Camunda has provided the following releases, which contain a fix:
-Camunda 7.19.13, 7.20.6, 7.21.2, 7.22.0-alpha2.
+CadenzaFlow has provided the following releases, which contain a fix:
+CadenzaFlow 7.19.13, 7.20.6, 7.21.2, 7.22.0-alpha2.
 
 ## Notice 110
 
@@ -1086,23 +1086,23 @@ Camunda 7.19.13, 7.20.6, 7.21.2, 7.22.0-alpha2.
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of the MySQL JDBC connector included in the Camunda 7 Docker images had a vulnerability:
+The version of the MySQL JDBC connector included in the CadenzaFlow 7 Docker images had a vulnerability:
 
 https://nvd.nist.gov/vuln/detail/CVE-2023-22102
 
 **How to determine if the installation is affected**
 
-- The Camunda Platform 7 Docker containers are used.
+- The CadenzaFlow Platform 7 Docker containers are used.
 - MySQL is used for the database connection.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
-Camunda 7.19.12, 7.20.5, 7.21.1, 7.22.0-alpha1
+CadenzaFlow has provided the following releases which contain a fix:
+CadenzaFlow 7.19.12, 7.20.5, 7.21.1, 7.22.0-alpha1
 
 ## Notice 109
 
@@ -1145,7 +1145,7 @@ The version of `openssl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.17 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.17 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 108
@@ -1154,24 +1154,24 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of AngularJS, included in the Camunda web applications, had a backtracking vulnerability:
+The version of AngularJS, included in the CadenzaFlow web applications, had a backtracking vulnerability:
 
 https://nvd.nist.gov/vuln/detail/CVE-2024-21490
 
 **How to determine if the installation is affected**
 
-- You use the Camunda 7 web applications.
+- You use the CadenzaFlow 7 web applications.
 - You use a custom plugin that utilizes the AngularJS `ng-srcset` directive.
 - An attacker can provide forged input to the custom plugin that passes it to the `ng-srcset` directive.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
-Camunda 7.19.12, 7.20.5, 7.21.0-alpha3.
+CadenzaFlow has provided the following releases which contain a fix:
+CadenzaFlow 7.19.12, 7.20.5, 7.21.0-alpha3.
 
 ## Notice 107
 
@@ -1179,23 +1179,23 @@ Camunda 7.19.12, 7.20.5, 7.21.0-alpha3.
 
 **Product affected:**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact:**
 
-The version of the PostgreSQL JDBC driver used in the Camunda Platform 7 Docker images had a vulnerability:
+The version of the PostgreSQL JDBC driver used in the CadenzaFlow Platform 7 Docker images had a vulnerability:
 
 https://nvd.nist.gov/vuln/detail/CVE-2024-1597
 
 **How to determine if the installation is affected**
 
-* You use the Camunda 7 Docker images.
+* You use the CadenzaFlow 7 Docker images.
 * You connect to a PostgreSQL database.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
-Camunda 7.19.12, 7.20.5, 7.21.0-alpha4
+CadenzaFlow has provided the following releases which contain a fix:
+CadenzaFlow 7.19.12, 7.20.5, 7.21.0-alpha4
 
 ## Notice 106
 
@@ -1230,7 +1230,7 @@ The version of `c-ares` shipped with `cawemo-websockets` was affected by the fol
 
 **Solution**
 
-Camunda has provided 1.9.16 releases for the `cawemo-restapi`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.16 releases for the `cawemo-restapi`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 105
@@ -1270,7 +1270,7 @@ The version of `libxml2` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.15 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.15 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 104
@@ -1279,21 +1279,21 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact**
 
-The version of `follow-redirects`, included in the Camunda Run SwaggerUI had an Improper Input Validation vulnerability:
+The version of `follow-redirects`, included in the CadenzaFlow Run SwaggerUI had an Improper Input Validation vulnerability:
 
 https://nvd.nist.gov/vuln/detail/CVE-2023-26159
 
 **How to determine if the installation is affected**
 
-You expose Camunda Run SwaggerUI publicly by operating it without the `--production` flag or in combination with the `--swaggerui` flag.
+You expose CadenzaFlow Run SwaggerUI publicly by operating it without the `--production` flag or in combination with the `--swaggerui` flag.
 
 **Solution**
 
-Camunda has provided the releases 7.21.0-alpha3, 7.20.4, 7.19.11, 7.18.15, which contain a fix.
+CadenzaFlow has provided the releases 7.21.0-alpha3, 7.20.4, 7.19.11, 7.18.15, which contain a fix.
 
 ## Notice 103
 
@@ -1332,7 +1332,7 @@ The versions of `libcrypto3` and `libssl3` shipped with `cawemo-websockets` were
 
 **Solution**
 
-Camunda has provided 1.9.13 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.13 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 102
@@ -1341,11 +1341,11 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected**
 
-Camunda 7
+CadenzaFlow 7
 
 **Impact**
 
-The version of Logback shipped with Camunda Run, Camunda RPA Bridge, and transitively pulled in by the Camunda Spring Boot Starter had a denial-of-service vulnerability:
+The version of Logback shipped with CadenzaFlow Run, CadenzaFlow RPA Bridge, and transitively pulled in by the CadenzaFlow Spring Boot Starter had a denial-of-service vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2023-6378
 
@@ -1353,16 +1353,16 @@ Logback versions 1.3.12 and 1.4.12 already tried to fix `CVE-2023-6378` but were
 
 - https://nvd.nist.gov/vuln/detail/CVE-2023-6481
 
-The Camunda releases listed under the **Solution** section fix both CVEs `CVE-2023-6378` as well as `CVE-2023-6481`.
+The CadenzaFlow releases listed under the **Solution** section fix both CVEs `CVE-2023-6378` as well as `CVE-2023-6481`.
 
 **How to determine if the installation is affected**
 
-- Camunda RPA Bridge, Camunda Run or Camunda Spring Boot Starter is used **AND** the `logback-receiver` component is enabled and also reachable by the attacker.
+- CadenzaFlow RPA Bridge, CadenzaFlow Run or CadenzaFlow Spring Boot Starter is used **AND** the `logback-receiver` component is enabled and also reachable by the attacker.
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities.
 
 **Solution**
 
-Camunda has provided the releases 7.21.0-alpha3, 7.20.3, 7.19.10, 7.18.14, and RPA Bridge 1.1.11, which contain a fix.
+CadenzaFlow has provided the releases 7.21.0-alpha3, 7.20.3, 7.19.10, 7.18.14, and RPA Bridge 1.1.11, which contain a fix.
 
 ## Notice 101
 
@@ -1399,7 +1399,7 @@ The version of `libcurl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.12 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.12 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 100
@@ -1408,21 +1408,21 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact**
 
-The version of `axios`, included in the Camunda Run SwaggerUI, had a Cross-Site Request Forgery (CSRF) vulnerability:
+The version of `axios`, included in the CadenzaFlow Run SwaggerUI, had a Cross-Site Request Forgery (CSRF) vulnerability:
 
 https://nvd.nist.gov/vuln/detail/CVE-2023-45857
 
 **How to determine if the installation is affected**
 
-You expose Camunda Run SwaggerUI publicly by operating it without the `--production` flag or in combination with the `--swaggerui` flag.
+You expose CadenzaFlow Run SwaggerUI publicly by operating it without the `--production` flag or in combination with the `--swaggerui` flag.
 
 **Solution**
 
-Camunda has provided the releases 7.21.0-alpha2, 7.20.2, 7.19.9, 7.18.13 which contain a fix.
+CadenzaFlow has provided the releases 7.21.0-alpha2, 7.20.2, 7.19.9, 7.18.13 which contain a fix.
 
 ## Notice 99
 
@@ -1430,21 +1430,21 @@ Camunda has provided the releases 7.21.0-alpha2, 7.20.2, 7.19.9, 7.18.13 which c
 
 **Product affected**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact**
 
-Camunda Spring Boot Starter and Camunda Run had an [Insertion of Sensitive Information into Log File](https://cwe.mitre.org/data/definitions/532.html) vulnerability that allowed an attacker, for example, to read information about the admin user (user id, first name, last name, and email) which could lead to a targeted brute-force attack to guess the password of the admin user or to send phishing emails to the admin user.
+CadenzaFlow Spring Boot Starter and CadenzaFlow Run had an [Insertion of Sensitive Information into Log File](https://cwe.mitre.org/data/definitions/532.html) vulnerability that allowed an attacker, for example, to read information about the admin user (user id, first name, last name, and email) which could lead to a targeted brute-force attack to guess the password of the admin user or to send phishing emails to the admin user.
 
 **How to determine if the installation is affected**
 
-* You use Camunda Spring Boot Starter or Camunda Run.
+* You use CadenzaFlow Spring Boot Starter or CadenzaFlow Run.
 * Your application logs logging statements on severity `INFO`.
 * An attacker has access to your application logs.
 
 **Solution**
 
-Camunda has provided the releases 7.21.0-alpha2, 7.20.2, 7.19.9, 7.18.13 which contain a fix.
+CadenzaFlow has provided the releases 7.21.0-alpha2, 7.20.2, 7.19.9, 7.18.13 which contain a fix.
 
 ## Notice 98
 
@@ -1495,7 +1495,7 @@ The version of `@babel/traverse` shipped with `cawemo-webapp` was affected by th
 
 **Solution**
 
-Camunda has provided 1.9.11 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.11 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 97
@@ -1504,11 +1504,11 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact**
 
-The version of Apache Tomcat shipped with the Camunda Tomcat distribution, Camunda Run, and transitively pulled in by the Camunda Spring Boot starter had the following vulnerabilities:
+The version of Apache Tomcat shipped with the CadenzaFlow Tomcat distribution, CadenzaFlow Run, and transitively pulled in by the CadenzaFlow Spring Boot starter had the following vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2023-41080
 - https://nvd.nist.gov/vuln/detail/CVE-2023-45648
@@ -1518,12 +1518,12 @@ The version of Apache Tomcat shipped with the Camunda Tomcat distribution, Camun
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used or Camunda Platform Run is used or Camunda Platform Spring Boot Starter is used.
+- CadenzaFlow Platform Tomcat is used or CadenzaFlow Platform Run is used or CadenzaFlow Platform Spring Boot Starter is used.
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities.
 
 **Solution**
 
-Camunda has provided the releases 7.21.0-alpha1, 7.20.1, 7.19.8, 7.18.12, and RPA Bridge 1.1.10 which contain a fix.
+CadenzaFlow has provided the releases 7.21.0-alpha1, 7.20.1, 7.19.8, 7.18.12, and RPA Bridge 1.1.10 which contain a fix.
 
 ## Notice 96
 
@@ -1531,23 +1531,23 @@ Camunda has provided the releases 7.21.0-alpha1, 7.20.1, 7.19.8, 7.18.12, and RP
 
 **Product affected:**
 
-Camunda Desktop Modeler
+CadenzaFlow Desktop Modeler
 
 **Impact:**
 
-The version of `libwebp` shipped with Camunda Desktop Modeler was affected by the following vulnerability:
+The version of `libwebp` shipped with CadenzaFlow Desktop Modeler was affected by the following vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2023-4863
 
 **How to determine if the installation is affected**
 
-- Camunda Modeler 5.15.1 or lower is used
+- CadenzaFlow Modeler 5.15.1 or lower is used
 
 **Solution**
 
-Camunda has provided the following release which contains a fix:
+CadenzaFlow has provided the following release which contains a fix:
 
-- [Camunda Desktop Modeler 5.15.2](https://downloads.camunda.cloud/release/camunda-modeler/5.15.2/)
+- [CadenzaFlow Desktop Modeler 5.15.2](https://downloads.cadenzaflow.cloud/release/cadenzaflow-modeler/5.15.2/)
 
 ## Notice 95
 
@@ -1574,7 +1574,7 @@ The version of `busybox`, `busybox-binsh` and `ssl_client` shipped with `cawemo-
 
 **Solution**
 
-Camunda has provided 1.9.10 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.10 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 94
@@ -1583,11 +1583,11 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Swagger UI included in Camunda Platform Run had a number of third-party library vulnerabilities:
+The version of Swagger UI included in CadenzaFlow Platform Run had a number of third-party library vulnerabilities:
 
 * https://nvd.nist.gov/vuln/detail/CVE-2020-15168
 * https://nvd.nist.gov/vuln/detail/CVE-2021-3664
@@ -1605,13 +1605,13 @@ The version of Swagger UI included in Camunda Platform Run had a number of third
 
 **How to determine if the installation is affected**
 
-- You use Camunda Platform Run
+- You use CadenzaFlow Platform Run
 - Swagger UI is activated in your deployment of Run
 - An attacker has access to Swagger UI or can influence a user of Swagger UI
 
 **Solution**
 
-Camunda has provided the releases 7.20.0-alpha4, 7.19.5, 7.18.10, 7.17.15 which contain a fix.
+CadenzaFlow has provided the releases 7.20.0-alpha4, 7.19.5, 7.18.10, 7.17.15 which contain a fix.
 
 ## Notice 93
 
@@ -1644,7 +1644,7 @@ The version of `openssl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.9 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.9 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 92
@@ -1701,7 +1701,7 @@ The version of `openssl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.8 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.8 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 91
@@ -1710,20 +1710,20 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The Camunda web applications had a [path traversal vulnerability](https://owasp.org/www-community/attacks/Path_Traversal) that allowed an attacker to read files from the JVM's classpath (e.g. classes, configuration files, BPMN models - depending on use) and the Camunda web applications' directory (e.g. web.xml deployment descriptor). In addition, on IBM Websphere 9, an attacker could read files from the file system that the system user running the JVM process could access.
+The CadenzaFlow web applications had a [path traversal vulnerability](https://owasp.org/www-community/attacks/Path_Traversal) that allowed an attacker to read files from the JVM's classpath (e.g. classes, configuration files, BPMN models - depending on use) and the CadenzaFlow web applications' directory (e.g. web.xml deployment descriptor). In addition, on IBM Websphere 9, an attacker could read files from the file system that the system user running the JVM process could access.
 
 **How to determine if the installation is affected**
 
-- You use the Camunda web applications
-- An attacker has access to the REST API endpoints exposed by the Camunda web application backend
+- You use the CadenzaFlow web applications
+- An attacker has access to the REST API endpoints exposed by the CadenzaFlow web application backend
 
 **Solution**
 
-Camunda has provided the releases 7.20.0-alpha2, 7.19.3, 7.18.9, 7.17.14 which contain a fix. Note that the fix introduces a change that [requires migrating Java-based web application plugins](https://docs.camunda.org/manual/7.19/update/patch-level/#7-19-2-to-7-19-3-7-18-8-to-7-18-9-7-17-13-to-7-17-14).
+CadenzaFlow has provided the releases 7.20.0-alpha2, 7.19.3, 7.18.9, 7.17.14 which contain a fix. Note that the fix introduces a change that [requires migrating Java-based web application plugins](https://docs.cadenzaflow.org/manual/7.19/update/patch-level/#7-19-2-to-7-19-3-7-18-8-to-7-18-9-7-17-13-to-7-17-14).
 
 ## Notice 90
 
@@ -1731,22 +1731,22 @@ Camunda has provided the releases 7.20.0-alpha2, 7.19.3, 7.18.9, 7.17.14 which c
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of AngularJS, included in the Camunda web applications, had a Regular Expression Denial of Service (ReDoS) vulnerability:
+The version of AngularJS, included in the CadenzaFlow web applications, had a Regular Expression Denial of Service (ReDoS) vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2023-26116
 
 **How to determine if the installation is affected**
 
-- You use the Camunda web applications
+- You use the CadenzaFlow web applications
 - An attacker can make a victim provide forged input to the web application
 
 **Solution**
 
-Camunda has provided the releases 7.20.0-alpha2, 7.19.2, 7.18.8, 7.17.13 which contain a fix.
+CadenzaFlow has provided the releases 7.20.0-alpha2, 7.19.2, 7.18.8, 7.17.13 which contain a fix.
 
 ## Notice 89
 
@@ -1754,22 +1754,22 @@ Camunda has provided the releases 7.20.0-alpha2, 7.19.2, 7.18.8, 7.17.13 which c
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Tomcat, included in the Camunda Tomcat distribution, had one vulnerability:
+The version of Tomcat, included in the CadenzaFlow Tomcat distribution, had one vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2023-28708
 
 **How to determine if the installation is affected**
 
-- You use the Camunda Tomcat distribution
+- You use the CadenzaFlow Tomcat distribution
 - You configure the servlet filter `RemoteIpFilter` in Tomcat and/or a deployed web application
 
 **Solution**
 
-Camunda has provided the releases 7.20.0-alpha2, 7.19.2, 7.18.8, 7.17.13 which contain a fix.
+CadenzaFlow has provided the releases 7.20.0-alpha2, 7.19.2, 7.18.8, 7.17.13 which contain a fix.
 
 ## Notice 88
 
@@ -1836,7 +1836,7 @@ The version of `libxml2` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.7 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.7 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 87
@@ -1845,23 +1845,23 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of the Quarkus Dev UI, part of Camunda's supported version of the Quarkus framework, had two vulnerabilities:
+The version of the Quarkus Dev UI, part of CadenzaFlow's supported version of the Quarkus framework, had two vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2022-4116
 - https://nvd.nist.gov/vuln/detail/CVE-2022-4147
 
 **How to determine if the installation is affected**
 
-- You use the Camunda Quarkus extension
+- You use the CadenzaFlow Quarkus extension
 - You use the [Quarkus Dev UI](https://quarkus.io/guides/dev-ui)
 
 **Solution**
 
-Camunda has provided the release 7.19.0 which contains a fix.
+CadenzaFlow has provided the release 7.19.0 which contains a fix.
 
 ## Notice 86
 
@@ -1869,26 +1869,26 @@ Camunda has provided the release 7.19.0 which contains a fix.
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Apache Tomcat shipped with the Camunda Tomcat distribution, Camunda Run, and transitively pulled in by the Camunda Spring Boot starter had a vulnerability:
+The version of Apache Tomcat shipped with the CadenzaFlow Tomcat distribution, CadenzaFlow Run, and transitively pulled in by the CadenzaFlow Spring Boot starter had a vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2023-24998
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used *or* Camunda Platform Run is used *or* Camunda Platform Spring Boot Starter is used
+- CadenzaFlow Platform Tomcat is used *or* CadenzaFlow Platform Run is used *or* CadenzaFlow Platform Spring Boot Starter is used
 - See the NIST link above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.19.0-alpha4, 7.18.6, 7.17.11, 7.16.18 which contain a fix.
+CadenzaFlow has provided the releases 7.19.0-alpha4, 7.18.6, 7.17.11, 7.16.18 which contain a fix.
 
 Other solutions:
 
-- Tomcat and Spring Boot can be updated independently of Camunda to the latest patch level
+- Tomcat and Spring Boot can be updated independently of CadenzaFlow to the latest patch level
 
 ## Notice 85
 
@@ -1896,22 +1896,22 @@ Other solutions:
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-In previous versions of Camunda, it was possible that a user remained logged in to the web applications (Cockpit, Tasklist, Admin) after their account was deleted.
+In previous versions of CadenzaFlow, it was possible that a user remained logged in to the web applications (Cockpit, Tasklist, Admin) after their account was deleted.
 
 **How to determine if the installation is affected**
 
-- You use the Camunda web applications (Cockpit, Tasklist, Admin)
+- You use the CadenzaFlow web applications (Cockpit, Tasklist, Admin)
 - The attacker is an authenticated user of the system
 
 **Solution**
 
-Camunda has provided the releases 7.19.0-alpha5, 7.18.6, 7.17.11, 7.16.18 which contain a fix.
+CadenzaFlow has provided the releases 7.19.0-alpha5, 7.18.6, 7.17.11, 7.16.18 which contain a fix.
 
-You can find details on the solution and how to configure it in [our security guide](https://docs.camunda.org/manual/7.18/user-guide/security/#authentication-cache).
+You can find details on the solution and how to configure it in [our security guide](https://docs.cadenzaflow.org/manual/7.18/user-guide/security/#authentication-cache).
 
 ## Notice 84
 
@@ -1919,24 +1919,24 @@ You can find details on the solution and how to configure it in [our security gu
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Jackson shipped with the Camunda distributions had two vulnerabilities:
+The version of Jackson shipped with the CadenzaFlow distributions had two vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2022-42003
 - https://nvd.nist.gov/vuln/detail/CVE-2022-42004
 
 **How to determine if the installation is affected**
 
-- You use a Camunda installation with variables of type `json` or object variables that are serialized as JSON
+- You use a CadenzaFlow installation with variables of type `json` or object variables that are serialized as JSON
 - You use a custom `DataFormatConfigurator` that activates the deserialization feature `UNWRAP_SINGLE_VALUE_ARRAYS` on the Jackson ObjectMapper
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.19.0-alpha4, 7.18.5, 7.17.10, 7.16.17 which contain a fix.
+CadenzaFlow has provided the releases 7.19.0-alpha4, 7.18.5, 7.17.10, 7.16.17 which contain a fix.
 
 ## Notice 83
 
@@ -1944,20 +1944,20 @@ Camunda has provided the releases 7.19.0-alpha4, 7.18.5, 7.17.10, 7.16.17 which 
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The Camunda Spring Boot starter and Camunda Run could write the hashed password of the administrator user to the application log on startup.
+The CadenzaFlow Spring Boot starter and CadenzaFlow Run could write the hashed password of the administrator user to the application log on startup.
 
 **How to determine if the installation is affected**
 
-- Camunda Spring Boot starter *or* Camunda Run is used
-- The configuration property `camunda.bpm.admin-user.id` or `camunda.bpm.admin-user.password` is used
+- CadenzaFlow Spring Boot starter *or* CadenzaFlow Run is used
+- The configuration property `cadenzaflow.bpm.admin-user.id` or `cadenzaflow.bpm.admin-user.password` is used
 
 **Solution**
 
-Camunda has provided the releases 7.19.0-alpha3, 7.18.3, 7.17.9, 7.16.16 which contain a fix.
+CadenzaFlow has provided the releases 7.19.0-alpha3, 7.18.3, 7.17.9, 7.16.16 which contain a fix.
 
 ## Notice 82
 
@@ -1965,11 +1965,11 @@ Camunda has provided the releases 7.19.0-alpha3, 7.18.3, 7.17.9, 7.16.16 which c
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Apache Tomcat shipped with the Camunda distributions, RPA Bridge, and transitively pulled in by the Camunda Spring Boot starter had three vulnerabilities:
+The version of Apache Tomcat shipped with the CadenzaFlow distributions, RPA Bridge, and transitively pulled in by the CadenzaFlow Spring Boot starter had three vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2021-43980
 - https://nvd.nist.gov/vuln/detail/CVE-2022-42252
@@ -1977,16 +1977,16 @@ The version of Apache Tomcat shipped with the Camunda distributions, RPA Bridge,
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used *or* Camunda Platform Run is used *or* Camunda Platform Spring Boot Starter *or* Camunda RPA Bridge is used
+- CadenzaFlow Platform Tomcat is used *or* CadenzaFlow Platform Run is used *or* CadenzaFlow Platform Spring Boot Starter *or* CadenzaFlow RPA Bridge is used
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.19.0-alpha3, 7.18.2, 7.17.8, 7.16.15, RPA Bridge 1.1.9 which contain a fix.
+CadenzaFlow has provided the releases 7.19.0-alpha3, 7.18.2, 7.17.8, 7.16.15, RPA Bridge 1.1.9 which contain a fix.
 
 Other solutions:
 
-- Tomcat and Spring Boot can be updated independently of Camunda to the latest patch level
+- Tomcat and Spring Boot can be updated independently of CadenzaFlow to the latest patch level
 
 ## Notice 81
 
@@ -2030,7 +2030,7 @@ The version of `libcurl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.6 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.6 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 80
@@ -2039,11 +2039,11 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Scala shipped with the FEEL engine in Camunda Platform 7 was vulnerable to an object deserialization flaw. Details:
+The version of Scala shipped with the FEEL engine in CadenzaFlow Platform 7 was vulnerable to an object deserialization flaw. Details:
 
 * https://nvd.nist.gov/vuln/detail/CVE-2022-36944
 
@@ -2054,7 +2054,7 @@ The version of Scala shipped with the FEEL engine in Camunda Platform 7 was vuln
 
 **Solution**
 
-Camunda has provided the releases 7.19.0-alpha2, 7.18.1, 7.17.7, and 7.16.14 which contain a fix.
+CadenzaFlow has provided the releases 7.19.0-alpha2, 7.18.1, 7.17.7, and 7.16.14 which contain a fix.
 
 ## Notice 79
 
@@ -2062,7 +2062,7 @@ Camunda has provided the releases 7.19.0-alpha2, 7.18.1, 7.17.7, and 7.16.14 whi
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
@@ -2072,12 +2072,12 @@ The version of the Got library used by the Javascript external task client was v
 
 **How to determine if the installation is affected**
 
-* You use [camunda-external-task-client-js](https://github.com/camunda/camunda-external-task-client-js)
+* You use [cadenzaflow-external-task-client-js](https://github.com/cadenzaflow/cadenzaflow-external-task-client-js)
 * An attacker is able modify the response of a HTTP request issued by the external task client
 
 **Solution**
 
-Camunda has provided the releases 2.3.1 and 2.2.1 of the External Task Client Javascript which contain a fix.
+CadenzaFlow has provided the releases 2.3.1 and 2.2.1 of the External Task Client Javascript which contain a fix.
 
 ## Notice 78
 
@@ -2127,7 +2127,7 @@ The version of `libcurl` shipped with `cawemo-websockets` was affected by the fo
 
 **Solution**
 
-Camunda has provided 1.9.5 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.5 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 77
@@ -2136,22 +2136,22 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The H2 console application included in the Camunda Tomcat and Wildfly distributions was vulnerable to remote code execution.
+The H2 console application included in the CadenzaFlow Tomcat and Wildfly distributions was vulnerable to remote code execution.
 
 **How to determine if the installation is affected**
 
-* You use the Camunda Tomcat or Wildfly distribution
+* You use the CadenzaFlow Tomcat or Wildfly distribution
 * An attacker can make a localhost connection to the H2 console application (note that the H2 console application refuses remote requests)
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.18.0, 7.17.6, 7.16.13, and 7.15.19
+* CadenzaFlow Platform 7.18.0, 7.17.6, 7.16.13, and 7.15.19
 
 As an alternative solution, you can remove the h2 web application from your Tomcat or Wildfly server.
 
@@ -2244,7 +2244,7 @@ The version of `zlib` shipped with `cawemo-websockets` was affected by the follo
 
 **Solution**
 
-Camunda has provided 1.9.4 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.4 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 75
@@ -2253,22 +2253,22 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The H2 console application included in the Camunda Tomcat and Wildfly distributions was vulnerable to remote code execution.
+The H2 console application included in the CadenzaFlow Tomcat and Wildfly distributions was vulnerable to remote code execution.
 
 **How to determine if the installation is affected**
 
-* You use the Camunda Tomcat or Wildfly distribution
+* You use the CadenzaFlow Tomcat or Wildfly distribution
 * An attacker can make a localhost connection to the H2 console application (note that the H2 console application refuses remote requests)
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.18.0-alpha4 and 7.17.3
+* CadenzaFlow Platform 7.18.0-alpha4 and 7.17.3
 
 As an alternative solution, you can remove the h2 web application from your Tomcat or Wildfly server.
 
@@ -2278,11 +2278,11 @@ As an alternative solution, you can remove the h2 web application from your Tomc
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The Docker images for Camunda Platform 7 contained system libraries with reported vulnerabilities.
+The Docker images for CadenzaFlow Platform 7 contained system libraries with reported vulnerabilities.
 
 libcurl:
 
@@ -2290,14 +2290,14 @@ libcurl:
 
 **How to determine if the installation is affected**
 
-* You use the Camunda Docker images
-* Due to the low-level nature of these vulnerabilities, we cannot reliably assess if Camunda installations are practically affected. We generally recommend to update for this reason.
+* You use the CadenzaFlow Docker images
+* Due to the low-level nature of these vulnerabilities, we cannot reliably assess if CadenzaFlow installations are practically affected. We generally recommend to update for this reason.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.18.0-alpha4, 7.17.3, 7.16.10, and 7.15.16
+* CadenzaFlow Platform 7.18.0-alpha4, 7.17.3, 7.16.10, and 7.15.16
 
 
 ## Notice 73
@@ -2368,7 +2368,7 @@ following vulnerability:
 
 **Solution**
 
-Camunda has provided 1.9.3 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images which contain fixes for the above-mentioned CVEs.
+CadenzaFlow has provided 1.9.3 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images which contain fixes for the above-mentioned CVEs.
 
 ## Notice 72
 
@@ -2376,11 +2376,11 @@ Camunda has provided 1.9.3 releases for the `cawemo-restapi`, `cawemo-webapp`, a
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Jackson included in Camunda Platform 7 was vulnerable to denial of service attacks. Details:
+The version of Jackson included in CadenzaFlow Platform 7 was vulnerable to denial of service attacks. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2020-36518
 
@@ -2389,12 +2389,12 @@ The version of Jackson included in Camunda Platform 7 was vulnerable to denial o
 - One of the following modules is used:
   - Web applications
   - REST API
-  - Camunda Spin
+  - CadenzaFlow Spin
 - An attacker can submit a very large JSON payload to any of the modules' APIs
 
 **Solution**
 
-Camunda has provided the releases 7.18.0-alpha1, 7.17.2, 7.16.9, 7.15.15 which contain a fix.
+CadenzaFlow has provided the releases 7.18.0-alpha1, 7.17.2, 7.16.9, 7.15.15 which contain a fix.
 
 ## Notice 71
 
@@ -2402,22 +2402,22 @@ Camunda has provided the releases 7.18.0-alpha1, 7.17.2, 7.16.9, 7.15.15 which c
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Groovy included in the Camunda Platform 7 Run, Tomcat, Weblogic,  Websphere, Wildfly distributions had a local privilege escalation vulnerability. Details:
+The version of Groovy included in the CadenzaFlow Platform 7 Run, Tomcat, Weblogic,  Websphere, Wildfly distributions had a local privilege escalation vulnerability. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2021-20289
 
 **How to determine if the installation is affected**
 
-- One of the Camunda Platform 7 Run, Tomcat, Weblogic,  Websphere, Wildfly distributions is used
+- One of the CadenzaFlow Platform 7 Run, Tomcat, Weblogic,  Websphere, Wildfly distributions is used
 - An attacker can make control the content of a Groovy script in a process
 
 **Solution**
 
-Camunda has provided the releases 7.18.0-alpha1, 7.17.2, 7.16.9, 7.15.15 which contain a fix.
+CadenzaFlow has provided the releases 7.18.0-alpha1, 7.17.2, 7.16.9, 7.15.15 which contain a fix.
 
 ## Notice 70
 
@@ -2425,22 +2425,22 @@ Camunda has provided the releases 7.18.0-alpha1, 7.17.2, 7.16.9, 7.15.15 which c
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Resteasy used by the Camunda Platform 7 REST API and web applications had an information disclosure vulnerability. Details:
+The version of Resteasy used by the CadenzaFlow Platform 7 REST API and web applications had an information disclosure vulnerability. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2021-20289
 
 **How to determine if the installation is affected**
 
-- The Camunda Platform 7 Tomcat distribution is used
+- The CadenzaFlow Platform 7 Tomcat distribution is used
 - An attacker can make requests to the REST API or web application endpoints
 
 **Solution**
 
-Camunda has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which contain a fix.
+CadenzaFlow has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which contain a fix.
 
 ## Notice 69
 
@@ -2448,23 +2448,23 @@ Camunda has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which c
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of the MySQL JDBC connector included in the Camunda Platform 7 Docker images had two known vulnerabilities. Details:
+The version of the MySQL JDBC connector included in the CadenzaFlow Platform 7 Docker images had two known vulnerabilities. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2021-2471
 - https://nvd.nist.gov/vuln/detail/CVE-2022-21363
 
 **How to determine if the installation is affected**
 
-- The Camunda Platform 7 Docker containers are used
+- The CadenzaFlow Platform 7 Docker containers are used
 - MySQL is used for the database connection
 
 **Solution**
 
-Camunda has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which contain a fix.
+CadenzaFlow has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which contain a fix.
 
 ## Notice 68
 
@@ -2472,22 +2472,22 @@ Camunda has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which c
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of the Spring Framework used by various Camunda components was vulnerable to remote code execution attacks. This vulnerability is known as *Spring4Shell*. Details:
+The version of the Spring Framework used by various CadenzaFlow components was vulnerable to remote code execution attacks. This vulnerability is known as *Spring4Shell*. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2022-22965
 - https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement
 
 **How to determine if the installation is affected**
 
-- Camunda Platform 7 is not directly affected by this vulnerability (see our [forum announcement](https://forum.camunda.io/t/spring-remote-code-execution-rce-vulnerability-spring4shell/33848)). We are making this announcement due to the high popularity of the vulnerability.
+- CadenzaFlow Platform 7 is not directly affected by this vulnerability (see our [forum announcement](https://forum.cadenzaflow.io/t/spring-remote-code-execution-rce-vulnerability-spring4shell/33848)). We are making this announcement due to the high popularity of the vulnerability.
 
 **Solution**
 
-Camunda has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14, 7.14.20, RPA Bridge 1.1.7 that update Spring to a version that is not vulnerable.
+CadenzaFlow has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14, 7.14.20, RPA Bridge 1.1.7 that update Spring to a version that is not vulnerable.
 
 ## Notice 67
 
@@ -2495,7 +2495,7 @@ Camunda has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14, 7.14.2
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
@@ -2510,7 +2510,7 @@ The version of Apache HTTP Client used by the Java external task client was vuln
 
 **Solution**
 
-Camunda has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which contain a fix.
+CadenzaFlow has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which contain a fix.
 
 ## Notice 66
 
@@ -2518,11 +2518,11 @@ Camunda has provided the releases 7.18.0-alpha1, 7.17.1, 7.16.8, 7.15.14 which c
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of the Spring Framework used in Camunda Platform 7 was vulnerable to log entry insertion:
+The version of the Spring Framework used in CadenzaFlow Platform 7 was vulnerable to log entry insertion:
 
 * https://nvd.nist.gov/vuln/detail/CVE-2021-22096
 * https://nvd.nist.gov/vuln/detail/CVE-2021-22060
@@ -2537,9 +2537,9 @@ The version of the Spring Framework used in Camunda Platform 7 was vulnerable to
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.17.0, 7.16.6, 7.15.12, and 7.14.18
+* CadenzaFlow Platform 7.17.0, 7.16.6, 7.15.12, and 7.14.18
 * RPA Bridge 1.1.6
 
 ## Notice 65
@@ -2572,7 +2572,7 @@ Nevertheless, we updated Cawemo to Spring Boot 2.6.6 / Spring MVC 5.3.18 (which 
 
 **Solution**
 
-Camunda has provided the 1.9.2 release for the `cawemo-restapi` Docker image which contains a fix.
+CadenzaFlow has provided the 1.9.2 release for the `cawemo-restapi` Docker image which contains a fix.
 
 ## Notice 64
 
@@ -2631,7 +2631,7 @@ The version of `guzzlehttp/psr7` shipped with `cawemo-websockets` was affected b
 
 **Solution**
 
-Camunda has provided 1.9.2 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
+CadenzaFlow has provided 1.9.2 releases for the `cawemo-restapi`, `cawemo-webapp`, and `cawemo-websockets` Docker images
 which contain fixes for the above-mentioned CVEs.
 
 ## Notice 63
@@ -2640,11 +2640,11 @@ which contain fixes for the above-mentioned CVEs.
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of the PostgreSQL JDBC driver used in the Camunda Platform 7 Docker images had multiple vulnerabilities:
+The version of the PostgreSQL JDBC driver used in the CadenzaFlow Platform 7 Docker images had multiple vulnerabilities:
 
 * https://nvd.nist.gov/vuln/detail/CVE-2018-10936
 * https://nvd.nist.gov/vuln/detail/CVE-2020-13692
@@ -2652,14 +2652,14 @@ The version of the PostgreSQL JDBC driver used in the Camunda Platform 7 Docker 
 
 **How to determine if the installation is affected**
 
-* You use the Camunda Docker images
+* You use the CadenzaFlow Docker images
 * You connect to a PostgreSQL database
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.17.0-alpha5, 7.16.7, 7.15.13, and 7.14.19
+* CadenzaFlow Platform 7.17.0-alpha5, 7.16.7, 7.15.13, and 7.14.19
 
 ## Notice 62
 
@@ -2667,27 +2667,27 @@ Camunda has provided the following releases which contain a fix:
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Apache Tomcat shipped with the Camunda distributions, RPA Bridge, and transitively pulled in by the Camunda Spring Boot starter had two vulnerabilities:
+The version of Apache Tomcat shipped with the CadenzaFlow distributions, RPA Bridge, and transitively pulled in by the CadenzaFlow Spring Boot starter had two vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2021-42340
 - https://nvd.nist.gov/vuln/detail/CVE-2022-23181
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used *or* Camunda Platform Run is used *or* Camunda Platform Spring Boot Starter *or* Camunda RPA Bridge is used
+- CadenzaFlow Platform Tomcat is used *or* CadenzaFlow Platform Run is used *or* CadenzaFlow Platform Spring Boot Starter *or* CadenzaFlow RPA Bridge is used
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.17.0-alpha6, 7.16.7, 7.15.13, 7.14.19, RPA Bridge 1.1.6 which contain a fix.
+CadenzaFlow has provided the releases 7.17.0-alpha6, 7.16.7, 7.15.13, 7.14.19, RPA Bridge 1.1.6 which contain a fix.
 
 Other solutions:
 
-- Tomcat and Spring Boot can be updated independently of Camunda to the latest patch level
+- Tomcat and Spring Boot can be updated independently of CadenzaFlow to the latest patch level
 
 ## Notice 61
 
@@ -2695,11 +2695,11 @@ Other solutions:
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The Docker images for Camunda Platform 7 contained system libraries with reported vulnerabilities.
+The Docker images for CadenzaFlow Platform 7 contained system libraries with reported vulnerabilities.
 
 libexpat:
 
@@ -2729,14 +2729,14 @@ libxml2:
 
 **How to determine if the installation is affected**
 
-* You use the Camunda Docker images
-* Due to the low-level nature of these vulnerabilities, we cannot reliably assess if Camunda installations are practically affected. We generally recommend to update for this reason.
+* You use the CadenzaFlow Docker images
+* Due to the low-level nature of these vulnerabilities, we cannot reliably assess if CadenzaFlow installations are practically affected. We generally recommend to update for this reason.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.17.0-alpha6, 7.16.7, 7.15.13, and 7.14.19
+* CadenzaFlow Platform 7.17.0-alpha6, 7.16.7, 7.15.13, and 7.14.19
 
 
 ## Notice 60
@@ -2745,7 +2745,7 @@ Camunda has provided the following releases which contain a fix:
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
@@ -2755,13 +2755,13 @@ The Tomcat and Wildfly distributions include the H2 console web application that
 
 * You use either the Tomcat or Wildfly distribution
 * An attacker can access the h2 console path (e.g. `https://<host>/h2` by default)
-* Note that this is independent if h2 is actually used as the Camunda database
+* Note that this is independent if h2 is actually used as the CadenzaFlow database
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix, as of which the h2 console is only accessible for localhost connections:
+CadenzaFlow has provided the following releases which contain a fix, as of which the h2 console is only accessible for localhost connections:
 
-* Camunda Platform 7.17.0-alpha5, 7.16.6, 7.15.12, and 7.14.18
+* CadenzaFlow Platform 7.17.0-alpha5, 7.16.6, 7.15.12, and 7.14.18
 
 As an alternative solution on lower versions, you can remove the h2 web application from the application server.
 
@@ -2771,23 +2771,23 @@ As an alternative solution on lower versions, you can remove the h2 web applicat
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-The version of Jackson used by Camunda Platform 7 was vulnerable to Denial of Service attacks.
+The version of Jackson used by CadenzaFlow Platform 7 was vulnerable to Denial of Service attacks.
 
 **How to determine if the installation is affected**
 
-* You use the Camunda Platform 7 REST API
+* You use the CadenzaFlow Platform 7 REST API
 * An attacker is able to submit process variables
 * The Java serialization format for variables is enabled
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.17.0-alpha5, 7.16.6, 7.15.12, and 7.14.18
+* CadenzaFlow Platform 7.17.0-alpha5, 7.16.6, 7.15.12, and 7.14.18
 
 ## Notice 58
 
@@ -2832,7 +2832,7 @@ The version of follow-redirects shipped with cawemo-webapp was affected by the f
 
 **Solution**
 
-Camunda has provided 1.9.1 releases for the cawemo-restapi and cawemo-webapp Docker images which contain fixes for the above-mentioned CVEs.
+CadenzaFlow has provided 1.9.1 releases for the cawemo-restapi and cawemo-webapp Docker images which contain fixes for the above-mentioned CVEs.
 
 ## Notice 57
 
@@ -2840,23 +2840,23 @@ Camunda has provided 1.9.1 releases for the cawemo-restapi and cawemo-webapp Doc
 
 **Product affected:**
 
-Camunda Platform 7
+CadenzaFlow Platform 7
 
 **Impact:**
 
-When connected to LDAP, Camunda Platform Run logged sensitive LDAP connection configuration options during startup.
+When connected to LDAP, CadenzaFlow Platform Run logged sensitive LDAP connection configuration options during startup.
 
 **How to determine if the installation is affected**
 
-* You use Camunda Platform Run
-* You connect Camunda Platform Run to LDAP for user management
+* You use CadenzaFlow Platform Run
+* You connect CadenzaFlow Platform Run to LDAP for user management
 * An attacker has access to the log output
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.17.0-alpha4, 7.16.5, 7.15.11, and 7.14.17
+* CadenzaFlow Platform 7.17.0-alpha4, 7.16.5, 7.15.11, and 7.14.17
 
 ## Notice 56
 
@@ -2864,32 +2864,32 @@ Camunda has provided the following releases which contain a fix:
 
 **Product affected:**
 
-Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, IAM
+CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, IAM
 
 **Impact:**
 
-Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, and IAM bundle log4j libraries for which the following CVE
+CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, and IAM bundle log4j libraries for which the following CVE
 has been published:
 
 * https://nvd.nist.gov/vuln/detail/CVE-2021-44832
 
 Similar to the [security notice 54](#notice-54) on Dec 23rd, 2021, **the products do not bundle the log4j-core library**
-which contains the vulnerability referred to by the CVE. As a result, Camunda does not consider Camunda Run,
-Camunda RPA Bridge, Camunda Optimize, Cawemo, or IAM to be affected by the vulnerability.
+which contains the vulnerability referred to by the CVE. As a result, CadenzaFlow does not consider CadenzaFlow Run,
+CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, or IAM to be affected by the vulnerability.
 
-Still, Camunda recommends applying fixes as mentioned in Solutions below.
+Still, CadenzaFlow recommends applying fixes as mentioned in Solutions below.
 
 **How to determine if the installation is affected**
 
-You are using Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, or IAM.
+You are using CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, or IAM.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Platform 7.17.0-alpha3, 7.16.5, 7.15.11, and 7.14.17
-* Camunda RPA Bridge 1.1.5
-* Camunda Optimize 3.7.0
+* CadenzaFlow Platform 7.17.0-alpha3, 7.16.5, 7.15.11, and 7.14.17
+* CadenzaFlow RPA Bridge 1.1.5
+* CadenzaFlow Optimize 3.7.0
 * Cawemo 1.9.0
 * IAM 1.1.12
 
@@ -2900,22 +2900,22 @@ Camunda has provided the following releases which contain a fix:
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-Camunda Spin was vulnerable to XML external entity (XXE) attacks when XML variables were used.
+CadenzaFlow Spin was vulnerable to XML external entity (XXE) attacks when XML variables were used.
 
 **How to determine if the installation is affected**
 
-- Camunda Spin is on the classpath
-  - Camunda distributions are used (e.g. Run, Tomcat, Wildfly)
+- CadenzaFlow Spin is on the classpath
+  - CadenzaFlow distributions are used (e.g. Run, Tomcat, Wildfly)
   - Spin is used as a project dependency
 - An attacker is able to access the REST API or web applications and has permissions to submit process variables
 
 **Solution**
 
-Camunda has provided the releases 7.17.0-alpha3, 7.16.4, 7.15.10, 7.14.16 which contain a fix.
+CadenzaFlow has provided the releases 7.17.0-alpha3, 7.16.4, 7.15.10, 7.14.16 which contain a fix.
 
 
 ## Notice 54
@@ -2924,32 +2924,32 @@ Camunda has provided the releases 7.17.0-alpha3, 7.16.4, 7.15.10, 7.14.16 which 
 
 **Product components affected:**
 
-Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, IAM
+CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, IAM
 
 **Impact:**
 
-Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, and IAM bundle log4j libraries for which the following CVE
+CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, and IAM bundle log4j libraries for which the following CVE
 has been published:
 
 * https://nvd.nist.gov/vuln/detail/CVE-2021-45105
 
 Similar to the [security notice 52](#notice-52) on Dec 17th, 2021, **the products do not bundle the log4j-core library**
-which contains the vulnerability referred to by the CVE. As a result, Camunda does not consider Camunda Run,
-Camunda RPA Bridge, Camunda Optimize, Cawemo, or IAM to be affected by the vulnerability.
+which contains the vulnerability referred to by the CVE. As a result, CadenzaFlow does not consider CadenzaFlow Run,
+CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, or IAM to be affected by the vulnerability.
 
-Still, Camunda recommends applying fixes as mentioned in Solutions below.
+Still, CadenzaFlow recommends applying fixes as mentioned in Solutions below.
 
 **How to determine if the installation is affected**
 
-You are using Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, or IAM.
+You are using CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, or IAM.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-* Camunda Automation Platform 7.17.0-alpha3, 7.16.4, 7.15.10, and 7.14.16
-* Camunda RPA Bridge 1.1.4
-* Camunda Optimize 3.6.5
+* CadenzaFlow Automation Platform 7.17.0-alpha3, 7.16.4, 7.15.10, and 7.14.16
+* CadenzaFlow RPA Bridge 1.1.4
+* CadenzaFlow Optimize 3.6.5
 * Cawemo 1.8.4
 * IAM 1.1.11
 
@@ -2979,7 +2979,7 @@ The version of `laravel/framework` shipped with `cawemo-websockets` was affected
 
 **Solution**
 
-Camunda has provided 1.8.4 releases for the `cawemo-restapi` and `cawemo-websockets` Docker images which contain fixes
+CadenzaFlow has provided 1.8.4 releases for the `cawemo-restapi` and `cawemo-websockets` Docker images which contain fixes
 for the above-mentioned CVEs.
 
 
@@ -2989,39 +2989,39 @@ for the above-mentioned CVEs.
 
 **Product components affected**
 
-Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, IAM.
+CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, IAM.
 
 **Impact**
 
-Camunda Run, Camunda RPA Bridge, and Camunda Optimize and IAM bundle log4j libraries for which the following CVEs have been published:
+CadenzaFlow Run, CadenzaFlow RPA Bridge, and CadenzaFlow Optimize and IAM bundle log4j libraries for which the following CVEs have been published:
 
 * https://nvd.nist.gov/vuln/detail/CVE-2021-44228
 * https://nvd.nist.gov/vuln/detail/CVE-2021-45046
 
 Specifically, the products bundle log4j-api and log4j-to-slf4j. However, **the products do not bundle the log4j-core
-library** which contains the vulnerability referred to by the CVE. As a result, Camunda does not consider Camunda Run,
-Camunda RPA Bridge, Camunda Optimize, Cawemo, or IAM to be affected by the vulnerability.
+library** which contains the vulnerability referred to by the CVE. As a result, CadenzaFlow does not consider CadenzaFlow Run,
+CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, or IAM to be affected by the vulnerability.
 
-If you make use of any Camunda Optimize Demo Distribution, be aware that the bundled Elasticsearch is also affected by
+If you make use of any CadenzaFlow Optimize Demo Distribution, be aware that the bundled Elasticsearch is also affected by
 this CVE. However, according to Elastic no remote code execution is possible on Elasticsearch nodes, see the [Elastic Security Announcement](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476/1).
 
-If you are using any of the Camunda Spring Boot Starters and [switched the default logging system to Log4J2](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.logging.log4j), make
+If you are using any of the CadenzaFlow Spring Boot Starters and [switched the default logging system to Log4J2](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.logging.log4j), make
 sure to either update your version of Log4J as described in the following [Spring Boot article](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot) or switch to a
 different logging implementation as described in the [Spring Boot guide](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.logging).
 
-Still, Camunda recommends applying fixes as mentioned in Solutions below.
+Still, CadenzaFlow recommends applying fixes as mentioned in Solutions below.
 
 **How to determine if the installation is affected**
 
-You are using Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, or IAM.
+You are using CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, or IAM.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix
+CadenzaFlow has provided the following releases which contain a fix
 
-* Camunda Platform Runtime 7.17.0-alpha3, 7.16.3, 7.15.9, and 7.14.15
-* Camunda RPA Bridge 1.1.3
-* Camunda Optimize 3.6.4
+* CadenzaFlow Platform Runtime 7.17.0-alpha3, 7.16.3, 7.15.9, and 7.14.15
+* CadenzaFlow RPA Bridge 1.1.3
+* CadenzaFlow Optimize 3.6.4
 * Cawemo 1.8.3
 * IAM 1.1.10
 
@@ -3031,27 +3031,27 @@ Camunda has provided the following releases which contain a fix
 
 **Product components affected**
 
-Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, IAM
+CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, IAM
 
 **Impact**
 
-Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo and IAM bundle logback libraries for which the following vulnerability was reported:
+CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo and IAM bundle logback libraries for which the following vulnerability was reported:
 
 * https://nvd.nist.gov/vuln/detail/CVE-2021-42550
 
-Camunda recommends applying fixes as mentioned in Solutions below.
+CadenzaFlow recommends applying fixes as mentioned in Solutions below.
 
 **How to determine if the installation is affected**
 
-You are using Camunda Run, Camunda RPA Bridge, Camunda Optimize, Cawemo, or IAM.
+You are using CadenzaFlow Run, CadenzaFlow RPA Bridge, CadenzaFlow Optimize, Cawemo, or IAM.
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix
+CadenzaFlow has provided the following releases which contain a fix
 
-* Camunda Platform Runtime 7.17.0-alpha3, 7.16.3, 7.15.9, and 7.14.15
-* Camunda RPA Bridge 1.1.3
-* Camunda Optimize 3.6.4
+* CadenzaFlow Platform Runtime 7.17.0-alpha3, 7.16.3, 7.15.9, and 7.14.15
+* CadenzaFlow RPA Bridge 1.1.3
+* CadenzaFlow Optimize 3.6.4
 * Cawemo 1.8.3
 * IAM 1.1.10
 
@@ -3061,22 +3061,22 @@ Camunda has provided the following releases which contain a fix
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The Camunda Platform web applications did not set the [SameSite attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite) on the session cookie. This enabled Cross-Site Request Forgery (CSRF) attacks if the [token-based CSRF prevention mechanism](https://docs.camunda.org/manual/7.16/webapps/shared-options/csrf-prevention/) was compromised (e.g. by another cross-site scripting vulnerability). Adding the `SameSite` attribute to the session cookie hardens Camunda against CSRF attacks.
+The CadenzaFlow Platform web applications did not set the [SameSite attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite) on the session cookie. This enabled Cross-Site Request Forgery (CSRF) attacks if the [token-based CSRF prevention mechanism](https://docs.cadenzaflow.org/manual/7.16/webapps/shared-options/csrf-prevention/) was compromised (e.g. by another cross-site scripting vulnerability). Adding the `SameSite` attribute to the session cookie hardens CadenzaFlow against CSRF attacks.
 
 
 **How to determine if the installation is affected**
 
-- You are using the Camunda Platform web applications (Cockpit, Tasklist, Admin)
+- You are using the CadenzaFlow Platform web applications (Cockpit, Tasklist, Admin)
 
 **Solution**
 
-Camunda has provided the releases 7.17.0-alpha2, 7.16.2, 7.15.8, 7.14.14 which contain a fix.
+CadenzaFlow has provided the releases 7.17.0-alpha2, 7.16.2, 7.15.8, 7.14.14 which contain a fix.
 
-Note that on the servers Oracle Weblogic, IBM Websphere, and JBoss EAP/Wildfly, the `SameSite` attribute is not enabled by default and needs server configuration as described in the guides on [how to configure the session cookie](https://docs.camunda.org/manual/7.16/webapps/shared-options/cookie-security/#session-cookie).
+Note that on the servers Oracle Weblogic, IBM Websphere, and JBoss EAP/Wildfly, the `SameSite` attribute is not enabled by default and needs server configuration as described in the guides on [how to configure the session cookie](https://docs.cadenzaflow.org/manual/7.16/webapps/shared-options/cookie-security/#session-cookie).
 
 ## Notice 49
 
@@ -3123,7 +3123,7 @@ The version of symfony/http-kernel shipped with cawemo-websockets was affected b
 
 **Solution**
 
-Camunda has provided 1.8.1 releases for the cawemo-restapi, cawemo-webapp and cawemo-websockets Docker images which contain fixes for the above-mentioned CVE.
+CadenzaFlow has provided 1.8.1 releases for the cawemo-restapi, cawemo-webapp and cawemo-websockets Docker images which contain fixes for the above-mentioned CVE.
 
 ## Notice 48
 
@@ -3131,20 +3131,20 @@ Camunda has provided 1.8.1 releases for the cawemo-restapi, cawemo-webapp and ca
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The Camunda Platform web applications were vulnerable to cross-site-scripting attacks via AngularJS template injection. An attacker could craft Camunda URLs that if opened by a victim would run arbitrary Javascript code in the browsing context of the victim. For example, this would allow the attacker to make requests against the Camunda API with the permissions of the victim.
+The CadenzaFlow Platform web applications were vulnerable to cross-site-scripting attacks via AngularJS template injection. An attacker could craft CadenzaFlow URLs that if opened by a victim would run arbitrary Javascript code in the browsing context of the victim. For example, this would allow the attacker to make requests against the CadenzaFlow API with the permissions of the victim.
 
 
 **How to determine if the installation is affected**
 
-- You are using the Camunda Platform web applications (Cockpit, Tasklist, Admin)
+- You are using the CadenzaFlow Platform web applications (Cockpit, Tasklist, Admin)
 
 **Solution**
 
-Camunda has provided the releases 7.16.0-alpha5, 7.15.6, 7.14.12, 7.13.18 which contain a fix.
+CadenzaFlow has provided the releases 7.16.0-alpha5, 7.15.6, 7.14.12, 7.13.18 which contain a fix.
 
 ## Notice 47
 
@@ -3152,11 +3152,11 @@ Camunda has provided the releases 7.16.0-alpha5, 7.15.6, 7.14.12, 7.13.18 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Apache Tomcat shipped with the Camunda distributions, shipped with the Camunda RPA Bridge, and transitively pulled in by the Camunda Spring Boot starter had various vulnerabilities:
+The version of Apache Tomcat shipped with the CadenzaFlow distributions, shipped with the CadenzaFlow RPA Bridge, and transitively pulled in by the CadenzaFlow Spring Boot starter had various vulnerabilities:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2021-41079
 - https://nvd.nist.gov/vuln/detail/CVE-2021-30639
@@ -3165,18 +3165,18 @@ The version of Apache Tomcat shipped with the Camunda distributions, shipped wit
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used *or* Camunda Platform Run is used *or* Camunda Platform Spring Boot Starter is used *or* Camunda RPA Bridge is used
+- CadenzaFlow Platform Tomcat is used *or* CadenzaFlow Platform Run is used *or* CadenzaFlow Platform Spring Boot Starter is used *or* CadenzaFlow RPA Bridge is used
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.16.0-alpha5, 7.15.6, 7.14.12, 7.13.18, RPA Bridge 1.1.6 which contain a fix.
+CadenzaFlow has provided the releases 7.16.0-alpha5, 7.15.6, 7.14.12, 7.13.18, RPA Bridge 1.1.6 which contain a fix.
 
-The Camunda Spring Boot starter versions 7.13 work with Spring Boot 2.2 and 2.3, for which no patches are available that resolve this problem. We recommend to either update the Tomcat dependencies manually or moving to a higher version of Spring Boot in accordance with [Camunda's compatibility matrix](https://docs.camunda.org/manual/7.15/user-guide/spring-boot-integration/version-compatibility/).
+The CadenzaFlow Spring Boot starter versions 7.13 work with Spring Boot 2.2 and 2.3, for which no patches are available that resolve this problem. We recommend to either update the Tomcat dependencies manually or moving to a higher version of Spring Boot in accordance with [CadenzaFlow's compatibility matrix](https://docs.cadenzaflow.org/manual/7.15/user-guide/spring-boot-integration/version-compatibility/).
 
 Other solutions:
 
-- Tomcat and Spring Boot can be updated independently of Camunda to the latest patch level
+- Tomcat and Spring Boot can be updated independently of CadenzaFlow to the latest patch level
 
 ## Notice 46
 
@@ -3208,7 +3208,7 @@ The version of libcurl shipped with cawemo-websockets was affected by the follow
 
 **Solution**
 
-Camunda has provided 1.7.1 releases for the cawemo-restapi, cawemo-webapp and cawemo-websockets Docker images which contain fixes for the above-mentioned CVE.
+CadenzaFlow has provided 1.7.1 releases for the cawemo-restapi, cawemo-webapp and cawemo-websockets Docker images which contain fixes for the above-mentioned CVE.
 
 
 ## Notice 45
@@ -3217,23 +3217,23 @@ Camunda has provided 1.7.1 releases for the cawemo-restapi, cawemo-webapp and ca
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of lodash shipped with Camunda Cockpit, Tasklist, and Admin was vulnerable to command injection:
+The version of lodash shipped with CadenzaFlow Cockpit, Tasklist, and Admin was vulnerable to command injection:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2021-23337
 
 **How to determine if the installation is affected**
 
-- The Camunda Platform web applications are used (Cockpit, Tasklist, Admin)
+- The CadenzaFlow Platform web applications are used (Cockpit, Tasklist, Admin)
 - Embedded task forms or custom plugins are used
 - The forms and plugins make use of lodash's `template` function with untrusted input
 
 **Solution**
 
-Camunda has provided the releases 7.16.0-alpha2, 7.15.2, 7.14.8, 7.13.14, 7.12.21 which contain a fix.
+CadenzaFlow has provided the releases 7.16.0-alpha2, 7.15.2, 7.14.8, 7.13.14, 7.12.21 which contain a fix.
 
 
 ## Notice 44
@@ -3264,7 +3264,7 @@ The dependencies jose, lodash and browserslist shipped with cawemo-webapp were a
 
 **Solution**
 
-Camunda has provided 1.6.3 releases for the cawemo-restapi and cawemo-webapp Docker images which contain fixes for the above-mentioned CVE.
+CadenzaFlow has provided 1.6.3 releases for the cawemo-restapi and cawemo-webapp Docker images which contain fixes for the above-mentioned CVE.
 
 
 ## Notice 43
@@ -3273,29 +3273,29 @@ Camunda has provided 1.6.3 releases for the cawemo-restapi and cawemo-webapp Doc
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Apache Tomcat shipped with the Camunda distributions and transitively pulled in by the Camunda Spring Boot starter was vulnerable to requests getting a response belonging to a different request and contained an incomplete fix for a previously addressed vulnerability:
+The version of Apache Tomcat shipped with the CadenzaFlow distributions and transitively pulled in by the CadenzaFlow Spring Boot starter was vulnerable to requests getting a response belonging to a different request and contained an incomplete fix for a previously addressed vulnerability:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2021-25122
 - https://nvd.nist.gov/vuln/detail/CVE-2021-25329
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used *or* Camunda Platform Run is used *or* Camunda Platform Spring Boot Starter is used
+- CadenzaFlow Platform Tomcat is used *or* CadenzaFlow Platform Run is used *or* CadenzaFlow Platform Spring Boot Starter is used
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.15.0, 7.14.6, 7.13.12, 7.12.19 which contain a fix.
+CadenzaFlow has provided the releases 7.15.0, 7.14.6, 7.13.12, 7.12.19 which contain a fix.
 
-The Camunda Spring Boot starter versions 7.13 and 3.4 work with Spring Boot 2.2, for which no patch is available that resolves this problem. We recommend to either update the Tomcat dependencies manually or moving to a higher version of Spring Boot in accordance with [Camunda's compatibility matrix](https://docs.camunda.org/manual/7.15/user-guide/spring-boot-integration/version-compatibility/).
+The CadenzaFlow Spring Boot starter versions 7.13 and 3.4 work with Spring Boot 2.2, for which no patch is available that resolves this problem. We recommend to either update the Tomcat dependencies manually or moving to a higher version of Spring Boot in accordance with [CadenzaFlow's compatibility matrix](https://docs.cadenzaflow.org/manual/7.15/user-guide/spring-boot-integration/version-compatibility/).
 
 Other solutions:
 
-- Tomcat and Spring Boot can be updated independently of Camunda to the latest patch level
+- Tomcat and Spring Boot can be updated independently of CadenzaFlow to the latest patch level
 
 
 ## Notice 42
@@ -3304,20 +3304,20 @@ Other solutions:
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The solution to [Notice 39](#notice-39) was not applied to the web application artifacts of the Camunda enterprise edition, meaning that they contained a vulnerable version of Apache Commons Codec.
+The solution to [Notice 39](#notice-39) was not applied to the web application artifacts of the CadenzaFlow enterprise edition, meaning that they contained a vulnerable version of Apache Commons Codec.
 
 **How to determine if the installation is affected**
 
-- The Camunda Platform web applications are used
-- Camunda Enterprise edition is used
+- The CadenzaFlow Platform web applications are used
+- CadenzaFlow Enterprise edition is used
 
 **Solution**
 
-Camunda has provided the releases 7.15.0-alpha4, 7.14.5, 7.13.11, 7.12.18 which contain a fix.
+CadenzaFlow has provided the releases 7.15.0-alpha4, 7.14.5, 7.13.11, 7.12.18 which contain a fix.
 
 ## Notice 41
 
@@ -3325,11 +3325,11 @@ Camunda has provided the releases 7.15.0-alpha4, 7.14.5, 7.13.11, 7.12.18 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of the MySQL JDBC driver used by the Camunda Platform Docker container was vulnerable to various attacks. Details:
+The version of the MySQL JDBC driver used by the CadenzaFlow Platform Docker container was vulnerable to various attacks. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2017-3523
 - https://nvd.nist.gov/vuln/detail/CVE-2017-3589
@@ -3337,14 +3337,14 @@ The version of the MySQL JDBC driver used by the Camunda Platform Docker contain
 
 **How to determine if the installation is affected**
 
-- The Camunda Platform Docker container is used
+- The CadenzaFlow Platform Docker container is used
 - MySQL is used
 
 **Solution**
 
-Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
+CadenzaFlow has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
 
-Please have a look at the patch update guide for the potential implications of using a higher version of the MySQL JDBC driver: https://docs.camunda.org/manual/7.14/update/patch-level/#update-of-mysql-jdbc-driver-in-camunda-docker-images.
+Please have a look at the patch update guide for the potential implications of using a higher version of the MySQL JDBC driver: https://docs.cadenzaflow.org/manual/7.14/update/patch-level/#update-of-mysql-jdbc-driver-in-cadenzaflow-docker-images.
 
 ## Notice 40
 
@@ -3352,25 +3352,25 @@ Please have a look at the patch update guide for the potential implications of u
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Jackson used by Camunda Spin was vulnerable to XML external entity (XXE) attacks. Details:
+The version of Jackson used by CadenzaFlow Spin was vulnerable to XML external entity (XXE) attacks. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2020-25649
 
 **How to determine if the installation is affected**
 
-- Camunda Spin is on the classpath
-  - Camunda distributions are used (e.g. Run, Tomcat, Wildfly)
+- CadenzaFlow Spin is on the classpath
+  - CadenzaFlow distributions are used (e.g. Run, Tomcat, Wildfly)
   - Spin is used as a project dependency
 - An attacker is able to access the REST API or web applications and has permissions to submit process variables
-- The recommended configuration for type whitelisting is not applied: https://docs.camunda.org/manual/7.14/user-guide/security/#variable-values-from-untrusted-sources
+- The recommended configuration for type whitelisting is not applied: https://docs.cadenzaflow.org/manual/7.14/user-guide/security/#variable-values-from-untrusted-sources
 
 **Solution**
 
-Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
+CadenzaFlow has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
 
 ## Notice 39
 
@@ -3378,11 +3378,11 @@ Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Apache Commons Codec used by Camunda Connect was vulnerable to improper input validation. Details:
+The version of Apache Commons Codec used by CadenzaFlow Connect was vulnerable to improper input validation. Details:
 
 - https://issues.apache.org/jira/browse/CODEC-134
 
@@ -3392,7 +3392,7 @@ The version of Apache Commons Codec used by Camunda Connect was vulnerable to im
 
 **Solution**
 
-Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
+CadenzaFlow has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
 
 ## Notice 38
 
@@ -3400,11 +3400,11 @@ Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Apache HTTP Client used by Camunda Connect was vulnerable to an attack that a malformed request URL was interpreted incorrectly, which could lead the client to make a request against a different host. Details:
+The version of Apache HTTP Client used by CadenzaFlow Connect was vulnerable to an attack that a malformed request URL was interpreted incorrectly, which could lead the client to make a request against a different host. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2020-13956
 
@@ -3416,7 +3416,7 @@ The version of Apache HTTP Client used by Camunda Connect was vulnerable to an a
 
 **Solution**
 
-Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
+CadenzaFlow has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
 
 
 ## Notice 37
@@ -3425,21 +3425,21 @@ Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Resteasy used by the Camunda Tomcat distributions was vulnerable to an attack that an illegal header could be injected into the HTTP response with a crafted request. Details:
+The version of Resteasy used by the CadenzaFlow Tomcat distributions was vulnerable to an attack that an illegal header could be injected into the HTTP response with a crafted request. Details:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2020-1695
 
 **How to determine if the installation is affected**
 
-- The Camunda Tomcat distribution is used (Camunda Run is not affected)
+- The CadenzaFlow Tomcat distribution is used (CadenzaFlow Run is not affected)
 
 **Solution**
 
-Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
+CadenzaFlow has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
 
 ## Notice 36
 
@@ -3447,27 +3447,27 @@ Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Apache Tomcat shipped with the Camunda distributions and transitively pulled in by the Camunda Spring Boot starter was vulnerable to unauthorized exposure of file resources and information leaks between HTTP requests:
+The version of Apache Tomcat shipped with the CadenzaFlow distributions and transitively pulled in by the CadenzaFlow Spring Boot starter was vulnerable to unauthorized exposure of file resources and information leaks between HTTP requests:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2020-17527
 - https://nvd.nist.gov/vuln/detail/CVE-2021-24122
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used *or* Camunda Platform Run is used *or* Camunda Platform Spring Boot Starter is used
+- CadenzaFlow Platform Tomcat is used *or* CadenzaFlow Platform Run is used *or* CadenzaFlow Platform Spring Boot Starter is used
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
+CadenzaFlow has provided the releases 7.15.0-alpha3, 7.14.4, 7.13.10, 7.12.17 which contain a fix.
 
 Other solutions:
 
-- Tomcat and Spring Boot can be updated independently of Camunda to the latest patch level
+- Tomcat and Spring Boot can be updated independently of CadenzaFlow to the latest patch level
 
 
 ## Notice 35
@@ -3476,20 +3476,20 @@ Other solutions:
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-It was possible to submit requests to the Camunda REST API that result in errors that disclose SQL statements. Attackers can learn about the database schema and vendor in use and can focus further attacking attempts accordingly.
+It was possible to submit requests to the CadenzaFlow REST API that result in errors that disclose SQL statements. Attackers can learn about the database schema and vendor in use and can focus further attacking attempts accordingly.
 
 **How to determine if the installation is affected**
 
-- You are using the Camunda Platform REST API or web applications
+- You are using the CadenzaFlow Platform REST API or web applications
 - An attacker has access to the system as an authenticated user
 
 **Solution**
 
-Camunda has provided the releases 7.14.0-alpha4, 7.13.5, 7.12.11, 7.11.18 which contain a fix. With these versions, Camunda returns a generic error message for any persistence-related errors.
+CadenzaFlow has provided the releases 7.14.0-alpha4, 7.13.5, 7.12.11, 7.11.18 which contain a fix. With these versions, CadenzaFlow returns a generic error message for any persistence-related errors.
 
 ## Notice 34
 
@@ -3497,7 +3497,7 @@ Camunda has provided the releases 7.14.0-alpha4, 7.13.5, 7.12.11, 7.11.18 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
@@ -3505,12 +3505,12 @@ It was possible to deploy BPMN XML models with `ELEMENT` and `ENTITY` declaratio
 
 **How to determine if the installation is affected**
 
-- You are using the Camunda Platform process engine
+- You are using the CadenzaFlow Platform process engine
 - An attacker is able to deploy BPMN models
 
 **Solution**
 
-Camunda has provided the releases 7.14.0-alpha2, 7.13.2, 7.12.8, 7.11.15 which contain a fix. With these versions, BPMN models with the characteristics described in the *Impact* section are rejected during deployment.
+CadenzaFlow has provided the releases 7.14.0-alpha2, 7.13.2, 7.12.8, 7.11.15 which contain a fix. With these versions, BPMN models with the characteristics described in the *Impact* section are rejected during deployment.
 
 ## Notice 33
 
@@ -3518,25 +3518,25 @@ Camunda has provided the releases 7.14.0-alpha2, 7.13.2, 7.12.8, 7.11.15 which c
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Angular JS shipped with the Camunda web applications was vulnerable to cross-site-scripting attacks:
+The version of Angular JS shipped with the CadenzaFlow web applications was vulnerable to cross-site-scripting attacks:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2020-7676
 
-The vulnerability does not affect the Camunda web applications (Cockpit, Tasklist, Admin) directly because they do not use the vulnerable functionality. However, custom tasklist forms or web application plugins may be affected.
+The vulnerability does not affect the CadenzaFlow web applications (Cockpit, Tasklist, Admin) directly because they do not use the vulnerable functionality. However, custom tasklist forms or web application plugins may be affected.
 
 **How to determine if the installation is affected**
 
-- You are using the Camunda Platform web applications (Cockpit, Tasklist, Admin)
+- You are using the CadenzaFlow Platform web applications (Cockpit, Tasklist, Admin)
 - You have embedded task forms or web application plugins
 - See the NIST link above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.14.0-alpha1, 7.13.2, 7.12.8, 7.11.15 which contain a fix.
+CadenzaFlow has provided the releases 7.14.0-alpha1, 7.13.2, 7.12.8, 7.11.15 which contain a fix.
 
 ## Notice 32
 
@@ -3544,7 +3544,7 @@ Camunda has provided the releases 7.14.0-alpha1, 7.13.2, 7.12.8, 7.11.15 which c
 
 **Product affected:**
 
-Camunda Optimize
+CadenzaFlow Optimize
 
 **Impact:**
 
@@ -3552,11 +3552,11 @@ It was possible to collect valid usernames by interacting with the "Add User to 
 
 **How to determine if the installation is affected**
 
-- Camunda Optimize 3.0.0 or lower is used
+- CadenzaFlow Optimize 3.0.0 or lower is used
 
 **Solution**
 
-Camunda Optimize 3.1.0 has been released which contains a fix. Optimize 3.1.0 now ensures that user and group related permissions are taken into account when displaying user information in Optimize. This way only information which the current user is authorized to see is being revealed.
+CadenzaFlow Optimize 3.1.0 has been released which contains a fix. Optimize 3.1.0 now ensures that user and group related permissions are taken into account when displaying user information in Optimize. This way only information which the current user is authorized to see is being revealed.
 
 ## Notice 31
 
@@ -3564,7 +3564,7 @@ Camunda Optimize 3.1.0 has been released which contains a fix. Optimize 3.1.0 no
 
 **Product affected:**
 
-Camunda Optimize
+CadenzaFlow Optimize
 
 **Impact:**
 
@@ -3579,11 +3579,11 @@ Headers added to the request responses:
 
 **How to determine if the installation is affected**
 
--  Camunda Optimize 3.0.0 or lower is used
+-  CadenzaFlow Optimize 3.0.0 or lower is used
 
 **Solution**
 
-Camunda Optimize 3.1.0 has been released which contains a fix.
+CadenzaFlow Optimize 3.1.0 has been released which contains a fix.
 
 ## Notice 30
 
@@ -3591,27 +3591,27 @@ Camunda Optimize 3.1.0 has been released which contains a fix.
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Apache Tomcat shipped with the Camunda distributions and transitively pulled in by the Camunda Spring Boot starter was vulnerable to denial-of-service attacks and remote code execution:
+The version of Apache Tomcat shipped with the CadenzaFlow distributions and transitively pulled in by the CadenzaFlow Spring Boot starter was vulnerable to denial-of-service attacks and remote code execution:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2020-11996
 - https://nvd.nist.gov/vuln/detail/CVE-2020-9484
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used *or* Camunda Platform Run is used *or* Camunda Platform Spring Boot Starter is used
+- CadenzaFlow Platform Tomcat is used *or* CadenzaFlow Platform Run is used *or* CadenzaFlow Platform Spring Boot Starter is used
 - See the NIST links above for detailed descriptions of the circumstances required to exploit the vulnerabilities
 
 **Solution**
 
-Camunda has provided the releases 7.14.0-alpha1, 7.13.1, 7.12.7, 7.11.14, Spring Boot Starter 3.4.4, Spring Boot Starter 3.3.10 which contain a fix.
+CadenzaFlow has provided the releases 7.14.0-alpha1, 7.13.1, 7.12.7, 7.11.14, Spring Boot Starter 3.4.4, Spring Boot Starter 3.3.10 which contain a fix.
 
 Other solutions:
 
-- Tomcat and Spring Boot can be updated independently of Camunda to the latest patch level
+- Tomcat and Spring Boot can be updated independently of CadenzaFlow to the latest patch level
 
 ## Notice 29
 
@@ -3619,20 +3619,20 @@ Other solutions:
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-In the case where [variable-specific permissions](https://docs.camunda.org/manual/7.12/user-guide/process-engine/authorization-service/#default-read-variable-permissions) were enabled, it was possible for a user to access historic variable details having only the `READ_HISTORY` permission. The check for `READ_HISTORY_VARIABLE` was not enforced.
+In the case where [variable-specific permissions](https://docs.cadenzaflow.org/manual/7.12/user-guide/process-engine/authorization-service/#default-read-variable-permissions) were enabled, it was possible for a user to access historic variable details having only the `READ_HISTORY` permission. The check for `READ_HISTORY_VARIABLE` was not enforced.
 
 **How to determine if the installation is affected**
 
-- Camunda Platform is used with enabled authorization check and enabled variable-specific permissions (configuration flag `enforceSpecificVariablePermission` set to `true`)
+- CadenzaFlow Platform is used with enabled authorization check and enabled variable-specific permissions (configuration flag `enforceSpecificVariablePermission` set to `true`)
 - An attacker is a known user in the system that has the `READ_HISTORY` permission on a process definition.
 
 **Solution**
 
-Camunda has provided the releases 7.13.0, 7.12.5, 7.11.12 which contain a fix.
+CadenzaFlow has provided the releases 7.13.0, 7.12.5, 7.11.12 which contain a fix.
 
 ## Notice 28
 
@@ -3640,27 +3640,27 @@ Camunda has provided the releases 7.13.0, 7.12.5, 7.11.12 which contain a fix.
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Apache Tomcat shipped with the Camunda distributions for Tomcat and transitively pulled in by the Camunda Spring Boot starter was vulnerable to remote code execution:
+The version of Apache Tomcat shipped with the CadenzaFlow distributions for Tomcat and transitively pulled in by the CadenzaFlow Spring Boot starter was vulnerable to remote code execution:
 
 - https://nvd.nist.gov/vuln/detail/CVE-2020-1938
 
 **How to determine if the installation is affected**
 
-- Camunda Platform Tomcat is used *or* Camunda Platform Spring Boot Starter is used
+- CadenzaFlow Platform Tomcat is used *or* CadenzaFlow Platform Spring Boot Starter is used
 - The Tomcat AJP connector is enabled (this is the default configuration in Tomcat)
 - An attacker is able to access the AJP endpoint
 
 **Solution**
 
-Camunda has provided the releases 7.13.0-alpha3, 7.12.4, 7.11.11, 7.10.17, Spring Boot Starter 3.4.2, Spring Boot Starter 3.3.8, Spring Boot Starter 3.2.10 which contain a fix.
+CadenzaFlow has provided the releases 7.13.0-alpha3, 7.12.4, 7.11.11, 7.10.17, Spring Boot Starter 3.4.2, Spring Boot Starter 3.3.8, Spring Boot Starter 3.2.10 which contain a fix.
 
 Other solutions:
 
-- Tomcat and Spring Boot can be updated independently of Camunda to the latest patch level
+- Tomcat and Spring Boot can be updated independently of CadenzaFlow to the latest patch level
 - The AJP connector in Tomcat can be disabled in the `server.xml` configuration file. See also https://tomcat.apache.org/tomcat-9.0-doc/security-howto.html.
 
 ## Notice 27
@@ -3669,20 +3669,20 @@ Other solutions:
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-Camunda Optimize is a product module that uses a separate REST API to fetch data from the Camunda Platform runtime platform for export. Using this API, it was possible for a user to access history data of tenants they are not permitted to access.
+CadenzaFlow Optimize is a product module that uses a separate REST API to fetch data from the CadenzaFlow Platform runtime platform for export. Using this API, it was possible for a user to access history data of tenants they are not permitted to access.
 
 **How to determine if the installation is affected**
 
-- Camunda REST API is used.
+- CadenzaFlow REST API is used.
 - An attacker is a known user in the system that has full history read permission on decision and process definitions but not on tenants.
 
 **Solution**
 
-Camunda has provided the releases 7.13.0-alpha3, 7.12.4, 7.11.11, 7.10.17 which contain a fix.
+CadenzaFlow has provided the releases 7.13.0-alpha3, 7.12.4, 7.11.11, 7.10.17 which contain a fix.
 
 ## Notice 26
 
@@ -3690,15 +3690,15 @@ Camunda has provided the releases 7.13.0-alpha3, 7.12.4, 7.11.11, 7.10.17 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-When declaring a Maven dependency to a Camunda Platform artifact, it was possible that its dependencies would be resolved from a remote repository via HTTP protocol. HTTP is susceptible to man in the middle attacks that would allow an attacker to intercept the request and manipulate the delivered artifact, potentially leading to remote code execution in your build system. Details of this vulnerability can be found at https://medium.com/bugbountywriteup/want-to-take-over-the-java-ecosystem-all-you-need-is-a-mitm-1fc329d898fb.
+When declaring a Maven dependency to a CadenzaFlow Platform artifact, it was possible that its dependencies would be resolved from a remote repository via HTTP protocol. HTTP is susceptible to man in the middle attacks that would allow an attacker to intercept the request and manipulate the delivered artifact, potentially leading to remote code execution in your build system. Details of this vulnerability can be found at https://medium.com/bugbountywriteup/want-to-take-over-the-java-ecosystem-all-you-need-is-a-mitm-1fc329d898fb.
 
 **How to determine if the installation is affected**
 
-- The Camunda artifacts are used as a dependency in your own Java project (e.g. Maven)
+- The CadenzaFlow artifacts are used as a dependency in your own Java project (e.g. Maven)
 - The build attempts to resolve a dependency from the repository http://repository.springsource.com/maven/bundles/external
 - An attacker is able to intercept this request
 
@@ -3706,7 +3706,7 @@ Note: For example, you are not affected by this problem if your company uses a m
 
 **Solution**
 
-Camunda has provided the releases 7.13.0-alpha2, 7.12.3, 7.11.10, 7.10.16 which contain a fix.
+CadenzaFlow has provided the releases 7.13.0-alpha2, 7.12.3, 7.11.10, 7.10.16 which contain a fix.
 
 ## Notice 25
 
@@ -3714,22 +3714,22 @@ Camunda has provided the releases 7.13.0-alpha2, 7.12.3, 7.11.10, 7.10.16 which 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-Camunda Platform's APIs are susceptible to object deserialization vulnerabilities. If an attacker can submit a serialized variable of type Object, they can exploit so-called *serialization gadgets*, i.e. classes that run vulnerable code during deserialization. For details, see [OWASP's description of Deserialization of untrusted data](https://www.owasp.org/index.php/Deserialization_of_untrusted_data).
+CadenzaFlow Platform's APIs are susceptible to object deserialization vulnerabilities. If an attacker can submit a serialized variable of type Object, they can exploit so-called *serialization gadgets*, i.e. classes that run vulnerable code during deserialization. For details, see [OWASP's description of Deserialization of untrusted data](https://www.owasp.org/index.php/Deserialization_of_untrusted_data).
 
 **How to determine if the installation is affected**
 
-- Camunda REST API or web applications are used
+- CadenzaFlow REST API or web applications are used
 - An attacker has access to the REST API or web applications to submit variables
 
 **Solution**
 
-Camunda has provided the releases v7.12.0, v7.11.7, v7.10.13 and 7.9.19 which contain a feature to whitelist allowed classes for object values.
+CadenzaFlow has provided the releases v7.12.0, v7.11.7, v7.10.13 and 7.9.19 which contain a feature to whitelist allowed classes for object values.
 
-We strongly recommend to activate whitelisting in any Camunda installation that is accessible by untrusted parties. See the user guide for details: https://docs.camunda.org/manual/7.12/user-guide/security/#variable-values-from-untrusted-sources
+We strongly recommend to activate whitelisting in any CadenzaFlow installation that is accessible by untrusted parties. See the user guide for details: https://docs.cadenzaflow.org/manual/7.12/user-guide/security/#variable-values-from-untrusted-sources
 
 ## Notice 24
 
@@ -3737,22 +3737,22 @@ We strongly recommend to activate whitelisting in any Camunda installation that 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-A user could send an unlimited query to the Camunda REST API or web applications which loads the entire result data into main memory. This can exhaust the server's resources if the query result is large, resulting in a denial of service scenario.
+A user could send an unlimited query to the CadenzaFlow REST API or web applications which loads the entire result data into main memory. This can exhaust the server's resources if the query result is large, resulting in a denial of service scenario.
 
 **How to determine if the installation is affected**
 
-- Camunda REST API or web applications are used
-- An attacker has access and permissions to load a large number of Camunda entities (e.g. tasks)
+- CadenzaFlow REST API or web applications are used
+- An attacker has access and permissions to load a large number of CadenzaFlow entities (e.g. tasks)
 
 **Solution**
 
-Camunda has provided the releases v7.12.0, v7.11.7, v7.10.13 and 7.9.19 which contain a feature to enforce pagination of queries.
+CadenzaFlow has provided the releases v7.12.0, v7.11.7, v7.10.13 and 7.9.19 which contain a feature to enforce pagination of queries.
 
-We strongly recommend to activate the pagination limit in any Camunda installation that is accessible by untrusted parties. See the user guide for details: https://docs.camunda.org/manual/7.12/user-guide/security/#maximum-results-limit-in-queries
+We strongly recommend to activate the pagination limit in any CadenzaFlow installation that is accessible by untrusted parties. See the user guide for details: https://docs.cadenzaflow.org/manual/7.12/user-guide/security/#maximum-results-limit-in-queries
 
 ## Notice 23
 
@@ -3760,23 +3760,23 @@ We strongly recommend to activate the pagination limit in any Camunda installati
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Jackson shipped with the Camunda EAR for Websphere was vulnerable to object deserialization flaws. Details:
+The version of Jackson shipped with the CadenzaFlow EAR for Websphere was vulnerable to object deserialization flaws. Details:
 
 - https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Afasterxml&cpe_product=cpe%3A%2F%3A%3Ajackson-databind&cpe_version=cpe%3A%2F%3Afasterxml%3Ajackson-databind%3A2.6.3
 
 **How to determine if the installation is affected**
 
-- Camunda is used on IBM Websphere 8.5 or 9
-- The Camunda EAR is installed
+- CadenzaFlow is used on IBM Websphere 8.5 or 9
+- The CadenzaFlow EAR is installed
 - An attacker is able to access the REST API or web applications and has permissions to submit process variables
 
 **Solution**
 
-Camunda has provided the releases v7.12.0, v7.11.7 and v7.10.13 which contain a fix.
+CadenzaFlow has provided the releases v7.12.0, v7.11.7 and v7.10.13 which contain a fix.
 
 ## Notice 22
 
@@ -3784,19 +3784,19 @@ Camunda has provided the releases v7.12.0, v7.11.7 and v7.10.13 which contain a 
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The login endpoint of the Camunda web applications (Cockpit, Tasklist, Admin) did not require a valid CSRF token. This allowed an attacker to trick a user to log into these applications without their knowing.
+The login endpoint of the CadenzaFlow web applications (Cockpit, Tasklist, Admin) did not require a valid CSRF token. This allowed an attacker to trick a user to log into these applications without their knowing.
 
 **How to determine if the installation is affected**
 
-- An attacker cann access the Camunda web applications
+- An attacker cann access the CadenzaFlow web applications
 
 **Solution**
 
-Camunda has provided the releases v7.12.0, v7.11.5, v7.10.11 and 7.9.17, as well as Spring Boot Starter 3.4.0, 3.3.6, 3.2.8, 3.1.8, 3.0.8 which contain a fix.
+CadenzaFlow has provided the releases v7.12.0, v7.11.5, v7.10.11 and 7.9.17, as well as Spring Boot Starter 3.4.0, 3.3.6, 3.2.8, 3.1.8, 3.0.8 which contain a fix.
 
 ## Notice 21
 
@@ -3804,27 +3804,27 @@ Camunda has provided the releases v7.12.0, v7.11.5, v7.10.11 and 7.9.17, as well
 
 **Product affected:**
 
-Camunda Platform and Spring Boot Starter
+CadenzaFlow Platform and Spring Boot Starter
 
 **Impact:**
 
-The version of Jackson used by Camunda Spin was vulnerable to object deserialization flaws. Details:
+The version of Jackson used by CadenzaFlow Spin was vulnerable to object deserialization flaws. Details:
 
 - https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Afasterxml&cpe_product=cpe%3A%2F%3A%3Ajackson-databind&cpe_version=cpe%3A%2F%3Afasterxml%3Ajackson-databind%3A2.9.9.3
 
 **How to determine if the installation is affected**
 
-- Camunda Spin is on the classpath
+- CadenzaFlow Spin is on the classpath
 - An attacker is able to access the REST API or web applications and has permissions to submit process variables
 - One of the following artifacts is on the classpath: `com.zaxxer:HikariCP`, `com.zaxxer:HikariCP-java6`, `commons-dbcp:commons-dbcp`, `p6spy:p6spy`, `org.ehcache:ehcache`, `log4j:apache-log4j-extra`
 
 **Solution**
 
-Camunda has provided the releases v7.11.5, v7.10.11, v7.9.17 and 7.12.0-alpha5 which contain a fix.
+CadenzaFlow has provided the releases v7.11.5, v7.10.11, v7.9.17 and 7.12.0-alpha5 which contain a fix.
 
-For users of the Camunda Spring Boot Starter, we recommend to explicitly override the version of `com.fasterxml.jackson.core:jackson-databind` to the latest.
+For users of the CadenzaFlow Spring Boot Starter, we recommend to explicitly override the version of `com.fasterxml.jackson.core:jackson-databind` to the latest.
 
-**Update 9th of November**: For the Camunda Spring Boot Starter, Camunda has provided the releases 3.4.0, 3.3.5 and 3.2.7 which contain a fix.
+**Update 9th of November**: For the CadenzaFlow Spring Boot Starter, CadenzaFlow has provided the releases 3.4.0, 3.3.5 and 3.2.7 which contain a fix.
 
 ## Notice 20
 
@@ -3832,21 +3832,21 @@ For users of the Camunda Spring Boot Starter, we recommend to explicitly overrid
 
 **Product affected:**
 
-Camunda Platform and Spring Boot Starter
+CadenzaFlow Platform and Spring Boot Starter
 
 **Impact:**
 
-If a  user's password is incorrectly entered multiple times, the user account is locked for a period of time before another login attempt can be made. The error message in the Camunda web applications described this situation, confirming that the user exists. This behavior is a [username enumeration vulnerability](https://www.gnucitizen.org/blog/username-enumeration-vulnerabilities/), allowing an attacker to learn which user names are valid and focussing password cracking attempts accordingly.
+If a  user's password is incorrectly entered multiple times, the user account is locked for a period of time before another login attempt can be made. The error message in the CadenzaFlow web applications described this situation, confirming that the user exists. This behavior is a [username enumeration vulnerability](https://www.gnucitizen.org/blog/username-enumeration-vulnerabilities/), allowing an attacker to learn which user names are valid and focussing password cracking attempts accordingly.
 
 **How to determine if the installation is affected**
 
-- The Camunda Platform web applications (Cockpit, Tasklist, Admin) are used
+- The CadenzaFlow Platform web applications (Cockpit, Tasklist, Admin) are used
 - An attacker is able to access the applications' login screen
-- Users are managed in the Camunda database tables (i.e. setups using LDAP-managed users are not affected)
+- Users are managed in the CadenzaFlow database tables (i.e. setups using LDAP-managed users are not affected)
 
 **Solution**
 
-Camunda has provided the releases v7.11.5, v7.10.11, v7.9.17 and 7.12.0-alpha5 which contain a fix.
+CadenzaFlow has provided the releases v7.11.5, v7.10.11, v7.9.17 and 7.12.0-alpha5 which contain a fix.
 
 
 ## Notice 19
@@ -3855,23 +3855,23 @@ Camunda has provided the releases v7.11.5, v7.10.11, v7.9.17 and 7.12.0-alpha5 w
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of Tomcat used by the Camunda Platform Tomcat distribution is subject to various vulnerabilities. Details:
+The version of Tomcat used by the CadenzaFlow Platform Tomcat distribution is subject to various vulnerabilities. Details:
 
-- Camunda 7.11 with Tomcat 9.0.19: https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Atomcat&cpe_version=cpe%3A%2F%3Aapache%3Atomcat%3A9.0.19
-- Camunda 7.10 with Tomcat 9.0.12: https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Atomcat&cpe_version=cpe%3A%2F%3Aapache%3Atomcat%3A9.0.12
-- Camunda 7.9 with Tomcat 9.0.5: https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Atomcat&cpe_version=cpe%3A%2F%3Aapache%3Atomcat%3A9.0.5
+- CadenzaFlow 7.11 with Tomcat 9.0.19: https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Atomcat&cpe_version=cpe%3A%2F%3Aapache%3Atomcat%3A9.0.19
+- CadenzaFlow 7.10 with Tomcat 9.0.12: https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Atomcat&cpe_version=cpe%3A%2F%3Aapache%3Atomcat%3A9.0.12
+- CadenzaFlow 7.9 with Tomcat 9.0.5: https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Atomcat&cpe_version=cpe%3A%2F%3Aapache%3Atomcat%3A9.0.5
 
 **How to determine if the installation is affected**
 
-- The Camunda Platform Tomcat distribution is used
+- The CadenzaFlow Platform Tomcat distribution is used
 
 **Solution**
 
-Camunda has provided the releases v7.11.4, v7.10.10, v7.9.16 and 7.12.0-alpha4 which contain a fix.
+CadenzaFlow has provided the releases v7.11.4, v7.10.10, v7.9.16 and 7.12.0-alpha4 which contain a fix.
 
 In addition, users can update their Tomcat installation to the latest version.
 
@@ -3882,25 +3882,25 @@ In addition, users can update their Tomcat installation to the latest version.
 
 **Product affected:**
 
-Camunda Platform and Spring Boot Starter
+CadenzaFlow Platform and Spring Boot Starter
 
 **Impact:**
 
-The version of Jackson used by Camunda Spin was vulnerable to object deserialization flaws. Details:
+The version of Jackson used by CadenzaFlow Spin was vulnerable to object deserialization flaws. Details:
 
 - https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Afasterxml&cpe_product=cpe%3A%2F%3A%3Ajackson-databind&cpe_version=cpe%3A%2F%3Afasterxml%3Ajackson-databind%3A2.9.9.1
 
 **How to determine if the installation is affected**
 
-- Camunda Spin is on the classpath
+- CadenzaFlow Spin is on the classpath
 - An attacker is able to access the REST API or web applications and has permissions to submit process variables
 - One of the following artifacts is on the classpath: `net.sf.ehcache:ehcache`, `ch.qos.logback:logback-core`
 
 **Solution**
 
-Camunda has provided the releases v7.11.3, v7.10.9, v7.9.15 and 7.12.0-alpha3 which contain a fix.
+CadenzaFlow has provided the releases v7.11.3, v7.10.9, v7.9.15 and 7.12.0-alpha3 which contain a fix.
 
-For users of the Camunda Spring Boot Starter, we recommend to explicitly override the version of `com.fasterxml.jackson.core:jackson-databind` to the latest, as there currently is no Spring Boot release available yet that provides the latest Jackson version.
+For users of the CadenzaFlow Spring Boot Starter, we recommend to explicitly override the version of `com.fasterxml.jackson.core:jackson-databind` to the latest, as there currently is no Spring Boot release available yet that provides the latest Jackson version.
 
 ## Notice 17
 
@@ -3908,7 +3908,7 @@ For users of the Camunda Spring Boot Starter, we recommend to explicitly overrid
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
@@ -3916,18 +3916,18 @@ Java's [Secure-Processing Feature](https://docs.oracle.com/javase/tutorial/jaxp/
 
 **How to determine if the installation is affected**
 
-- An attacker has access to a process deployment endpoint (e.g. REST API or Camunda web applications)
+- An attacker has access to a process deployment endpoint (e.g. REST API or CadenzaFlow web applications)
 - An attacker is authorized to perform deployments
 
 **Solution**
 
-Camunda has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 which contain a fix.
+CadenzaFlow has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 which contain a fix.
 
 Note that with older versions, XML processing limits can already be enforced via system properties in the JVM, see https://docs.oracle.com/javase/tutorial/jaxp/limits/limits.html and https://docs.oracle.com/javase/tutorial/jaxp/properties/properties.html.
 
 **Related Documentation**
 
-* [Security Instructions for XML Processing](https://docs.camunda.org/manual/7.11/user-guide/security/#xml-security)
+* [Security Instructions for XML Processing](https://docs.cadenzaflow.org/manual/7.11/user-guide/security/#xml-security)
 
 ## Notice 16
 
@@ -3935,19 +3935,19 @@ Note that with older versions, XML processing limits can already be enforced via
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-In some cases of server-side exceptions in the Camunda REST API and Camunda Platform web applications, a stacktrace could be disclosed to the client. This allows an attacker to gain insights about the structure and source code of server-side components.
+In some cases of server-side exceptions in the CadenzaFlow REST API and CadenzaFlow Platform web applications, a stacktrace could be disclosed to the client. This allows an attacker to gain insights about the structure and source code of server-side components.
 
 **How to determine if the installation is affected**
 
-- Camunda Web Applications or REST API are used
+- CadenzaFlow Web Applications or REST API are used
 
 **Solution**
 
-Camunda has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 which contain a fix.
+CadenzaFlow has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 which contain a fix.
 
 
 ## Notice 15
@@ -3956,22 +3956,22 @@ Camunda has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 wh
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-The version of dmn-js used by Camunda Platform was vulnerable to HTML Injection / Cross-site scripting flaws. Details:
+The version of dmn-js used by CadenzaFlow Platform was vulnerable to HTML Injection / Cross-site scripting flaws. Details:
 
 - https://bpmn.io/blog/posts/2019-html-injection-vulnerabilities-fixed.html
 
 **How to determine if the installation is affected**
 
-- Camunda Cockpit and DMN Live Editing is used
+- CadenzaFlow Cockpit and DMN Live Editing is used
 - An attacker is able to trick a victim to paste crafted input into the DMN editor
 
 **Solution**
 
-Camunda has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 which contain a fix.
+CadenzaFlow has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 which contain a fix.
 
 
 ## Notice 14
@@ -3980,25 +3980,25 @@ Camunda has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 wh
 
 **Product affected:**
 
-Camunda Platform and Spring Boot Starter
+CadenzaFlow Platform and Spring Boot Starter
 
 **Impact:**
 
-The version of Jackson used by Camunda Spin was vulnerable to object deserialization flaws. Details:
+The version of Jackson used by CadenzaFlow Spin was vulnerable to object deserialization flaws. Details:
 
 - https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Afasterxml&cpe_product=cpe%3A%2F%3A%3Ajackson-databind&cpe_version=cpe%3A%2F%3Afasterxml%3Ajackson-databind%3A2.9.8
 
 **How to determine if the installation is affected**
 
-- Camunda Spin is on the classpath
+- CadenzaFlow Spin is on the classpath
 - An attacker is able to access the REST API or web applications and has permissions to submit process variables
 - One of the following artifacts is on the classpath: `mysql:mysql-connector-java` (8.0.14 or earlier), `org.jdom:jdom`, `org.jdom:jdom2`, `ch.qos.logback:logback-core`
 
 **Solution**
 
-Camunda has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 which contain a fix.
+CadenzaFlow has provided the releases v7.11.2, v7.10.8, v7.9.14 and 7.12.0-alpha2 which contain a fix.
 
-For users of the Camunda Spring Boot Starter, we recommend to explicitly override the version of `com.fasterxml.jackson.core:jackson-databind` to the latest, as there currently is no Spring Boot release available yet that provides the latest Jackson version.
+For users of the CadenzaFlow Spring Boot Starter, we recommend to explicitly override the version of `com.fasterxml.jackson.core:jackson-databind` to the latest, as there currently is no Spring Boot release available yet that provides the latest Jackson version.
 
 
 ## Notice 13
@@ -4007,24 +4007,24 @@ For users of the Camunda Spring Boot Starter, we recommend to explicitly overrid
 
 **Product affected:**
 
-Camunda Platform and Spring Boot Starter
+CadenzaFlow Platform and Spring Boot Starter
 
 **Impact:**
 
-Previous Camunda releases have no possibility to enable the cookie flags [Secure and HttpOnly](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Secure_and_HttpOnly_cookies) for the session and CSRF cookies that the Camunda web applications use. This in itself is not a vulnerability, however can increase the impact of other vulnerabilities. For example in combination with a cross-site scripting vulnerability, the absence of those flags would allow an attacker to obtain a user's session id. We therefore recommend to apply the solution explained below.
+Previous CadenzaFlow releases have no possibility to enable the cookie flags [Secure and HttpOnly](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Secure_and_HttpOnly_cookies) for the session and CSRF cookies that the CadenzaFlow web applications use. This in itself is not a vulnerability, however can increase the impact of other vulnerabilities. For example in combination with a cross-site scripting vulnerability, the absence of those flags would allow an attacker to obtain a user's session id. We therefore recommend to apply the solution explained below.
 
 **How to determine if the installation is affected**
 
-- The Camunda web applications (Cockpit, Tasklist, Admin) are used
+- The CadenzaFlow web applications (Cockpit, Tasklist, Admin) are used
 
 **Solution**
 
-Camunda has provided the following releases which contain a fix:
+CadenzaFlow has provided the following releases which contain a fix:
 
-- Camunda Platform 7.12.0-alpha1, 7.11.1, 7.10.7, 7.9.13
-- Camunda Spring Boot Starter 3.3.2, 3.2.4, 3.1.4, 3.0.4
+- CadenzaFlow Platform 7.12.0-alpha1, 7.11.1, 7.10.7, 7.9.13
+- CadenzaFlow Spring Boot Starter 3.3.2, 3.2.4, 3.1.4, 3.0.4
 
-Please see the [Cookie Security documentation](https://docs.camunda.org/manual/7.11/webapps/shared-options/cookie-security/) for details and configuration required to activate both flags.
+Please see the [Cookie Security documentation](https://docs.cadenzaflow.org/manual/7.11/webapps/shared-options/cookie-security/) for details and configuration required to activate both flags.
 
 ## Notice 12
 
@@ -4032,20 +4032,20 @@ Please see the [Cookie Security documentation](https://docs.camunda.org/manual/7
 
 **Product affected:**
 
-Camunda Platform Spring Boot Starter
+CadenzaFlow Platform Spring Boot Starter
 
 **Impact:**
 
-When using the Camunda web applications via the Camunda Spring Boot Starter, no CSRF token was required for modifying requests (HTTP POST, PUT, DELETE). This made Camunda's defense against [Cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks ineffective.
+When using the CadenzaFlow web applications via the CadenzaFlow Spring Boot Starter, no CSRF token was required for modifying requests (HTTP POST, PUT, DELETE). This made CadenzaFlow's defense against [Cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks ineffective.
 
 **How to determine if the installation is affected**
 
-- The application uses Camunda Spring Boot Starter
-- The application uses the dependency `camunda-bpm-spring-boot-starter-webapp` or `camunda-bpm-spring-boot-starter-webapp-ee`
+- The application uses CadenzaFlow Spring Boot Starter
+- The application uses the dependency `cadenzaflow-bpm-spring-boot-starter-webapp` or `cadenzaflow-bpm-spring-boot-starter-webapp-ee`
 
 **Solution**
 
-Camunda has provided the releases 3.3.1, 3.2.3, 3.1.3, 3.0.3 and 2.3.2 of the Spring Boot Starter which contain a fix. Note that for Spring Boot Starter 2.3 and 3.0, this requires to use Camunda versions >= 7.8.8 or >= 7.9.2.
+CadenzaFlow has provided the releases 3.3.1, 3.2.3, 3.1.3, 3.0.3 and 2.3.2 of the Spring Boot Starter which contain a fix. Note that for Spring Boot Starter 2.3 and 3.0, this requires to use CadenzaFlow versions >= 7.8.8 or >= 7.9.2.
 
 ## Notice 11
 
@@ -4053,20 +4053,20 @@ Camunda has provided the releases 3.3.1, 3.2.3, 3.1.3, 3.0.3 and 2.3.2 of the Sp
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-No authorizations were required to submit a license key or to read a license key's metadata (not the key itself) via Camunda Admin.
+No authorizations were required to submit a license key or to read a license key's metadata (not the key itself) via CadenzaFlow Admin.
 
 **How to determine if the installation is affected**
 
-- Camunda Platform enterprise edition is used
-- Camunda Admin is used
+- CadenzaFlow Platform enterprise edition is used
+- CadenzaFlow Admin is used
 
 **Solution**
 
-Camunda has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contain a fix.
+CadenzaFlow has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contain a fix.
 
 ## Notice 10
 
@@ -4074,22 +4074,22 @@ Camunda has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contai
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-A [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) vulnerability in Camunda Tasklist was resolved that would allow an attacker to run arbitrary Javascript in the victim's browser.
+A [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) vulnerability in CadenzaFlow Tasklist was resolved that would allow an attacker to run arbitrary Javascript in the victim's browser.
 
 **How to determine if the installation is affected**
 
-- Camunda Tasklist is used
+- CadenzaFlow Tasklist is used
 - One of the following applies:
   - An attacker is able to make a deployment
   - A BPMN process or CMMN case uses an expression in a user task name and an attacker can control the expression's result
 
 **Solution**
 
-Camunda has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contain a fix.
+CadenzaFlow has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contain a fix.
 
 ## Notice 9
 
@@ -4097,20 +4097,20 @@ Camunda has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contai
 
 **Product affected:**
 
-Camunda Platform
+CadenzaFlow Platform
 
 **Impact:**
 
-A [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) vulnerability in Camunda Cockpit was resolved that would allow an attacker to run arbitrary Javascript in the victim's browser.
+A [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) vulnerability in CadenzaFlow Cockpit was resolved that would allow an attacker to run arbitrary Javascript in the victim's browser.
 
 **How to determine if the installation is affected**
 
-- Camunda Cockpit is used
+- CadenzaFlow Cockpit is used
 - An attacker is able to deploy a BPMN process or CMMN case
 
 **Solution**
 
-Camunda has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contain a fix.
+CadenzaFlow has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contain a fix.
 
 ## Notice 8
 
@@ -4118,60 +4118,60 @@ Camunda has provided the releases 7.11.0, 7.10.6, 7.9.12 and 7.8.14 which contai
 
 Optimize stores a users session token in a cookie to maintain the session. While this approach simplifies user session handling, it is also vulnerable to [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks. To mitigate this problem, Optimize will set the [SameSite](https://www.owasp.org/index.php/SameSite) cookie flag to reduce the risk of cross-origin information leakage. Read all the details about the attack and how the cookie flag prevents it from happening in the article [Using the SameSite Cookie Attribute to Prevent CSRF Attacks](https://dzone.com/articles/using-the-same-site-cookie-attribute-to-prevent-cs).
 
-Camunda has provided a fix ([OPT-2105](https://app.camunda.com/jira/browse/OPT-2105)) with the Optimize release v2.5.0, which will be release end of June 2019.
+CadenzaFlow has provided a fix ([OPT-2105](https://app.cadenzaflow.com/jira/browse/OPT-2105)) with the Optimize release v2.5.0, which will be release end of June 2019.
 
 ## Notice 7
 
 **Publication Date: March 29th, 2019**
 
-In the last months there have been several security audits, which revealed a couple of risks that could allow the theft of a user session in the Camunda extension Optimize. There a cookie is used to handle the user session and following problems were detected:
+In the last months there have been several security audits, which revealed a couple of risks that could allow the theft of a user session in the CadenzaFlow extension Optimize. There a cookie is used to handle the user session and following problems were detected:
 
 - The cookie _secure_ flag was not set: This is an option that can be set server-side to make sure that a cookie is only send if the connection is encrypted using HTTPS. Whenever the HTTP connection is disabled in Optimize, this flag is now set. The purpose is to prevent unauthorized access from other parties. Read more about that in the dedicated OWASP [SecureFlag](https://www.owasp.org/index.php/SecureFlag) guide.
 - The cookie _httpOnly_ flag was not set: This is an option that prohibits the access through client side scripts if the browser supports this flag. As a result, an attacker cannot obtain the session from the cookie, even if a cross-site scripting (XSS) flaw is present. Read more about that in the dedicated OWASP [HttpOnly](https://www.owasp.org/index.php/HttpOnly) guide.
 - The HTTP connection could not be disabled: HTTP is the protocol used to transfer data between the browser and the server. By design, HTTP does not encrypt the data which is being sent. This allows unauthorized third parties to intercept the communication (Man-in-the-middle attack) to gather data that is being passed between the two systems. This could among exposure of sensible data allow an attacker to steal the user session. Hence, it is crucial to be able to disable this insecure communication and use it only for testing. In production environments only HTTPS should be used.
 
-Camunda has provided a fix ([OPT-1996](https://app.camunda.com/jira/browse/OPT-1996)) with the Optimize release v2.4.0.
+CadenzaFlow has provided a fix ([OPT-1996](https://app.cadenzaflow.com/jira/browse/OPT-1996)) with the Optimize release v2.4.0.
 
 ## Notice 6
 
 **Publication Date: March 21st, 2019**
 
-The version of Jackson used by Camunda Spin was vulnerable to object deserialization flaws. Details:
+The version of Jackson used by CadenzaFlow Spin was vulnerable to object deserialization flaws. Details:
 
 - https://nvd.nist.gov/vuln/search/results?adv_search=true&cpe=cpe%3a%2fa%3afasterxml%3ajackson-databind%3a2.9.7
 
 **How to determine if the installation is affected**
 
-- Camunda Spin is on the classpath
+- CadenzaFlow Spin is on the classpath
 - An attacker is able to access the REST API and has permissions to submit process variables
 - One of the following artifacts is on the classpath: axis2-transport-jms, openjpa, jboss-commons-core
 
 **Solution**
 
-Camunda has provided the releases v7.10.3 and 7.11.0-alpha2 which contain a fix.
+CadenzaFlow has provided the releases v7.10.3 and 7.11.0-alpha2 which contain a fix.
 
 ## Notice 5
 
 **Publication Date: March 21st, 2019**
 
-The version of Apache http-components used by Camunda Connect was vulnerable to denial-of-service and man-in-the-middle attacks. Details:
+The version of Apache http-components used by CadenzaFlow Connect was vulnerable to denial-of-service and man-in-the-middle attacks. Details:
 
 - https://nvd.nist.gov/vuln/search/results?adv_search=true&cpe=cpe%3a%2fa%3aapache%3ahttpclient%3a4.3.3
 
 **How to determine if the installation is affected**
 
-- Camunda Connect is on the classpath
+- CadenzaFlow Connect is on the classpath
 - Connector service tasks are used in a process
 
 **Solution**
 
-Camunda has provided the releases v7.10.3 and 7.11.0-alpha2 which contain a fix.
+CadenzaFlow has provided the releases v7.10.3 and 7.11.0-alpha2 which contain a fix.
 
 ## Notice 4
 
 **Publication Date: November 30th, 2018**
 
-The Camunda Platform has obtained a security fix related to XML eXternal Entity (XXE) Processing. A BPMN Model (XML) can be uploaded containing a reference to an external entity. When processed by a weakly configured XML parser, this attack may lead to the disclosure of confidential data, denial of service, server side request forgery etc.
+The CadenzaFlow Platform has obtained a security fix related to XML eXternal Entity (XXE) Processing. A BPMN Model (XML) can be uploaded containing a reference to an external entity. When processed by a weakly configured XML parser, this attack may lead to the disclosure of confidential data, denial of service, server side request forgery etc.
 
 **How to determine if the installation is affected**
 
@@ -4181,67 +4181,67 @@ There is a single usage scenario which is affected:
 
 **Solution**
 
-Camunda has provided the patches v7.10.0, v7.9.7, v7.8.12, v7.7.10 which provide the fix:
+CadenzaFlow has provided the patches v7.10.0, v7.9.7, v7.8.12, v7.7.10 which provide the fix:
 
-- [CAM-9285](https://app.camunda.com/jira/browse/CAM-9285): Prevention of External Entity Processing.
-  This fixes the security vulnerability described [here](<https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing>). Further configuration options are documented [here](https://docs.camunda.org/manual/latest/reference/deployment-descriptors/tags/process-engine/#configuration-properties).
+- [CAM-9285](https://app.cadenzaflow.com/jira/browse/CAM-9285): Prevention of External Entity Processing.
+  This fixes the security vulnerability described [here](<https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing>). Further configuration options are documented [here](https://docs.cadenzaflow.org/manual/latest/reference/deployment-descriptors/tags/process-engine/#configuration-properties).
 
 ## Notice 3
 
 **Publication Date: September 19th, 2018**
 
-The Camunda Platform has obtained security fixes related to the prevention of CSRF attacks, and support for providing _whitelist patterns_ for User, Group and Tenant IDs.
+The CadenzaFlow Platform has obtained security fixes related to the prevention of CSRF attacks, and support for providing _whitelist patterns_ for User, Group and Tenant IDs.
 
-Using the Camunda Webapps, it is possible for a user to execute unwanted actions by sumbitting a malicious request (CSRF) provided by an attacker. Furthermore, a Camunda user, with the appropriate permissions, may create new users, groups or tenant IDs with arbitrary values and lengths.
+Using the CadenzaFlow Webapps, it is possible for a user to execute unwanted actions by sumbitting a malicious request (CSRF) provided by an attacker. Furthermore, a CadenzaFlow user, with the appropriate permissions, may create new users, groups or tenant IDs with arbitrary values and lengths.
 
 **How to determine if the installation is affected**
 
 There are two usage scenarios which are affected:
 
-- Regarding the CSRF security vulnerability, the HTTP Request Headers of the Camunda Webapps won't provide a custom `X-XSRF-TOKEN` header.
+- Regarding the CSRF security vulnerability, the HTTP Request Headers of the CadenzaFlow Webapps won't provide a custom `X-XSRF-TOKEN` header.
 - Regarding the Whitelist Patterns security vulnerability, a user with User/Group/Tenant Create permissions will be able to create users/groups/tenants with arbitrary ID values.
 
 **Solution**
 
-Camunda has provided the patches v7.10.0, v7.9.2, v7.8.8, v7.7.9 which provide two fixes:
+CadenzaFlow has provided the patches v7.10.0, v7.9.2, v7.8.8, v7.7.9 which provide two fixes:
 
-- [CAM-9107](https://app.camunda.com/jira/browse/CAM-9107): Prevention of Cross-Site-Request-Forgery
-  This fixes the security vulnerability described [here](<https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)>). Further configuration options are documented [here](https://docs.camunda.org/manual/latest/update/minor/79-to-710/#support-for-csrf-prevention-in-the-webapps).
-- [CAM-9109](https://app.camunda.com/jira/browse/CAM-9109): When a user, group, or tenant is created, the given id is validated against a whitelist.
-  This provides support for defining custom regular expression patterns for whitelisting User/Group/Tenant ID values. Further configuration options can be found [here](https://docs.camunda.org/manual/latest/reference/deployment-descriptors/tags/process-engine/#resource-whitelist-pattern-parameters).
+- [CAM-9107](https://app.cadenzaflow.com/jira/browse/CAM-9107): Prevention of Cross-Site-Request-Forgery
+  This fixes the security vulnerability described [here](<https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)>). Further configuration options are documented [here](https://docs.cadenzaflow.org/manual/latest/update/minor/79-to-710/#support-for-csrf-prevention-in-the-webapps).
+- [CAM-9109](https://app.cadenzaflow.com/jira/browse/CAM-9109): When a user, group, or tenant is created, the given id is validated against a whitelist.
+  This provides support for defining custom regular expression patterns for whitelisting User/Group/Tenant ID values. Further configuration options can be found [here](https://docs.cadenzaflow.org/manual/latest/reference/deployment-descriptors/tags/process-engine/#resource-whitelist-pattern-parameters).
 
 ## Notice 2
 
 **Publication Date: March 5th, 2018**
 
-Camunda support is alerting customers to a potential risk with the Camunda Platform product. A vulnerability exists that can possibly allow an attacker to perform remote execution of code.
+CadenzaFlow support is alerting customers to a potential risk with the CadenzaFlow Platform product. A vulnerability exists that can possibly allow an attacker to perform remote execution of code.
 
-Using Camunda's API, it is possible to submit a file as a variable value in serialized form. Inside Camunda, the serialized file is deserialized which allows attackers to exploit a security vulnerability in Apache [Commons-Fileupload](https://blog.akquinet.de/2017/06/15/commons-fileupload-1-3-3-resolves-deserialisation-vulnerability-cve-2016-1000031/) which allows injecting malicious code which is executed upon deserialization.
+Using CadenzaFlow's API, it is possible to submit a file as a variable value in serialized form. Inside CadenzaFlow, the serialized file is deserialized which allows attackers to exploit a security vulnerability in Apache [Commons-Fileupload](https://blog.akquinet.de/2017/06/15/commons-fileupload-1-3-3-resolves-deserialisation-vulnerability-cve-2016-1000031/) which allows injecting malicious code which is executed upon deserialization.
 
 **How to determine if the installation is affected**
 
 There is one usage scenario which is affected:
 
 - Installation has Apache Commons-Fileupload on the classpath
-- AND The attacker has direct network access to the Rest API or a Camunda Webapplication (Cockpit, Admin, Tasklist)
-- AND the attacker is able to authenticate/login with the Camunda Rest API or a Camunda Webapplication (ie. the attacker has a valid username + password).
+- AND The attacker has direct network access to the Rest API or a CadenzaFlow Webapplication (Cockpit, Admin, Tasklist)
+- AND the attacker is able to authenticate/login with the CadenzaFlow Rest API or a CadenzaFlow Webapplication (ie. the attacker has a valid username + password).
 
 **Solution**
 
-Camunda has provided the patches v7.9.0, v7.8.2, v7.7.7, v7.6.12 which provide one fix:
+CadenzaFlow has provided the patches v7.9.0, v7.8.2, v7.7.7, v7.6.12 which provide one fix:
 
-- [CAM-8728](https://app.camunda.com/jira/browse/CAM-8728): Upgrade Apache Commons-Fileupload to >= 1.3.3
+- [CAM-8728](https://app.cadenzaflow.com/jira/browse/CAM-8728): Upgrade Apache Commons-Fileupload to >= 1.3.3
   This fix updates the Apache Commons-Fileupload patch level version to a version which does not exhibit [the vulnerability described in this article](https://blog.akquinet.de/2017/06/15/commons-fileupload-1-3-3-resolves-deserialisation-vulnerability-cve-2016-1000031/).
 
-Customers are advised to apply these patches, particularly if they use Camunda in one for the scenarios described above.
+Customers are advised to apply these patches, particularly if they use CadenzaFlow in one for the scenarios described above.
 
 ## Notice 1
 
 **Publication Date: Feb 2nd, 2018**
 
-Camunda support is alerting customers to a potential risk with the Camunda Platform product. A vulnerability exists that can possibly allow an attacker to perform remote execution of code.
+CadenzaFlow support is alerting customers to a potential risk with the CadenzaFlow Platform product. A vulnerability exists that can possibly allow an attacker to perform remote execution of code.
 
-Using Camunda's API, it is possible to submit a Java object value as a variable value in serialized form. Inside Camunda, the object is deserialized which allows attackers to exploit a [security vulnerability in Groovy](https://www.thezdi.com/blog/2017/12/19/apache-groovy-deserialization-a-cunning-exploit-chain-to-bypass-a-patch) which allows injecting malicious code in a groovy serialized object which is executed upon deserialization.
+Using CadenzaFlow's API, it is possible to submit a Java object value as a variable value in serialized form. Inside CadenzaFlow, the object is deserialized which allows attackers to exploit a [security vulnerability in Groovy](https://www.thezdi.com/blog/2017/12/19/apache-groovy-deserialization-a-cunning-exploit-chain-to-bypass-a-patch) which allows injecting malicious code in a groovy serialized object which is executed upon deserialization.
 
 **How to determine if the installation is affected**
 
@@ -4250,26 +4250,26 @@ There are two usage scenarios which are affected:
 Scenario 1:
 
 - Installation has Groovy on the classpath
-- AND the attacker has direct network access to the Rest API or a Camunda Webapplication (Cockpit, Admin, Tasklist)
-- AND the attacker is able to authenticate/login with the Camunda Rest API or a Camunda Webapplication (ie. the attacker has a valid username + password).
+- AND the attacker has direct network access to the Rest API or a CadenzaFlow Webapplication (Cockpit, Admin, Tasklist)
+- AND the attacker is able to authenticate/login with the CadenzaFlow Rest API or a CadenzaFlow Webapplication (ie. the attacker has a valid username + password).
 
 Scenario 2:
 
 - Installation has Groovy on the classpath
-- AND Customer has embedded the Camunda Engine (Java Library) in their own application.
+- AND Customer has embedded the CadenzaFlow Engine (Java Library) in their own application.
 - AND the attacker has access to customer application and without prior checks is able to supply a serialized representation of a Java Object to the Customer's application which is passed directly to the process engine without prior inspection.
 
-Note that while this particular vulnerability affects Groovy, java serialization has security issues in general and different exploits are possible. Camunda has also provided a patch which allows users to configure the product such that it prevents submission of Java Objects in serialized form all together (see "Solution").
+Note that while this particular vulnerability affects Groovy, java serialization has security issues in general and different exploits are possible. CadenzaFlow has also provided a patch which allows users to configure the product such that it prevents submission of Java Objects in serialized form all together (see "Solution").
 
 **Solution**
 
 The following fixes are provided by the patches v7.8.1, v7.7.6, v7.6.11 and the v7.9.0-alpha1 release:
 
-- [CAM-8703](https://app.camunda.com/jira/browse/CAM-8703): Upgrade Groovy to patch version 2.4.13
+- [CAM-8703](https://app.cadenzaflow.com/jira/browse/CAM-8703): Upgrade Groovy to patch version 2.4.13
   This fix updates the Groovy patch level version to a version which does not exhibit [the vulnerability described in this article](https://www.thezdi.com/blog/2017/12/19/apache-groovy-deserialization-a-cunning-exploit-chain-to-bypass-a-patch).
 
-- [CAM-8704](https://app.camunda.com/jira/browse/CAM-8704): Configuration to prevent submission of Java Object values in serialized form.
-  This fix allows configuring the process engine in a way that it completely prevents submission of Java Object values in serialized form. [The documentation explains how to use this option](https://docs.camunda.org/manual/7.8/update/patch-level/#7-6-10-to-7-6-11-7-7-5-to-7-7-6-7-8-0-to-7-8-1).
-  Note that upcoming version of Camunda (7.9+) will prevent submission of serialized java objects by default (while allowing users to explicitly enable it for backwards compatibility).
+- [CAM-8704](https://app.cadenzaflow.com/jira/browse/CAM-8704): Configuration to prevent submission of Java Object values in serialized form.
+  This fix allows configuring the process engine in a way that it completely prevents submission of Java Object values in serialized form. [The documentation explains how to use this option](https://docs.cadenzaflow.org/manual/7.8/update/patch-level/#7-6-10-to-7-6-11-7-7-5-to-7-7-6-7-8-0-to-7-8-1).
+  Note that upcoming version of CadenzaFlow (7.9+) will prevent submission of serialized java objects by default (while allowing users to explicitly enable it for backwards compatibility).
 
-Customers are advised to apply these patches, particularly if they use Camunda in one for the scenarios described above.
+Customers are advised to apply these patches, particularly if they use CadenzaFlow in one for the scenarios described above.

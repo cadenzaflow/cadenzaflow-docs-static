@@ -20,7 +20,7 @@ Now you are ready to set up your first process application project in Eclipse or
 We will start by setting up a Spring web application as an Apache Maven Project inside Eclipse. This consists of four steps:
 
 1. Create a new Maven Project in Eclipse
-2. Add the Camunda & Spring framework dependencies
+2. Add the Cadenzaflow & Spring framework dependencies
 3. Add the web.xml file for bootstrapping the Spring container
 4. Add a Spring Java configuration to set up the application context
 
@@ -34,20 +34,20 @@ First, we set up a new Apache Maven based project in Eclipse. Let's call it *loa
 
 When you are done, click Finish. Eclipse sets up a new Maven project. The project appears in the *Project Explorer* view.
 
-## Add Camunda Platform & Spring Framework Dependencies
+## Add Cadenzaflow Platform & Spring Framework Dependencies
 
-The next step consists of setting up the Maven dependencies for the new project. Maven dependencies need to be added to the `pom.xml` file of the project. We add both the Camunda Platform and the Spring Framework dependencies:
+The next step consists of setting up the Maven dependencies for the new project. Maven dependencies need to be added to the `pom.xml` file of the project. We add both the Cadenzaflow Platform and the Spring Framework dependencies:
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.camunda.bpm.getstarted</groupId>
+  <groupId>org.cadenzaflow.bpm.getstarted</groupId>
   <artifactId>loanapproval-spring</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <properties>
-    <camunda.version>7.18.0</camunda.version>
+    <cadenzaflow.version>7.18.0</cadenzaflow.version>
     <spring.version>5.3.22</spring.version>
     <h2.version>2.1.214</h2.version>
     <slf4j.version>1.7.36</slf4j.version>
@@ -58,9 +58,9 @@ The next step consists of setting up the Maven dependencies for the new project.
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.camunda.bpm</groupId>
-        <artifactId>camunda-bom</artifactId>
-        <version>${camunda.version}</version>
+        <groupId>org.cadenzaflow.bpm</groupId>
+        <artifactId>cadenzaflow-bom</artifactId>
+        <version>${cadenzaflow.version}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
@@ -76,12 +76,12 @@ The next step consists of setting up the Maven dependencies for the new project.
 
   <dependencies>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine</artifactId>
+      <groupId>org.cadenzaflow.bpm</groupId>
+      <artifactId>cadenzaflow-engine</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine-spring</artifactId>
+      <groupId>org.cadenzaflow.bpm</groupId>
+      <artifactId>cadenzaflow-engine-spring</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -145,7 +145,7 @@ Next, we add a `web.xml` file for bootstrapping the spring container. In order t
   </context-param>
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>org.camunda.bpm.getstarted.loanapproval.LoanApplicationContext</param-value>
+    <param-value>org.cadenzaflow.bpm.getstarted.loanapproval.LoanApplicationContext</param-value>
   </context-param>
 
   <listener>
@@ -159,12 +159,12 @@ Now you can perform the first build. Select the `pom.xml` in the Package Explore
 
 ## Add a Spring Application Context XML Configuration File
 
-Next, we add a Spring ApplicationContext configuration class to the project. Create a Java class called `LoanApplicationContext` in the package `org.camunda.bpm.getstarted.loanapproval`.
+Next, we add a Spring ApplicationContext configuration class to the project. Create a Java class called `LoanApplicationContext` in the package `org.cadenzaflow.bpm.getstarted.loanapproval`.
 
 We start with an empty class:
 
 ```java
-package org.camunda.bpm.getstarted.loanapproval;
+package org.cadenzaflow.bpm.getstarted.loanapproval;
 
 import org.springframework.context.annotation.Configuration;
 
@@ -188,7 +188,7 @@ Root WebApplicationContext: initialization started
 INFORMATION org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh
 Refreshing Root WebApplicationContext: startup date [DATE]; root of context hierarchy
 INFORMATION org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions
-Successfully resolved class for [org.camunda.bpm.getstarted.loanapproval.LoanApplicationContext]
+Successfully resolved class for [org.cadenzaflow.bpm.getstarted.loanapproval.LoanApplicationContext]
 INFORMATION org.springframework.web.context.ContextLoader.initWebApplicationContext
 Root WebApplicationContext: initialization completed in 891 ms
 INFORMATION org.apache.catalina.startup.HostConfig.deployWAR
@@ -197,4 +197,4 @@ Deployment of web application archive [..\webapps\loanapproval-spring-0.1.0-SNAP
 
 This means that you have set up your Spring web application correctly.
 
-{{< get-tag repo="camunda-get-started-spring" tag="Step-1" >}}
+{{< get-tag repo="cadenzaflow-get-started-spring" tag="Step-1" >}}

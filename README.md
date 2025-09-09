@@ -1,4 +1,4 @@
-# camunda-docs-static
+# cadenzaflow-docs-static
 
 Contains all un-versioned sections of the documentation
 
@@ -43,20 +43,7 @@ Edit the file `config/banners.html`:
 
 Add or remove a div with the attribute `data-banner`.
 
-This is an example of a blockquote-style, html based banner. It will be visualized with a bar on the left.
 
-```html
-<div data-banner>
-  <blockquote>
-    <p>
-      We are looking for talented people.
-    </p>
-    <p>
-      Check out our <a href="http://camunda.com/about/jobs/">open positions</a>.
-    </p>
-  </blockquote>
-</div>
-```
 
 [hugo]: http://gohugo.io/
 [hugo-v50]: https://github.com/gohugoio/hugo/releases/tag/v0.50

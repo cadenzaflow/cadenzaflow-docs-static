@@ -8,11 +8,11 @@ menu:
     name: "Model a Process"
     parent: "get-started-pa"
     identifier: "get-started-pa-model"
-    pre: "Learn the basics of handling the Camunda Modeler and learn how to model and configure a fully executable process."
+    pre: "Learn the basics of handling the CadenzaFlow Modeler and learn how to model and configure a fully executable process."
 
 ---
 
-In this section you learn how to create your first BPMN 2.0 process with the Camunda Modeler. Start up the Camunda Modeler now.
+In this section you learn how to create your first BPMN 2.0 process with the CadenzaFlow Modeler. Start up the CadenzaFlow Modeler now.
 
 # Create a new BPMN Diagram
 
@@ -82,7 +82,7 @@ Adjust the `META-INF/processes.xml` deployment descriptor file by adding the BPM
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <process-application
-        xmlns="http://www.camunda.org/schema/1.0/ProcessApplication"
+        xmlns="http://www.cadenzaflow.org/schema/1.0/ProcessApplication"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <process-archive name="loan-approval">
@@ -99,4 +99,4 @@ Adjust the `META-INF/processes.xml` deployment descriptor file by adding the BPM
 </process-application>
 ```
 
-{{< get-tag repo="camunda-get-started-java" tag="Step-3" >}}
+{{< get-tag repo="cadenzaflow-get-started-java" tag="Step-3" >}}

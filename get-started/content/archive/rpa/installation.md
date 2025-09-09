@@ -16,12 +16,12 @@ After familiarizing yourself with all [Requirements](../requirements), this sect
 
 # RPA Vendor Credentials
 
-To orchestrate RPA bots, we will connect the Camunda Platform Workflow Engine to your RPA vendor via the Camunda RPA Bridge. 
+To orchestrate RPA bots, we will connect the CadenzaFlow Platform Workflow Engine to your RPA vendor via the CadenzaFlow RPA Bridge. 
 This component will require configuration parameters to connect to your RPA vendor.
 
 ## UiPath
 
-The Camunda RPA Orchestration works with the UiPath Orchestrator in either the [Cloud](https://cloud.uipath.com) or On-Premises (v2019 or v2020.4) distribution. For testing purposes, we recommend using the cloud version.
+The CadenzaFlow RPA Orchestration works with the UiPath Orchestrator in either the [Cloud](https://cloud.uipath.com) or On-Premises (v2019 or v2020.4) distribution. For testing purposes, we recommend using the cloud version.
 
 To prepare the setup of the RPA Bridge, please
 
@@ -48,18 +48,18 @@ The RPA Bridge integrates with Automation 360 (formerly A2019).
 
 To prepare the setup of the RPA Bridge, please
 
-* Create or choose a user with a bot runner license (bots available to this user can be orchestrated in Camunda and the user will be used to run bots)
+* Create or choose a user with a bot runner license (bots available to this user can be orchestrated in CadenzaFlow and the user will be used to run bots)
 * Remember the password of that user or alternatively [create an API key](https://docs.automationanywhere.com/bundle/enterprise-v2019/page/enterprise-cloud/topics/control-room/control-room-api/cloud-control-room-apikey-role.html) and write that down
 
-# Camunda Platform Run
+# CadenzaFlow Platform Run
 
-Unless you already have a running Camunda Platform 7.14 or later installation, please
+Unless you already have a running CadenzaFlow Platform 7.14 or later installation, please
 
-* [Download Camunda Run (Enterprise)](https://downloads.camunda.cloud/enterprise-release/camunda-bpm/run/)
+* [Download CadenzaFlow Run (Enterprise)](https://downloads.cadenzaflow.cloud/enterprise-release/cadenzaflow-bpm/run/)
 
 You will be asked for a username and password that you have obtained together with your Enterprise license key.
 
-Once you have downloaded Camunda Run, please
+Once you have downloaded CadenzaFlow Run, please
 
 * Unzip the archive
 * Launch the platform by executing
@@ -72,13 +72,13 @@ start.bat
 ./start.sh
 ```
 
-Learn more about [Installing Camunda Platform](https://docs.camunda.org/manual/latest/installation/).
+Learn more about [Installing CadenzaFlow Platform](https://docs.cadenzaflow.org/manual/latest/installation/).
 
-# Camunda RPA Bridge
+# CadenzaFlow RPA Bridge
 
 In order to install the RPA Bridge, please:
 
-* [Download the RPA Bridge](https://downloads.camunda.cloud/enterprise-release/camunda-bpm/rpa/)
+* [Download the RPA Bridge](https://downloads.cadenzaflow.cloud/enterprise-release/cadenzaflow-bpm/rpa/)
 * Unzip the archive
 * Add your Enterprise license key into a file called `license.txt` in the same folder as the `application.yml` file.
 
@@ -86,7 +86,7 @@ Edit the config file `application.yml`:
 
 * In general, lines starting with a `#` are comments and will not be considered by the Bridge.
 * `license-file`: Remove the comment character. The property value should be `file:///${user.dir}/license.txt`.
-* `camunda-api`: Adjust the URL and credentials to your Camunda Platform instance if necessary.
+* `cadenzaflow-api`: Adjust the URL and credentials to your CadenzaFlow Platform instance if necessary.
 
 ### UiPath Cloud
 
@@ -131,7 +131,7 @@ Edit the config file `application.yml`:
 We recommend enabling simple logging by adding this as the last line to `application.yml`:
 
 ```
-logging.level.org.camunda.bpm.rpa.bridge.externaltask: DEBUG
+logging.level.org.cadenzaflow.bpm.rpa.bridge.externaltask: DEBUG
 ```
 
 ### Launch the RPA Bridge
@@ -139,7 +139,7 @@ logging.level.org.camunda.bpm.rpa.bridge.externaltask: DEBUG
 Use the following command to launch the Bridge
 
 ```sh
-java -jar camunda-bpm-rpa-bridge.jar
+java -jar cadenzaflow-bpm-rpa-bridge.jar
 ```
 
 You should see a log message like 
@@ -151,41 +151,41 @@ External Task Listener started ----
 For troubleshooting, you can switch to extensive logging by adding this as the last line to `application.yml`:
 
 ```
-logging.level.org.camunda.bpm.rpa.bridge: DEBUG
+logging.level.org.cadenzaflow.bpm.rpa.bridge: DEBUG
 ```
 
 
-Learn more about [configuring the RPA Bridge](https://docs.camunda.org/manual/7.19/user-guide/camunda-bpm-rpa-bridge).
+Learn more about [configuring the RPA Bridge](https://docs.cadenzaflow.org/manual/7.19/user-guide/cadenzaflow-bpm-rpa-bridge).
 
 # Cawemo Catalog
 
-In order to use Cawemo On-Premises (version 1.6 or later), please follow this [on-premises installation guide](https://docs.camunda.org/cawemo/latest/technical-guide/installation/).
+In order to use Cawemo On-Premises (version 1.6 or later), please follow this [on-premises installation guide](https://docs.cadenzaflow.org/cawemo/latest/technical-guide/installation/).
 
 After logging into Cawemo:
 
 * Open the settings page.
 * Create an API Key with the name "RPA Orchestration".
-* Save the key hash for later use in the Camunda Modeler.
+* Save the key hash for later use in the CadenzaFlow Modeler.
 * Open the "User ID / Organization ID" panel to retrieve your User ID (which is not your email address).
 
 {{< img src="../img/cawemo-settings-page.png" title="Cawemo Settings Page" >}}
 
-# Camunda Modeler
+# CadenzaFlow Modeler
 
-Please use the Camunda Modeler version 4.7 or later. In case you don't have it yet, you can [download the latest version of Camunda Modeler](https://camunda.com/download/modeler/).
+Please use the CadenzaFlow Modeler version 4.7 or later. In case you don't have it yet, you can [download the latest version of CadenzaFlow Modeler](https://cadenzaflow.com/download/modeler/).
 
-* Download version 3.0 or later of the [Cloud Connect plugin](https://downloads.camunda.cloud/enterprise-release/cawemo/cloud-connect-modeler-plugin/) for Camunda Modeler
+* Download version 3.0 or later of the [Cloud Connect plugin](https://downloads.cadenzaflow.cloud/enterprise-release/cawemo/cloud-connect-modeler-plugin/) for CadenzaFlow Modeler
 * Extract the archive and move it to the plugins folder
 
 ```sh
 # Windows
-%APPDATA%\camunda-modeler\plugins
+%APPDATA%\cadenzaflow-modeler\plugins
 
 # Mac OS
-~/Library/Application Support/camunda-modeler/plugins
+~/Library/Application Support/cadenzaflow-modeler/plugins
 
 # Linux
-~/.config/camunda-modeler/plugins
+~/.config/cadenzaflow-modeler/plugins
 ```
 
 * Restart the Modeler and verify that the Plugins menu contains an entry "Cloud Connect".
@@ -198,4 +198,4 @@ Please use the Camunda Modeler version 4.7 or later. In case you don't have it y
 
 In the upper right corner of the Modeler window you should see "Connected to Cawemo", indicating a successful connection.
 
-Learn more about [connecting Camunda Modeler with Cawemo](https://docs.camunda.org/cawemo/latest/technical-guide/integrations/modeler).
+Learn more about [connecting CadenzaFlow Modeler with Cawemo](https://docs.cadenzaflow.org/cawemo/latest/technical-guide/integrations/modeler).

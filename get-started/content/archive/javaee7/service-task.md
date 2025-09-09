@@ -21,10 +21,10 @@ After the process has been started with the new order as process variables, we w
 
 ## Add an Entity Bean to the Process Application
 
-To persist the entity with JPA, we add an entity bean to our process application. Create a package `org.camunda.bpm.getstarted.pizza` and then place the following `OrderEntity` class into that package:
+To persist the entity with JPA, we add an entity bean to our process application. Create a package `org.cadenzaflow.bpm.getstarted.pizza` and then place the following `OrderEntity` class into that package:
 
-{{< note title="Camunda dropped support for handling JPA entities as variables." class="warning" >}}
-Camunda Automation Platform 7.19 is the last release that supports handling JPA entities as variables
+{{< note title="Cadenzaflow dropped support for handling JPA entities as variables." class="warning" >}}
+Cadenzaflow Automation Platform 7.19 is the last release that supports handling JPA entities as variables
 
 You need to add a process engine plugin to achieve some of the next steps in the guide.
 Have a look at the [7.20 update guide](/manual/develop/user-guide/update/minor/719-to-720/#breaking-change-discontinue-support-for-handling-jpa-entities-as-variables) for more information.
@@ -32,7 +32,7 @@ Have a look at the [7.20 update guide](/manual/develop/user-guide/update/minor/7
 
 
 ```java
-package org.camunda.bpm.getstarted.pizza;
+package org.cadenzaflow.bpm.getstarted.pizza;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -116,9 +116,9 @@ The next step is to add a stateless EJB to the process application which is call
 In the method `persistOrder`, a new instance of the order entity is created and the order instance will be initialized with the values which are currently saved as process variables. After the newly created instance is flushed to the database, its order id is set and the other process variables are no longer needed, so we remove the order properties and only add the order id as a process variable.
 
 ```java
-package org.camunda.bpm.getstarted.pizza;
+package org.cadenzaflow.bpm.getstarted.pizza;
 
-import org.camunda.bpm.engine.delegate.DelegateExecution;
+import org.cadenzaflow.bpm.engine.delegate.DelegateExecution;
 
 import javax.ejb.Stateless;
 import javax.inject.Named;
@@ -169,11 +169,11 @@ public class OrderBusinessLogic {
 
 Use the properties view of the Persist Service Task in the process (see screenshot). You need to enter `${orderBusinessLogic.persistOrder(execution)}` as the `Expression` property. This will call the `persistOrder` method of the named EJB with the current execution as parameter.
 
-[Build](../deploy/#build-the-process-application), [deploy](../deploy/#deploy-to-wildfly) and start the process `Order Pizza` in [Tasklist](http://localhost:8080/camunda/app/tasklist). Fill out the emerging form. Now the *Persist Order* step should have been completed automatically. Check that by looking into the logfile of the WildFly server. It will show an entry for the new order entity:
+[Build](../deploy/#build-the-process-application), [deploy](../deploy/#deploy-to-wildfly) and start the process `Order Pizza` in [Tasklist](http://localhost:8080/cadenzaflow/app/tasklist). Fill out the emerging form. Now the *Persist Order* step should have been completed automatically. Check that by looking into the logfile of the WildFly server. It will show an entry for the new order entity:
 
 <pre class="console">
   INFO  [stdout] Hibernate: insert into OrderEntity (address, approved, customer, pizza, version, id) values (?, ?, ?, ?, ?, ?)
 </pre>
 
-{{< get-tag repo="camunda-get-started-javaee" tag="Step-5" >}}
+{{< get-tag repo="cadenzaflow-get-started-javaee" tag="Step-5" >}}
 

@@ -32,7 +32,7 @@ On the second page (see screenshot), configure the Maven coordinates for the pro
 
 When you are done, click Finish. Eclipse sets up a new Maven project. The project appears in the *Project Explorer* View.
 
-# Add Camunda Maven Dependencies
+# Add CadenzaFlow Maven Dependencies
 
 The next step consists of setting up the Maven dependencies for your new process application. Add the following dependencies to the `pom.xml` file of your project:
 
@@ -41,13 +41,13 @@ The next step consists of setting up the Maven dependencies for your new process
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.camunda.bpm.getstarted</groupId>
+  <groupId>org.cadenzaflow.bpm.getstarted</groupId>
   <artifactId>loan-approval</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <properties>
-    <camunda.version>7.18.0</camunda.version>
+    <cadenzaflow.version>1.0.0</cadenzaflow.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
@@ -55,9 +55,9 @@ The next step consists of setting up the Maven dependencies for your new process
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.camunda.bpm</groupId>
-        <artifactId>camunda-bom</artifactId>
-        <version>${camunda.version}</version>
+        <groupId>org.cadenzaflow.bpm</groupId>
+        <artifactId>cadenzaflow-bom</artifactId>
+        <version>${cadenzaflow.version}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
@@ -66,8 +66,8 @@ The next step consists of setting up the Maven dependencies for your new process
 
   <dependencies>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine</artifactId>
+      <groupId>org.cadenzaflow.bpm</groupId>
+      <artifactId>cadenzaflow-engine</artifactId>
       <scope>provided</scope>
     </dependency>
 
@@ -97,17 +97,17 @@ The next step consists of setting up the Maven dependencies for your new process
 
 Now you can perform the first build. Select the `pom.xml` in the Package Explorer, perform a right-click and select `Run As / Maven Install`.
 
-{{< get-tag repo="camunda-get-started-java" tag="Step-1" >}}
+{{< get-tag repo="cadenzaflow-get-started-java" tag="Step-1" >}}
 
 # Add a Process Application Class
 
-Next, you need to create a package, e.g., `org.camunda.bpm.getstarted.loanapproval` and add a Process Application class to it. The Process Application class constitutes the interface between your application and the process engine.
+Next, you need to create a package, e.g., `org.cadenzaflow.bpm.getstarted.loanapproval` and add a Process Application class to it. The Process Application class constitutes the interface between your application and the process engine.
 
 ```java
-package org.camunda.bpm.getstarted.loanapproval;
+package org.cadenzaflow.bpm.getstarted.loanapproval;
 
-import org.camunda.bpm.application.ProcessApplication;
-import org.camunda.bpm.application.impl.ServletProcessApplication;
+import org.cadenzaflow.bpm.application.ProcessApplication;
+import org.cadenzaflow.bpm.application.impl.ServletProcessApplication;
 
 @ProcessApplication("Loan Approval App")
 public class LoanApprovalApplication extends ServletProcessApplication {
@@ -126,7 +126,7 @@ This file needs to be added to the `src/main/resources/META-INF` folder of the M
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <process-application
-    xmlns="http://www.camunda.org/schema/1.0/ProcessApplication"
+    xmlns="http://www.cadenzaflow.org/schema/1.0/ProcessApplication"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <process-archive name="loan-approval">
@@ -146,4 +146,4 @@ You can leave the `META-INF/processes.xml` file empty. In that case, default val
 
 At this point you have successfully set up the process application and you can start modeling the first process.
 
-{{< get-tag repo="camunda-get-started-java" tag="Step-2" >}}
+{{< get-tag repo="cadenzaflow-get-started-java" tag="Step-2" >}}

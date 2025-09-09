@@ -17,7 +17,7 @@ In the next step, we want to add a task form to the application.
 
 # Add a Start Form
 
-Create a new form in Camunda Modeler and set its id to `request-loan`. 
+Create a new form in CadenzaFlow Modeler and set its id to `request-loan`. 
 
 Add a **Text Field**, set the **Field Label** to `Customer ID` and the **Key** to `customerId`.
 
@@ -27,7 +27,7 @@ Save the form with the file name `request-loan.form` to `src/main/resources`.
 
 {{< img src="../img/form-builder-start-form.png" >}}
 
-Open the process with the modeler. Click on the start event. In the properties panel, click on `Forms` select `Camunda Forms` as type, insert `request-loan` into the `Form reference` field, and choose `latest` as binding. This means Tasklist uses the latest deployed version of the form. Save the diagram and refresh the Eclipse project.
+Open the process with the modeler. Click on the start event. In the properties panel, click on `Forms` select `CadenzaFlow Forms` as type, insert `request-loan` into the `Form reference` field, and choose `latest` as binding. This means Tasklist uses the latest deployed version of the form. Save the diagram and refresh the Eclipse project.
 
 {{< img src="../img/modeler-start-form.png" >}}
 
@@ -39,7 +39,7 @@ that you set its id to `approve-loan` and select the **Disabled** checkbox in bo
 
 Save the form with the file name `approve-loan.form` to `src/main/resources`.
 
-After that, open the process with the modeler. Click on the user task. In the properties panel, click on `Forms` select `Camunda Forms` as type, insert `approve-loan` into the `Form reference` field, and choose `latest` as binding.
+After that, open the process with the modeler. Click on the user task. In the properties panel, click on `Forms` select `CadenzaFlow Forms` as type, insert `approve-loan` into the `Form reference` field, and choose `latest` as binding.
 
 # Adjust the deployment descriptor file
 
@@ -50,7 +50,7 @@ Adjust the `META-INF/processes.xml` deployment descriptor file by adding the for
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <process-application
-        xmlns="http://www.camunda.org/schema/1.0/ProcessApplication"
+        xmlns="http://www.cadenzaflow.org/schema/1.0/ProcessApplication"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <process-archive name="loan-approval">
@@ -77,7 +77,7 @@ When you are done, save all resources, [perform a Maven build](../deploy/#build-
 Before selecting the pom.xml in the Package Explorer of Eclipse and performing a right-click and select Run As / Maven Install, it is best practice to perform a right-click and select Run As / Maven Clean to make sure all resources are replaced with their newest version.
 {{< /note >}}
 
-Now you go to [Tasklist](http://localhost:8080/camunda/app/tasklist) and start a new process instance for the loan approval process. You will notice that the custom form is displayed.
+Now you go to [Tasklist](http://localhost:8080/cadenzaflow/app/tasklist) and start a new process instance for the loan approval process. You will notice that the custom form is displayed.
 
 {{< img src="../img/start-form-embedded.png" >}}
 
@@ -85,4 +85,4 @@ After starting a new process instance a new task `Approve Loan` is assigned to j
 
 {{< img src="../img/task-form-embedded.png" >}}
 
-{{< get-tag repo="camunda-get-started-java" tag="Step-4" >}}
+{{< get-tag repo="cadenzaflow-get-started-java" tag="Step-4" >}}

@@ -12,7 +12,7 @@ menu:
 
 ---
 
-Now that we can [Orchestrate RPA Bots](../orchestrating-bots) let's have a look at how to react to a failing RPA bot or - generally speaking - how to handle the result of a bot as a BPMN error. Please note that the features presented here only work with a Camunda Platform 7.15 or later.
+Now that we can [Orchestrate RPA Bots](../orchestrating-bots) let's have a look at how to react to a failing RPA bot or - generally speaking - how to handle the result of a bot as a BPMN error. Please note that the features presented here only work with a Cadenzaflow Platform 7.15 or later.
 
 # Scenarios
 
@@ -23,7 +23,7 @@ As mentioned already, we can generally react to the result of an RPA bot executi
 
 # Configuration
 
-To be able to properly react to failures of RPA bots, we recommend enabling the following properties in your Camunda engine instance (e.g. an instance of Camunda Run):
+To be able to properly react to failures of RPA bots, we recommend enabling the following properties in your Cadenzaflow engine instance (e.g. an instance of Cadenzaflow Run):
 
 * `skipOutputMappingOnCanceledActivities`: Enabling this flag will ensure that output mappings created for your service tasks will not be evaluated if the task is canceled. Since the failure of an RPA bot will cancel the service task through the RPA Bridge, this will ensure that your service tasks will be properly handled even if the RPA bot does not deliver expected output parameters on failure.
 * `enableExceptionsAfterUnhandledBpmnError`: Enabling this flag will lead to an exception after throwing uncaught BPMN errors from your service task. We will get to how to throw such an error in a minute. In general, we recommend catching all BPMN Errors that can be thrown in a process. Enabling this flag will lead to processes not ending unexpectedly but rather failing with exceptions that can be observed in system logs -- this can come in handy while developing the process.
@@ -48,8 +48,8 @@ Edit the template under `BPMN Errors` as follows:
 
 The first Throw Expression that matches will be applied. Any following expressions will not be evaluated.
 
-Please remember, before the template can be used in the Camunda Modeler, it needs to be published once by clicking the “Publish” button in the upper right corner.
-After publishing the template, you can synchronize it in the Camunda Modeler and update the template there at your service task.
+Please remember, before the template can be used in the Cadenzaflow Modeler, it needs to be published once by clicking the “Publish” button in the upper right corner.
+After publishing the template, you can synchronize it in the Cadenzaflow Modeler and update the template there at your service task.
 You can now adjust the error definition details if necessary.
 
 # Catching BPMN Errors

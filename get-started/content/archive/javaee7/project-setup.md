@@ -58,13 +58,13 @@ The next step consists of setting up the Maven dependencies for your new process
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.camunda.bpm.getstarted</groupId>
+  <groupId>org.cadenzaflow.bpm.getstarted</groupId>
   <artifactId>pizza-order</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <properties>
-    <camunda.version>7.18.0</camunda.version>
+    <cadenzaflow.version>7.18.0</cadenzaflow.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
@@ -72,9 +72,9 @@ The next step consists of setting up the Maven dependencies for your new process
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.camunda.bpm</groupId>
-        <artifactId>camunda-bom</artifactId>
-        <version>${camunda.version}</version>
+        <groupId>org.cadenzaflow.bpm</groupId>
+        <artifactId>cadenzaflow-bom</artifactId>
+        <version>${cadenzaflow.version}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
@@ -83,23 +83,23 @@ The next step consists of setting up the Maven dependencies for your new process
 
   <dependencies>
 
-    <!-- Camunda engine dependency -->
+    <!-- Cadenzaflow engine dependency -->
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine</artifactId>
+      <groupId>org.cadenzaflow.bpm</groupId>
+      <artifactId>cadenzaflow-engine</artifactId>
       <scope>provided</scope>
     </dependency>
 
-    <!-- Camunda cdi beans -->
+    <!-- Cadenzaflow cdi beans -->
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine-cdi</artifactId>
+      <groupId>org.cadenzaflow.bpm</groupId>
+      <artifactId>cadenzaflow-engine-cdi</artifactId>
     </dependency>
 
     <!-- provides a default EjbProcessApplication -->
     <dependency>
-      <groupId>org.camunda.bpm.javaee</groupId>
-      <artifactId>camunda-ejb-client</artifactId>
+      <groupId>org.cadenzaflow.bpm.javaee</groupId>
+      <artifactId>cadenzaflow-ejb-client</artifactId>
     </dependency>
 
     <!-- Java EE 7 Specification -->
@@ -136,16 +136,16 @@ The next step consists of setting up the Maven dependencies for your new process
 
 ```
 
-As dependencies you need the Camunda engine and Camunda engine CDI package. The CDI package provide you with beans to easily interact with the process engine and the ability to resolve CDI beans from inside the BPMN process XML.
+As dependencies you need the Cadenzaflow engine and Cadenzaflow engine CDI package. The CDI package provide you with beans to easily interact with the process engine and the ability to resolve CDI beans from inside the BPMN process XML.
 
-We also use the Camunda EJB client to interact with the process engine, which provides a default implementation of the `EjbProcessApplication`. This dependency is not necessary if you want to implement your own `EjbProcessApplication`.
+We also use the Cadenzaflow EJB client to interact with the process engine, which provides a default implementation of the `EjbProcessApplication`. This dependency is not necessary if you want to implement your own `EjbProcessApplication`.
 
 The JBoss JavaEE spec dependency helps us to develop the application. It is only necessary during development so the `scope` is set to provided. The
 WildFly already contains this interfaces.
 
 Now you can perform the first build. Select the `pom.xml` in the Package Explorer, perform a right-click and select `Run As / Maven Install`
 
-{{< get-tag repo="camunda-get-started-javaee" tag="Step-1" >}}
+{{< get-tag repo="cadenzaflow-get-started-javaee" tag="Step-1" >}}
 
 ## Add a WEB-INF/beans.xml Deployment Descriptor
 
@@ -205,7 +205,7 @@ This file needs to be added to the `src/main/resources/META-INF` folder of the M
 
 ```xml
 <process-application
-  xmlns="http://www.camunda.org/schema/1.0/ProcessApplication"
+  xmlns="http://www.cadenzaflow.org/schema/1.0/ProcessApplication"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <process-archive name="pizza-order">
@@ -221,4 +221,4 @@ This file needs to be added to the `src/main/resources/META-INF` folder of the M
 
 At this point you have successfully set up the process application you can start modeling your process.
 
-{{< get-tag repo="camunda-get-started-javaee" tag="Step-2" >}}
+{{< get-tag repo="cadenzaflow-get-started-javaee" tag="Step-2" >}}

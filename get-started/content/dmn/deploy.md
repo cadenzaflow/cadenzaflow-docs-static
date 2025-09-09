@@ -20,7 +20,7 @@ In this step, we use Java Code to evaluate the decision table. Then we deploy th
 To directly evaluate the decision table after deployment, add the following method to your Application class:
 
 ```java
-package org.camunda.bpm.getstarted.dmn;
+package org.cadenzaflow.bpm.getstarted.dmn;
 
 @ProcessApplication("Dinner App DMN")
 public class DinnerApplication extends ServletProcessApplication {
@@ -45,7 +45,7 @@ public class DinnerApplication extends ServletProcessApplication {
 }
 ```
 
-{{< get-tag repo="camunda-get-started-dmn" tag="Step-4" >}}
+{{< get-tag repo="cadenzaflow-get-started-dmn" tag="Step-4" >}}
 
 # Build the Web Application with Maven
 
@@ -63,27 +63,27 @@ In order to deploy the process application, copy-paste the `dinner-dmn-0.1.0-SNA
 Check the log file of the Apache Tomcat server. If you see the following log message, the deployment was successful:
 
 <pre class="console">
-INFO org.camunda.commons.logging.BaseLogger.logInfo
-ENGINE-07015 Detected @ProcessApplication class 'org.camunda.bpm.getstarted.dish.DishApplication'
-INFO org.camunda.commons.logging.BaseLogger.logInfo
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
+ENGINE-07015 Detected @ProcessApplication class 'org.cadenzaflow.bpm.getstarted.dish.DishApplication'
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
 ENGINE-08024 Found processes.xml file at ../webapps/dinner-dmn-0.1.0-SNAPSHOT/WEB-INF/classes/META-INF/processes.xml
-INFO org.camunda.commons.logging.BaseLogger.logInfo
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
 ENGINE-08023 Deployment summary for process archive 'dinner-dmn':
 
         dinnerDecisions.dmn
 
-INFO org.camunda.bpm.getstarted.dmn.DinnerApplication.evaluateDecisionTable 
+INFO org.cadenzaflow.bpm.getstarted.dmn.DinnerApplication.evaluateDecisionTable 
 
 Desired dish: Stew
 
-INFO org.camunda.commons.logging.BaseLogger.logInfo
+INFO org.cadenzaflow.commons.logging.BaseLogger.logInfo
 ENGINE-08050 Process application Dinner App DMN successfully deployed
 </pre>
 
 
 # Verify the Deployment with Cockpit
 
-Now, use Cockpit to check if the decision table is successfully deployed. Go to [http://localhost:8080/camunda/app/cockpit](http://localhost:8080/camunda/app/cockpit). Log in with *demo / demo*. Go to "Decisions" section. Your decision table *Dish* should be listed as deployed decision definition.
+Now, use Cockpit to check if the decision table is successfully deployed. Go to [http://localhost:8080/cadenzaflow/app/cockpit](http://localhost:8080/cadenzaflow/app/cockpit). Log in with *demo / demo*. Go to "Decisions" section. Your decision table *Dish* should be listed as deployed decision definition.
 
 {{< img src="../img/cockpit-dish-dmn.png" >}}
 
@@ -106,8 +106,8 @@ Congratulations, you have now successfully set up a project with your first DMN 
 
 Next,
 
-* see how you can evaluate the decision using the [REST API](https://docs.camunda.org/rest/camunda-bpm-platform/7.23/#tag/Decision-Definition/operation/evaluateDecisionByKey),
+* see how you can evaluate the decision using the [REST API](https://docs.cadenzaflow.org/rest/cadenzaflow-bpm-platform/7.23/#tag/Decision-Definition/operation/evaluateDecisionByKey),
 * learn more about DMN by reading the [DMN Reference](/manual/reference/dmn/),
-* learn more about the [Decision API exposed by Camunda Process Engine](/manual/user-guide/process-engine/decisions/),
+* learn more about the [Decision API exposed by CadenzaFlow Process Engine](/manual/user-guide/process-engine/decisions/),
 * check how you can invoke the decision from a [BPMN Business Rule Task](/manual/reference/bpmn20/tasks/business-rule-task/),
 * Bonus Step: [Decision Requirements Graph](../drg) 

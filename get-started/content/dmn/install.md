@@ -8,13 +8,13 @@ menu:
     name: "Download and Installation"
     parent: "get-started-dmn"
     identifier: "get-started-dmn-install"
-    pre: "Install the Camunda Platform and Camunda Modeler on your machine."
+    pre: "Install the CadenzaFlow Platform and CadenzaFlow Modeler on your machine."
 
 aliases: [/dmn11/install/]
 robotsdisallow: true
 ---
 
-First you need to set up your development environment and install the Camunda Platform and the Camunda Modeler.
+First you need to set up your development environment and install the CadenzaFlow Platform and the CadenzaFlow Modeler.
 
 
 # Prerequisites
@@ -27,20 +27,20 @@ Make sure you have the following set of tools installed:
 * Eclipse integrated development environment (IDE)
 
 
-# Camunda Platform
+# CadenzaFlow Platform
 
-First, download a distribution of the Camunda Platform. You can choose from different distributions for various application servers. In this tutorial, we will use the Apache Tomcat based distribution. Download it from [the download page](https://camunda.com/download/platform-7).
+First, download a distribution of the CadenzaFlow Platform. You can choose from different distributions for various application servers. In this tutorial, we will use the Apache Tomcat based distribution. Download it from [the download page](https://cadenzaflow.com/download/platform-7).
 
 After having downloaded the distribution, unpack it inside a directory of your choice. We will call that directory `$CAMUNDA_HOME`.
 
-After you have successfully unpacked your distribution of the Camunda Platform, execute the script named `start-camunda.bat` (for Windows users), respectively `start-camunda.sh` (for Unix users).
+After you have successfully unpacked your distribution of the CadenzaFlow Platform, execute the script named `start-cadenzaflow.bat` (for Windows users), respectively `start-cadenzaflow.sh` (for Unix users).
 
-This script will start the application server and open a welcome screen in your web browser. If the page does not open, go to [http://localhost:8080/camunda-welcome/index.html](http://localhost:8080/camunda-welcome/index.html).
+This script will start the application server and open a welcome screen in your web browser. If the page does not open, go to [http://localhost:8080/cadenzaflow-welcome/index.html](http://localhost:8080/cadenzaflow-welcome/index.html).
 
 {{< note title="Getting Help" class="info" >}}
-If you have trouble setting up the Camunda Platform, you can ask for assistance in the [Camunda Users Forum](https://forum.camunda.org/).
+If you have trouble setting up the CadenzaFlow Platform, you can ask for assistance in the [CadenzaFlow Users Forum](https://forum.cadenzaflow.org/).
 {{< /note >}}
 
-# Camunda Modeler
+# CadenzaFlow Modeler
 
-Follow the instructions in the [Camunda Modeler](/manual/latest/installation/camunda-modeler) section.
+Follow the instructions in the [CadenzaFlow Modeler](/manual/latest/installation/cadenzaflow-modeler) section.
