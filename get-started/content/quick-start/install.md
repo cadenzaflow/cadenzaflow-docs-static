@@ -21,8 +21,8 @@ In the following section, we'll describe how to install the CadenzaFlow Platform
 If you prefer, you can also run the CadenzaFlow Platform with Docker:
 
 ```sh
-docker pull cadenzaflow/cadenzaflow-bpm-platform:run-latest
-docker run -d --name cadenzaflow -p 8080:8080 cadenzaflow/cadenzaflow-bpm-platform:run-latest
+docker pull cadenzaflow/cadenzaflow-bpm-platform:1.0.0
+docker run -d --name cadenzaflow -p 8080:8080 cadenzaflow/cadenzaflow-bpm-platform:1.0.0
 ```
 
 Afterwards, you can [install the CadenzaFlow Modeler](#cadenzaflow-modeler).
@@ -48,7 +48,7 @@ Make sure to use a Java version from [CadenzaFlow's list of supported environmen
 
 # CadenzaFlow Platform
 
-First, download a distribution of the CadenzaFlow Platform. You can choose from different distributions for [various application servers](/manual/latest/installation/full/). In this tutorial, we'll use CadenzaFlow Platform Run. Download it from [the download page](https://cadenzaflow.com/download/platform-7).
+First, download a distribution of the CadenzaFlow Platform. You can choose from different distributions for [various application servers](/manual/latest/installation/full/). In this tutorial, we'll use CadenzaFlow Platform Run. Download it from [the download page](https://cadenzaflow.com/download).
 
 After downloading the distribution, unpack it inside a directory of your choice.
 
@@ -58,7 +58,7 @@ This script will start the application server. Open your web browser and navigat
 
 # CadenzaFlow Modeler
 
-Download the CadenzaFlow Modeler from [the download page](https://cadenzaflow.com/download/modeler/).
+Download the CadenzaFlow Modeler from [the download page](https://cadenzaflow.com/download).
 
 After downloading the Modeler, simply unzip the download in a folder of your choice.
 

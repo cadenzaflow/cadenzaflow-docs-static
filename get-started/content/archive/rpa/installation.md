@@ -172,7 +172,7 @@ After logging into Cawemo:
 
 # CadenzaFlow Modeler
 
-Please use the CadenzaFlow Modeler version 4.7 or later. In case you don't have it yet, you can [download the latest version of CadenzaFlow Modeler](https://cadenzaflow.com/download/modeler/).
+Please use the CadenzaFlow Modeler version 4.7 or later. In case you don't have it yet, you can [download the latest version of CadenzaFlow Modeler](https://cadenzaflow.com/download).
 
 * Download version 3.0 or later of the [Cloud Connect plugin](https://downloads.cadenzaflow.cloud/enterprise-release/cawemo/cloud-connect-modeler-plugin/) for CadenzaFlow Modeler
 * Extract the archive and move it to the plugins folder
