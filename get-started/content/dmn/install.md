@@ -38,9 +38,9 @@ After you have successfully unpacked your distribution of the CadenzaFlow Platfo
 This script will start the application server and open a welcome screen in your web browser. If the page does not open, go to [http://localhost:8080/cadenzaflow-welcome/index.html](http://localhost:8080/cadenzaflow-welcome/index.html).
 
 {{< note title="Getting Help" class="info" >}}
-If you have trouble setting up the CadenzaFlow Platform, you can ask for assistance in the [CadenzaFlow Users Forum](https://forum.cadenzaflow.org/).
+If you have trouble setting up the CadenzaFlow Platform, you can ask for assistance in the [CadenzaFlow Users Forum](https://forum.cadenzaflow.com/).
 {{< /note >}}
 
 # CadenzaFlow Modeler
 
-Follow the instructions in the [CadenzaFlow Modeler](/manual/latest/installation/cadenzaflow-modeler) section.
+Follow the instructions in the [CadenzaFlow Modeler](https://docs.cadenzaflow.org/manual/latest/installation/cadenzaflow-modeler/) section.
