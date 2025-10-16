@@ -12,7 +12,7 @@ menu:
 
 
 # Notices CadenzaFlow v1.0.0
-Since CadenzaFlow v1.0.0 is forked from Camunda 7.24 community edition, this section lists related security notices keeping the original notice numbering (from Camunda) the same inherited from Camunda 7.24
+Since CadenzaFlow v1.0.0 is forked from Camunda 7.23 community edition, this section lists related security notices keeping the original notice numbering (from Camunda) the same inherited from Camunda 7.23
 
 Please note that since Cawemo and Optimize are NOT continued by Cadenzaflow (alternatives to be provided as part of roadmap), herebelow only the related notices for continued capabilities will be listed.
 
