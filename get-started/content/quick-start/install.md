@@ -21,8 +21,8 @@ In the following section, we'll describe how to install the CadenzaFlow Platform
 If you prefer, you can also run the CadenzaFlow Platform with Docker:
 
 ```sh
-docker pull cadenzaflow/cadenzaflow-bpm-platform:1.0.0
-docker run -d --name cadenzaflow -p 8080:8080 cadenzaflow/cadenzaflow-bpm-platform:1.0.0
+docker pull cadenzaflow/cadenzaflow-bpm-platform:run-latest
+docker run -d --name cadenzaflow -p 8080:8080 cadenzaflow/cadenzaflow-bpm-platform:run-latest
 ```
 
 Afterwards, you can [install the CadenzaFlow Modeler](#cadenzaflow-modeler).
