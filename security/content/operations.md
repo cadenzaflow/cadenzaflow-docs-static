@@ -1,7 +1,7 @@
 ---
 
 title: 'Operating CadenzaFlow Securely'
-weight: 50
+weight: 20
 
 menu:
   main:

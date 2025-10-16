@@ -1,6 +1,6 @@
 ---
 title: "Security Notices"
-weight: 70
+weight: 30
 
 menu:
   main:
@@ -8,7 +8,9 @@ menu:
     identifier: "security-notices"
 ---
 
-On this page, CadenzaFlow publishes security notices _after_ fixes are available.
+
+On this page, CadenzaFlow provides announcements of known vulnerabilities for which fix releases and/or practical workarounds are available. Simply, this page publishes security notices _after_ fixes are available.
+
 Fixes are available as:
 
 * Either as alpha/minor releases of the CadenzaFlow Community Edition
