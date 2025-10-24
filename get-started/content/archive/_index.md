@@ -11,6 +11,7 @@ menu:
 
 ---
 
-You can use the following archived guides. They are fixed to Cadenzaflow 7.18 and are not actively maintained anymore.
-Due to Cadenzaflow Platform 7 backward compatibility, they usually still work with later versions. However, you
-might need to adjust them to make them work.
+You can use the following archived guides. 
+
+<b>!!!Please note that these archived guides are not actively maintained anymore with CadenzaFlow.
+So, you might need to adjust them to make them work.</b>
