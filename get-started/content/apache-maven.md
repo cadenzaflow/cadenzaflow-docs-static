@@ -117,7 +117,7 @@ It is not needed when using `cadenzaflow-engine` because that already contains t
   See the [blog post](https://cadenzaflow.com/blog/2022/03/a-new-domain-name-for-cadenzaflow-artifactory/) for insights.
 {{< /note >}}
 
-CadenzaFlow relies on JFrog Artifactory to provide CadenzaFlow artifacts to users at [artifacts.cadenzaflow.com](https://artifacts.cadenzaflow.com/). The artifact data is stored in [Amazon S3](https://aws.amazon.com/s3/) storage and gets served by [artifacts.cadenzaflow.com](https://artifacts.cadenzaflow.com/) via redirects to AWS S3. Users must be able to connect to both endpoints for artifact retrieval.
+CadenzaFlow relies on Nexus Artifactory to provide CadenzaFlow artifacts to users at [nexus.cadenzaflow.com](https://nexus.cadenzaflow.com/). The artifact data is stored in [Amazon S3](https://aws.amazon.com/s3/) storage and gets served by [nexus.cadenzaflow.com](https://nexus.cadenzaflow.com/) via redirects to AWS S3. Users must be able to connect to both endpoints for artifact retrieval.
 
 ### Community Edition
 
@@ -127,7 +127,7 @@ CadenzaFlow relies on JFrog Artifactory to provide CadenzaFlow artifacts to user
     <id>cadenzaflow-bpm-nexus</id>
     <name>cadenzaflow-bpm-nexus</name>
     <url>
-      https://artifacts.cadenzaflow.com/artifactory/public/
+        https://nexus.cadenzaflow.com/repository/cadenzaflow-nexus/
     </url>
   </repository>
 </repositories>
@@ -140,7 +140,7 @@ In order to browse the CadenzaFlow artifacts, here are the links which you can u
 #### Community Edition
 This link helps you to browse the artifacts of CadenzaFlow Platform community edition.
 
-https://artifacts.cadenzaflow.com/ui/native/cadenzaflow-bpm
+https://nexus.cadenzaflow.com/service/rest/repository/browse/cadenzaflow-nexus/org/cadenzaflow/bpm/
 
 
 ### Known issues
@@ -150,7 +150,7 @@ The files are hosted in AWS S3, therefore, Artifactory rewrites the requests to 
 
 Example:
 ```
-curl -LO https://artifacts.cadenzaflow.com/artifactory/cadenzaflow-bpm/org/cadenzaflow/bpm/cadenzaflow-engine-rest/7.23.0/cadenzaflow-engine-rest-7.23.0.war
+curl -LO http://nexus.cadenzaflow.com:443/repository/cadenzaflow-nexus/org/cadenzaflow/bpm/cadenzaflow-engine-rest/1.0.1/cadenzaflow-engine-rest-1.0.1.war
 ```
 
 # Other CadenzaFlow Modules:
