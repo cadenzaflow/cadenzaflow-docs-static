@@ -2,16 +2,16 @@
 
 https://docs.camunda.org:
   /:
-    target: /manual/7.23/
+    target: /manual/7.24/
     status: 307
   /manual/:
-    target: /manual/7.23/
+    target: /manual/7.24/
     status: 307
   /optimize/:
-    target: /optimize/latest/
+    target: /optimize/3.15/
     status: 301
   /manual/reference/bpmn20:
-    target: /manual/7.23/reference/bpmn20
+    target: /manual/7.24/reference/bpmn20
     status: 307
   /get-started/javaee6:
     target: /get-started/archive/javaee7
@@ -26,32 +26,32 @@ https://docs.camunda.org:
     target: /manual/
     status: 302
   /cawemo/:
-    target: /cawemo/latest/
+    target: /cawemo/1.9/
     status: 301
   /cawemo/technical-guide/installation/:
-    target: /cawemo/latest/technical-guide/installation/
+    target: /cawemo/1.9/technical-guide/installation/
     status: 307
   /cawemo/99.0/technical-guide/installation/:
-    target: /cawemo/latest/technical-guide/installation/
+    target: /cawemo/1.9/technical-guide/installation/
     status: 307
 
 ################################################################################
 
 https://stage.docs.camunda.org:
   /manual/:
-    target: /manual/latest/
+    target: /manual/7.24/
     status: 301
   /manual/reference/bpmn20:
-    target: /manual/latest/reference/bpmn20
+    target: /manual/7.24/reference/bpmn20
     status: 307
   /manual/user-guide/ext-client/:
-    target: /manual/latest/user-guide/ext-client/
+    target: /manual/7.24/user-guide/ext-client/
     status: 307
   /manual/99.0/user-guide/ext-client/:
-    target: /manual/latest/user-guide/ext-client/
+    target: /manual/7.24/user-guide/ext-client/
     status: 307
   /optimize/:
-    target: /optimize/latest/
+    target: /optimize/3.15/
     status: 301
   /get-started/javaee6:
     target: /get-started/archive/javaee7
@@ -63,11 +63,11 @@ https://stage.docs.camunda.org:
     target: /manual/latest/reference/cmmn11/
     status: 307
   /cawemo/:
-    target: /cawemo/latest/
+    target: /cawemo/1.9/
     status: 301
   /cawemo/technical-guide/installation/:
-    target: /cawemo/latest/technical-guide/installation/
+    target: /cawemo/1.9/technical-guide/installation/
     status: 307
   /cawemo/99.0/technical-guide/installation/:
-    target: /cawemo/latest/technical-guide/installation/
+    target: /cawemo/1.9/technical-guide/installation/
     status: 307
