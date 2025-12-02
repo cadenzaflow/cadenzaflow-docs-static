@@ -1,6 +1,6 @@
 ---
 
-https://docs.camunda.org:
+https://docs.cadenzaflow.org:
   /:
     target: /manual/7.24/
     status: 307

@@ -26,7 +26,7 @@ Most CadenzaFlow artifacts are pushed to [maven central](https://central.sonatyp
     <dependency>
       <groupId>org.cadenzaflow.bpm</groupId>
       <artifactId>cadenzaflow-bom</artifactId>
-      <version>1.0.0</version>
+      <version>1.1.0</version>
       <scope>import</scope>
       <type>pom</type>
     </dependency>
@@ -150,7 +150,7 @@ The files are hosted in AWS S3, therefore, Artifactory rewrites the requests to 
 
 Example:
 ```
-curl -LO http://nexus.cadenzaflow.com:443/repository/cadenzaflow-nexus/org/cadenzaflow/bpm/cadenzaflow-engine-rest/1.0.1/cadenzaflow-engine-rest-1.0.1.war
+curl -LO http://nexus.cadenzaflow.com:443/repository/cadenzaflow-nexus/org/cadenzaflow/bpm/cadenzaflow-engine-rest/1.1.0/cadenzaflow-engine-rest-1.1.0.war
 ```
 
 # Other CadenzaFlow Modules:

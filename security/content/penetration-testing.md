@@ -22,7 +22,7 @@ For information on our Penetration Testing Policy, visit the [CadenzaFlow Securi
 
 ## Penetration Testing History & Results
 
-For CadenzaFlow V1.0.0 and V1.0.1 versions forked from Camunda 7.23, 7.24, please refer to [Camunda Docs/Security/Penetration Testing](https://docs.camunda.org/security/security-policy/#penetration-testing)
+For CadenzaFlow V1.0.0 and V1.1.0 versions forked from Camunda 7.23, 7.24, please refer to [Camunda Docs/Security/Penetration Testing](https://docs.camunda.org/security/security-policy/#penetration-testing)
 
 
 For information on CadenzaFlow V1.1.0+ releases, Penetration Testing History and Results, visit the [CadenzaFlow Security / Penetration Testing Results (page coming soon and currently in progress)](https://cadenzaflow.com/security/penetration-testing-results/)
