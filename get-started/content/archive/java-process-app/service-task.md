@@ -33,8 +33,8 @@ Now we need to add the actual service task implementation. In the Eclipse projec
 package org.cadenzaflow.bpm.getstarted.loanapproval;
 
 import java.util.logging.Logger;
-import org.cadenzaflow.bpm.engine.delegate.DelegateExecution;
-import org.cadenzaflow.bpm.engine.delegate.JavaDelegate;
+import org.camunda.bpm.engine.delegate.DelegateExecution;
+import org.camunda.bpm.engine.delegate.JavaDelegate;
 
 public class ProcessRequestDelegate implements JavaDelegate {
 

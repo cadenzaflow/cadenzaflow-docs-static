@@ -114,8 +114,8 @@ Next, you need to create a package, e.g., `org.cadenzaflow.bpm.getstarted.dmn` a
 ```java
 package org.cadenzaflow.bpm.getstarted.dmn;
 
-import org.cadenzaflow.bpm.application.ProcessApplication;
-import org.cadenzaflow.bpm.application.impl.ServletProcessApplication;
+import org.camunda.bpm.application.ProcessApplication;
+import org.camunda.bpm.application.impl.ServletProcessApplication;
 
 @ProcessApplication("Dinner App DMN")
 public class DinnerApplication extends ServletProcessApplication

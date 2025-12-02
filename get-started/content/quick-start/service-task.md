@@ -165,7 +165,7 @@ import java.util.logging.Logger;
 import java.awt.Desktop;
 import java.net.URI;
 
-import org.cadenzaflow.bpm.client.ExternalTaskClient;
+import org.camunda.bpm.client.ExternalTaskClient;
 
 public class ChargeCardWorker {
   private final static Logger LOGGER = Logger.getLogger(ChargeCardWorker.class.getName());
