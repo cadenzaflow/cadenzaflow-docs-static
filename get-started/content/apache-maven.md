@@ -112,10 +112,6 @@ It is not needed when using `cadenzaflow-engine` because that already contains t
 # CadenzaFlow Artifact Storage
 
 ## Artifactory
-{{< note title="Important" class="danger" >}}
-  Please make sure to switch the Artifactory domain name by the 30th of September 2022. Otherwise you won't be able to retrieve artifacts anymore.
-  See the [blog post](https://cadenzaflow.com/blog/2022/03/a-new-domain-name-for-cadenzaflow-artifactory/) for insights.
-{{< /note >}}
 
 CadenzaFlow relies on Nexus Artifactory to provide CadenzaFlow artifacts to users at [nexus.cadenzaflow.com](https://nexus.cadenzaflow.com/). The artifact data is stored in [Amazon S3](https://aws.amazon.com/s3/) storage and gets served by [nexus.cadenzaflow.com](https://nexus.cadenzaflow.com/) via redirects to AWS S3. Users must be able to connect to both endpoints for artifact retrieval.
 
