@@ -50,7 +50,7 @@ We also use `spring-boot-maven-plugin`, which does all the magic for packaging S
   <version>0.0.1-SNAPSHOT</version>
 
   <properties>
-    <cadenzaflow.spring-boot.version>1.0.0</cadenzaflow.spring-boot.version>
+    <cadenzaflow.spring-boot.version>1.0.1</cadenzaflow.spring-boot.version>
     <spring-boot.version>3.4.4</spring-boot.version>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>

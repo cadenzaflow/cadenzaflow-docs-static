@@ -7,7 +7,7 @@ plugins {
 
 ext {
   project_jdk = '1.8'
-  nexusUrl = System.getProperty('nexus.url', 'https://artifacts.cadenzaflow.com/artifactory')
+  nexusUrl = System.getProperty('nexus.url', 'https://nexus.cadenzaflow.com/service/rest/repository/browse/cadenzaflow-nexus/')
   mavenSettingsFile = System.getProperty('maven.settings.file', System.getProperty('user.home') + "/.m2/settings.xml")
 }
 
@@ -18,7 +18,7 @@ mavenSettings  {
 repositories {
   maven {
     name 'cadenzaflow-nexus'
-    url 'https://artifacts.cadenzaflow.com/artifactory/internal/'
+    url 'https://nexus.cadenzaflow.com/service/rest/repository/browse/cadenzaflow-nexus/'
   }
   mavenLocal()
 }
@@ -43,7 +43,7 @@ sourceSets {
 }
 
 test {
-    afterTest { desc, result -> 
+    afterTest { desc, result ->
         logger.quiet "${result.resultType}  ${desc.name} [${desc.className}]"
     }
 }

@@ -106,8 +106,8 @@ Congratulations, you have now successfully set up a project with your first DMN 
 
 Next,
 
-* see how you can evaluate the decision using the [REST API](https://docs.cadenzaflow.org/rest/cadenzaflow-bpm-platform/7.23/#tag/Decision-Definition/operation/evaluateDecisionByKey),
-* learn more about DMN by reading the [DMN Reference](/manual/reference/dmn/),
-* learn more about the [Decision API exposed by CadenzaFlow Process Engine](/manual/user-guide/process-engine/decisions/),
-* check how you can invoke the decision from a [BPMN Business Rule Task](/manual/reference/bpmn20/tasks/business-rule-task/),
+* see how you can evaluate the decision using the [REST API](https://docs.cadenzaflow.org/rest/cadenzaflow-bpm-platform/1.0/#tag/Decision-Definition/operation/evaluateDecisionByKey),
+* learn more about DMN by reading the [DMN Reference](/manual/latest/reference/dmn/),
+* learn more about the [Decision API exposed by CadenzaFlow Process Engine](/manual/latest/user-guide/process-engine/decisions/),
+* check how you can invoke the decision from a [BPMN Business Rule Task](/manual/latest/reference/bpmn20/tasks/business-rule-task/),
 * Bonus Step: [Decision Requirements Graph](../drg) 

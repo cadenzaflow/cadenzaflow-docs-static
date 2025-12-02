@@ -26,7 +26,7 @@ Most CadenzaFlow artifacts are pushed to [maven central](https://central.sonatyp
     <dependency>
       <groupId>org.cadenzaflow.bpm</groupId>
       <artifactId>cadenzaflow-bom</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
       <scope>import</scope>
       <type>pom</type>
     </dependency>
@@ -82,7 +82,7 @@ This BOM allows to use the DMN engine standalone without the BPMN engine and the
   <dependency>
     <groupId>org.cadenzaflow.bpm.dmn</groupId>
     <artifactId>cadenzaflow-engine-dmn-bom</artifactId>
-    <version>7.23.0</version>
+    <version>1.0.1</version>
     <type>pom</type>
     <scope>import</scope>
   </dependency>
