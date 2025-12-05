@@ -123,4 +123,4 @@ To work on the task, select the *Form* tab. Because we defined the variables in 
 Next, we'll make the process more dynamic and only show a User Task in certain situations. Let's have a look how you can [add Gateways to your Process](/get-started/quick-start/gateway/).
 {{< /note >}}
 
-{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Step-3" >}}
+{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Cadenzaflow-Step-3" >}}

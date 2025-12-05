@@ -71,4 +71,4 @@ Next, repeat the same steps, and this time, reject the payment. You should also 
 Now you're ready for Decision Automation. Let's have a look how you can [add Business Rules to your Process](/get-started/quick-start/decision-automation/).
 {{< /note >}}
 
-{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Step-4" >}}
+{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Cadenzaflow-Step-4" >}}
