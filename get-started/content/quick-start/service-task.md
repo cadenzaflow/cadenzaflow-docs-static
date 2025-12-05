@@ -212,7 +212,7 @@ Note that the worker should remain running throughout the entirety of this quick
 Once your worker is running, you can [continue to deploy your process and start some instances](/get-started/quick-start/deploy/).
 {{< /note >}}
 
-{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Step-2a" >}}
+{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Cadenzaflow-Step-2a" >}}
 
 ## b) Using JavaScript (NodeJS)
 
@@ -309,4 +309,4 @@ Note that the worker should remain running throughout the entirety of this quick
 Once your worker is running, you can move onto the next step to [deploy your process and start some instances](/get-started/quick-start/deploy/).
 {{< /note >}}
 
-{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Step-2b" >}}
+{{< get-tag repo="cadenzaflow-get-started-quickstart" tag="Cadenzaflow-Step-2b.1" >}}
