@@ -1,0 +1,53 @@
+plugins {
+  id 'java'
+  id 'groovy'
+  id 'maven'
+  id 'net.linguica.maven-settings' version '0.5'
+}
+
+ext {
+  project_jdk = '1.8'
+  nexusUrl = System.getProperty('nexus.url', 'https://artifacts.cadenzaflow.com/artifactory')
+  mavenSettingsFile = System.getProperty('maven.settings.file', System.getProperty('user.home') + "/.m2/settings.xml")
+}
+
+mavenSettings  {
+  userSettingsFileName mavenSettingsFile
+}
+
+repositories {
+  maven {
+    name 'cadenzaflow-nexus'
+    url 'https://artifacts.cadenzaflow.com/artifactory/internal/'
+  }
+  mavenLocal()
+}
+configurations {
+  ivy
+}
+dependencies {
+    testImplementation 'org.codehaus.groovy:groovy-all:2.4.15'
+    testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.15'
+    testCompile 'junit:junit:4.12'
+    testCompile('org.yaml:snakeyaml:1.17')
+    ivy group: 'org.apache.ivy', name: 'ivy', version: '2.4.0'
+}
+
+sourceSets {
+    test {
+        groovy.srcDirs 'test'
+    }
+    resources {
+        files 'test/*.yml'
+    }
+}
+
+test {
+    afterTest { desc, result -> 
+        logger.quiet "${result.resultType}  ${desc.name} [${desc.className}]"
+    }
+}
+
+tasks.withType(GroovyCompile) {
+  groovyClasspath += configurations.ivy
+}

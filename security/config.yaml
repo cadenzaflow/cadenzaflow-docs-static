@@ -1,0 +1,38 @@
+---
+baseURL: "/security/"
+languageCode: "en-us"
+title: "Product Security Guide"
+theme: "camunda"
+
+blackfriday:
+  plainIDAnchors: true
+
+params:
+  canonicalBasePath: "https://docs.cadenzaflow.org"
+  sections:
+    - id: "get-started"
+      name: "Get Started"
+      url: "/get-started"
+    - id: "manual"
+      name: "CadenzaFlow"
+      url: "/manual"
+    - id: "security"
+      name: "Security"
+      url: "/security"
+  section:
+    id: "security"
+  github:
+    repositoryName: "cadenzaflow/cadenzaflow-docs-static"
+    branch: "master/security"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+  section:
+    - "HTML"
+
+disableKinds:
+- taxonomy
+- taxonomyTerm
+...
