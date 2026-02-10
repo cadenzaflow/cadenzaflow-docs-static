@@ -1,0 +1,38 @@
+---
+baseURL: "/get-started/"
+languageCode: "en-us"
+title: "Getting started with CadenzaFlow"
+theme: "camunda"
+
+blackfriday:
+  plainIDAnchors: true
+
+params:
+  canonicalBasePath: "https://docs.cadenzaflow.org"
+  sections:
+    - id: "get-started"
+      name: "Get Started"
+      url: "/get-started"
+    - id: "manual"
+      name: "CadenzaFlow"
+      url: "/manual"
+    - id: "security"
+      name: "Security"
+      url: "/security"
+  section:
+    id: "get-started"
+  github:
+    repositoryName: "cadenzaflow/cadenzaflow-docs-static"
+    branch: "master/get-started"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+  section:
+    - "HTML"
+
+disableKinds:
+- taxonomy
+- taxonomyTerm
+...
