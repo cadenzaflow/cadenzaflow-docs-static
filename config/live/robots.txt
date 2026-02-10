@@ -1,0 +1,8 @@
+# These versions do not have the "noindex" meta tag, see https://jira.camunda.com/browse/CAM-13186
+User-agent: *
+Disallow: /manual/7.0/
+Disallow: /manual/7.1/
+Disallow: /manual/7.2/
+Disallow: /manual/7.3/
+Disallow: /manual/7.4/
+Disallow: /manual/7.5/

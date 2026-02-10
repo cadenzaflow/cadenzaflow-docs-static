@@ -1,0 +1,73 @@
+---
+
+https://docs.cadenzaflow.org:
+  /:
+    target: /manual/7.24/
+    status: 307
+  /manual/:
+    target: /manual/7.24/
+    status: 307
+  /optimize/:
+    target: /optimize/3.15/
+    status: 301
+  /manual/reference/bpmn20:
+    target: /manual/7.24/reference/bpmn20
+    status: 307
+  /get-started/javaee6:
+    target: /get-started/archive/javaee7
+    status: 301
+  /get-started/cmmn10/project-setup:
+    target: /get-started/cmmn11/project-setup
+    status: 301
+  /get-started/cmmn11/project-setup:
+    target: /manual/latest/reference/cmmn11/
+    status: 307
+  /get-started/does-not-exist:
+    target: /manual/
+    status: 302
+  /cawemo/:
+    target: /cawemo/1.9/
+    status: 301
+  /cawemo/technical-guide/installation/:
+    target: /cawemo/1.9/technical-guide/installation/
+    status: 307
+  /cawemo/99.0/technical-guide/installation/:
+    target: /cawemo/1.9/technical-guide/installation/
+    status: 307
+
+################################################################################
+
+https://stage.docs.camunda.org:
+  /manual/:
+    target: /manual/7.24/
+    status: 301
+  /manual/reference/bpmn20:
+    target: /manual/7.24/reference/bpmn20
+    status: 307
+  /manual/user-guide/ext-client/:
+    target: /manual/7.24/user-guide/ext-client/
+    status: 307
+  /manual/99.0/user-guide/ext-client/:
+    target: /manual/7.24/user-guide/ext-client/
+    status: 307
+  /optimize/:
+    target: /optimize/3.15/
+    status: 301
+  /get-started/javaee6:
+    target: /get-started/archive/javaee7
+    status: 301
+  /get-started/cmmn10/project-setup:
+    target: /get-started/cmmn11/project-setup
+    status: 301
+  /get-started/cmmn11/project-setup:
+    target: /manual/latest/reference/cmmn11/
+    status: 307
+  /cawemo/:
+    target: /cawemo/1.9/
+    status: 301
+  /cawemo/technical-guide/installation/:
+    target: /cawemo/1.9/technical-guide/installation/
+    status: 307
+  /cawemo/99.0/technical-guide/installation/:
+    target: /cawemo/1.9/technical-guide/installation/
+    status: 307
