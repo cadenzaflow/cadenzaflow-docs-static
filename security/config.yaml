@@ -32,6 +32,11 @@ outputs:
   section:
     - "HTML"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 disableKinds:
 - taxonomy
 - taxonomyTerm

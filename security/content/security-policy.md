@@ -14,5 +14,7 @@ This section describes the CadenzaFlow's security policy, including how we deal 
 
 As a core infrastructure component of our customers, the security of CadenzaFlow Platform takes top priority and is maintained constantly.
 
-For information on our CadenzaFlow Security Policy, visit the [CadenzaFlow Security / Security Policy (page coming soon and currently in progress)](https://cadenzaflow.com/security/security-policy/). 
+For information on our CadenzaFlow Security Policy, please visit the [CadenzaFlow Security](https://cadenzaflow.com/security/). 
+
+For vulnerability reports related to CadenzaFlow releases, please visit the [CadenzaFlow Security](https://docs.cadenzaflow.org/security/vulnerability-reports/). 
 
