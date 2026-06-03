@@ -37,6 +37,10 @@ markup:
     renderer:
       unsafe: true
 
+security:
+  allowContent:
+    - ".*"
+
 disableKinds:
 - taxonomy
 - taxonomyTerm
